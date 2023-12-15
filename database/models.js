@@ -1,4 +1,3 @@
-const connect=require('./connect.js')
 const mongoose=require('mongoose')
 
 const CourseSchema= new mongoose.Schema({
