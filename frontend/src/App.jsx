@@ -13,9 +13,9 @@ import AboutPage from "./pages/AboutPage"
 function App() {
   return (
     <Router>
-      <div className="d-flex flex-row">
+      <div className="d-flex flex-row align-items-stretch">
         <VerticalNav />
-        <div className="m-2">
+        <div className="m-2 p-0 flex-grow-1 align-self-stretch border border-secondary">
           <Routes>
               <Route exact path="/" element={<MainPage />} />
               <Route path="/courses" element={<CoursePage />} />
