@@ -50,7 +50,7 @@ const CourseSchema= new mongoose.Schema({
 const ProfSchema= new mongoose.Schema({
     rating:{
         type: Number,
-        required: true
+        required: false
     },
     department:{
         type: String,
