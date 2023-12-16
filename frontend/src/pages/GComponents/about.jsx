@@ -6,10 +6,10 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from 'reactstrap';
-
+import Aboutpage1 from './Aboutpage1'
 const items = [
   {
-    src: 'https://picsum.photos/id/123/1200/400',
+    src: Aboutpage1,
     altText: 'Slide 1',
     caption: 'Slide 1',
     key: 1,
