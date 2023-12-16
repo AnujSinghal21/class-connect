@@ -98,7 +98,7 @@
 
 import React from 'react';
 import './About.css'; // Make sure to create an AboutPage.css file for styling
-
+// import ccimg from './class-connect.jpg'
 const About = () => {
   return (
     <div className="about-container">
@@ -117,7 +117,7 @@ that effortlessly addresses all pre-registration concerns. No more sifting throu
 With Class-Connect, choosing the courses of your likings becomes a seamless experience.
 Join us in simplifying the way you choose your courses. </p>
 < h1 className="slogan">Class-Connect: We Choose for You </h1>
-<img className="about-image" src="class-connect.jpg"  />
+{/* <img className="about-image" src= {ccimg}  /> */}
      </div>
      </div>
   );
