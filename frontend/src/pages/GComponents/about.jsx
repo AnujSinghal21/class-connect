@@ -105,21 +105,21 @@ const About = () => {
       <h1 className="about-heading">About Us</h1>
       <div className="content-box">
         <p>
-          Welcome to our website! We are a passionate team dedicated to providing
-          quality content and services. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
-        </p>
-        <p>
-          Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
-          Fusce nec tellus sed augue semper porta.
-        </p>
-      </div>
-      <h2 className="sub-heading">Our Mission</h2>
-      <p>
-        Our mission is to deliver valuable and innovative solutions to our users.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </p>
-    </div>
+        Welcome to "Class-Connect", where we simplify your work during the pre-registration 
+        for students. The complexities of choosing departmental and open electives,
+        and assessing professor reviews can be overwhelming. That's why we're here to simplify and 
+        streamline the entire process.</p>
+         <p>
+At Class-Connect, our goal is to provide students with a single, user-friendly platform 
+that effortlessly addresses all pre-registration concerns. No more sifting through extensive
+ course schedules or scouring multiple sources for reviews of courses or professors. We've designed a solution 
+ that ensures you find suitable courses in just a few minutes, tailored to your preferences and course template.
+With Class-Connect, choosing the courses of your likings becomes a seamless experience.
+Join us in simplifying the way you choose your courses. </p>
+< h1 className="slogan">Class-Connect: We Choose for You </h1>
+<img className="about-image" src="class-connect.jpg"  />
+     </div>
+     </div>
   );
 }
 

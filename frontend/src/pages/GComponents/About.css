@@ -2,20 +2,24 @@
 
 .about-container {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    font-size: large;
   }
   
   .about-heading {
-    color: #3498db; /* Blue color for the heading */
+    color: #23282c; /* Blue color for the heading */
   }
   
   .content-box {
-    border: 1px solid #3498db; /* Blue border for the content box */
+    border: 3px solid #252728; /* Blue border for the content box */
     padding: 20px;
-    margin: 20px 0;
+    margin: 10px 0;
   }
-  
-  .sub-heading {
-    color: #e74c3c; /* Red color for the sub-heading */
+
+  .slogan {
+    text-align: center;
+    font-family:cursive;
+    font-style: oblique;
+    font-weight: bolder;
   }
   
