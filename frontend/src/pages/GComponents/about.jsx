@@ -41,10 +41,9 @@ import {
   CarouselCaption,
 } from 'reactstrap';
 
-import Aboutimage1 from './Aboutimage1.jsx'
 const items = [
   {
-    src: image1,
+    src: 'https://picsum.photos/id/456/1200/400',
     // altText: 'Slide 1',
     // caption: 'Slide 1',
     key: 1,
