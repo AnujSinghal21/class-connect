@@ -1,4 +1,4 @@
-
+/* AboutPage.css */
 
 .about-container {
     text-align: center;
@@ -11,7 +11,7 @@
   
   .content-box {
     border: 1px solid #3498db; /* Blue border for the content box */
-    padding: 10px;
+    padding: 20px;
     margin: 20px 0;
   }
   
