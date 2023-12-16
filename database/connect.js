@@ -13,7 +13,7 @@ URI=`mongodb+srv://classconnect2023:${PASS}@classconnect.yiphpts.mongodb.net/${D
 var connection= async ()=>{
 
   mongoose.connection.on('connected', () => console.log('connected with host: ',mongoose.connection.host));
-  mongoose.connection.on('disconnected',()=> console.log('disconnected'))
+  mongoose.connection.on('disconnected',()=> console.log('disconnected'));
 
   console.log("Attempting Connection with ConnectDB");
   try{
