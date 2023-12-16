@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Spinner } from 'reactstrap';
-
+// import About from "./GComponents/about"
 function AboutPage(props) {
   return (
     <div className="fs-2 mt-5 text-center">
