@@ -11,7 +11,7 @@ import Aboutpage1image from './Aboutpage1image.jpg'
 const items = [
   {
     src: Aboutpage1image,
-    altText: 'Slide 1',
+    altText: 'During pre-registration, many students feel difficulties while choosing department and open electives for their upcoming semester. It is a humongous task to find a course of your liking which doesn’t clash with your template from the huge DOAA course schedule. Also while choosing courses, grading of the corresponding professors are also an important factor, for which we search many sites and seek review from many seniors. To overcome all these problems, here is a single platform, which will answer all your queries and find suitable courses for you in just few minutes ...' ,
     caption: 'Slide 1',
     key: 1,
   },
