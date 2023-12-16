@@ -1,0 +1,21 @@
+
+
+.about-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-heading {
+    color: #3498db; /* Blue color for the heading */
+  }
+  
+  .content-box {
+    border: 1px solid #3498db; /* Blue border for the content box */
+    padding: 10px;
+    margin: 20px 0;
+  }
+  
+  .sub-heading {
+    color: #e74c3c; /* Red color for the sub-heading */
+  }
+  
