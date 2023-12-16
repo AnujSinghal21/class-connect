@@ -6,10 +6,11 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from 'reactstrap';
-import Aboutpage1 from './Aboutpage1'
+//import Aboutpage1 from './Aboutpage1'
+import Aboutpage1image from './Aboutpage1image.jpg'
 const items = [
   {
-    src: Aboutpage1,
+    src: Aboutpage1image,
     altText: 'Slide 1',
     caption: 'Slide 1',
     key: 1,
