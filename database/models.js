@@ -5,6 +5,10 @@ const CourseSchema= new mongoose.Schema({
         type: String,
         required: true
     },
+    credits:{
+        type: Number,
+        required: true
+    },
     department:{
         type: String,
         required: true
@@ -39,7 +43,7 @@ const CourseSchema= new mongoose.Schema({
         required: true
     },
     schedule:{
-        type: [String],
+        type: String,
         required: true
     },
     resources: String,

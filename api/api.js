@@ -25,13 +25,14 @@ module.exports.AddCourse=(request,response)=>{
         code: params.code,
         department: params.department,
         title:params.title,
+        credits: params.credits || 1,
         content:params.content || "",
         prof:params.prof,
         oprof:params.oprof || "",
         profemail: params.profemail,
         year: params.year,
         semester: params.semester,
-        schedule: params.schedule,
+        schedule: params.schedule || "Not Available",
         resources: params.resource || "Not Available",
         grades: params.grades || "Not Availalbe"
     };
