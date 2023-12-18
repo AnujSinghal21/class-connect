@@ -120,21 +120,45 @@ module.exports.AddProf=(request,response)=>{
 };
 
 //adding a comment to a course
-//comment received as request body
-module.exports.addCourseComment=(request,response)=>{
+//comment received as request query
+module.exports.addCourseComment=async (request,response)=>{
 
-    let id=request.body.id;
+    let id=request.query.id;
 
-    Course.findByIdAndUpdate(id,{$push:{comments: request.body.comments}});
-    response.status(200);
+    let updated_course= await Course.findByIdAndUpdate(id,{$push:{comments: request.query.comments}},{new: true});
+    response.status(200).send(updated_course);
 };
 
 //adding a comment to a professor
-//comment received as request body
-module.exports.addProfComment=(request,response)=>{
+//comment received as request query
+module.exports.addProfComment=async (request,response)=>{
 
-    let id=request.body.id;
+    let id=request.query.id;
 
-    Prof.findByIdAndUpdate(id,{$push:{comments: request.body.comments}});
-    response.status(200);
+    let updated_prof= await Prof.findByIdAndUpdate(id,{$push:{comments: request.query.comments}},{new: true});
+    response.status(200).send(updated_prof);
 };
+
+//update course ratings
+//send as query
+module.exports.rateCourse=async (request,response)=>{
+    let params=request.query;
+
+    //console.log(params);
+
+    let final_value=await Course.findByIdAndUpdate(params.id,{$inc:{ ratingsum: params.ratingsum, ratingcount: 1}},{new: true});
+    //console.log(final_value);
+    response.status(200).send(final_value);
+}
+
+//update prof ratings
+//send as query
+module.exports.rateProf=async (request,response)=>{
+    let params=request.query;
+
+    //console.log(params);
+
+    let final_value=await Prof.findByIdAndUpdate(params.id,{$inc:{ ratingsum: params.ratingsum, ratingcount: 1}},{new: true});
+    //console.log(final_value);
+    response.status(200).send(final_value);
+}
