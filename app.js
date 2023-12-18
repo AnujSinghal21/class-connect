@@ -1,8 +1,11 @@
 const express=require('express');
 const connect=require('./database/connect.js');
 const APIRouter=require('./api/router.js');
+const dotenv=require('dotenv');
 const cors=require('cors');
 const app=express();
+
+dotenv.config();
 
 app.use(cors());
 
@@ -14,5 +17,5 @@ app.get('/',(req,res)=>{
 })
 
 app.use('/api', APIRouter);
-app.listen(3000);
-
+//console.log(typeof process.env.PORT);
+app.listen(parseInt(process.env.PORT,10));
