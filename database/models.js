@@ -34,10 +34,6 @@ const CourseSchema= new mongoose.Schema({
         type: String,
         required: true
     },
-    year:{
-        type: Number,
-        required: true
-    },
     semester:{
         type: String,
         required: true
@@ -45,17 +41,16 @@ const CourseSchema= new mongoose.Schema({
     schedule:{
         type: String,
         required: true
-    },
+    }, 
     resources: String,
-    grades: String
+    grades: String,
+    ratingsum: Number,
+    ratingcount: Number,
+    comments: [String]
 
-})
+});
 
 const ProfSchema= new mongoose.Schema({
-    rating:{
-        type: Number,
-        required: false
-    },
     department:{
         type: String,
         required: true
@@ -77,8 +72,9 @@ const ProfSchema= new mongoose.Schema({
     courses:{
         type: [String],
         required: false
-
-    }
+    },
+    ratingsum: Number,
+    ratingcount: Number
 })
 
 

@@ -1,22 +1,57 @@
 const { request, response } = require("express");
 const {Course,Prof}=require("../database/models.js")
 
-//the api to getCourses using custom parameters
-//if there are no parameters all the courses/profs are returned
+//all api methods are defined here
 
+//getting all Courses for the home page
+//no query parameters required
+//Fields sent as response: id,title,code,department,credits,schedule,ratingsum,ratingcount
 module.exports.getCourses=(request,response)=>{
-    let params=request.query;
-    console.log(params);
-    Course.find(params).then(value=>{response.send(value)}).catch(error=>{console.log(error)});
+    Course.find(request.query).select('title code department credits schedule ratingsum ratingcount')
+    .then(value=>{
+        let prelim_data={
+            id: value._id,
+            title: value.title,
+            code: value.code,
+            department: value.department,
+            credits: value.credits,
+            schedule: value.schedule,
+            ratingsum: value.ratingsum,
+            ratingcount: value.ratingcount
+        };
+        console.log(prelim_data);
+        response.status(200).send(value);
+    })
+    .catch(error=>{console.log(error)});
 
 };
 
+//getting course specific data for the coures page
+//id is taken from the "body" of the request
+//responds with all the course data
+module.exports.getCourseData=(request,response)=>{
+    let id=request.body.id;
+    Course.findById(id).then(value=>{
+        response.status(200).send(value)
+    })
+    .catch(error=>{
+        console.log(error);
+    });
+};
+
+//getting all profs Data
 module.exports.getProfs=(request,response)=>{
     let params=request.query;
     console.log(params);
-    Prof.find(params).then(value=>{response.send(value)}).catch(error=>{console.log(error)});
+    Prof.find(params)
+    .then(value=>{
+        response.status(200).send(value)
+    })
+    .catch(error=>{console.log(error)});
 };
 
+//adding a course
+//values given as query
 module.exports.AddCourse=(request,response)=>{
     let params=request.query;
     console.log(params);
@@ -30,7 +65,6 @@ module.exports.AddCourse=(request,response)=>{
         prof:params.prof,
         oprof:params.oprof || "",
         profemail: params.profemail,
-        year: params.year,
         semester: params.semester,
         schedule: params.schedule || "Not Available",
         resources: params.resource || "Not Available",
@@ -51,6 +85,8 @@ module.exports.AddCourse=(request,response)=>{
     
 };
 
+//adding a Professor
+//values given as query
 module.exports.AddProf=(request,response)=>{
     
     let params=request.query;
@@ -74,6 +110,26 @@ module.exports.AddProf=(request,response)=>{
     catch(error)
     {
         console.log(error);
-        response.status(500);
+        response.status(406).send("Something went wrong");
     }
+};
+
+//adding a comment to a course
+//comment received as request body
+module.exports.addCourseComment=(request,response)=>{
+
+    let id=request.body.id;
+
+    Course.findByIdAndUpdate(id,{$push:{comments: request.body.comments}});
+    response.status(200);
+};
+
+//adding a comment to a professor
+//comment received as request body
+module.exports.addProfComment=(request,response)=>{
+
+    let id=request.body.id;
+
+    Prof.findByIdAndUpdate(id,{$push:{comments: request.body.comments}});
+    response.status(200);
 };

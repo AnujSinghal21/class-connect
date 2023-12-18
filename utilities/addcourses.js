@@ -5,11 +5,83 @@ const fetch=require('node-fetch');
 
 let n=data.length
 
-const year=2023;
-const semester="ODD";
+const semester="23-24 EVEN";
 const URL="http://localhost:3000/api/courses"
 
 let i=0;
+
+//Th=> H done
+//Tu=> T done
+//Course=> L done
+//Tut=> T done
+//Labs=> P done
+
+function generateScheduleString(lectures,tutorials,labs){
+
+    let schedule="";
+
+    for(let i=0;i<lectures.length;i++)
+    {
+        schedule+='L';
+
+        if(lectures[i].day=='Th')
+        {
+            schedule+='H';
+        }
+        else if(lectures[i].day=='Tu')
+        {
+            schedule+='T';
+        }
+        else
+        {
+            schedule+=lectures[i].day;
+        }
+
+        schedule+=`${lectures[i].start}-${lectures[i].end},`;
+    }
+
+    for(let i=0;i<tutorials.length;i++)
+    {
+        schedule+='T';
+
+        if(tutorials[i].day=='Th')
+        {
+            schedule+='H';
+        }
+        else if(tutorials[i].day=='Tu')
+        {
+            schedule+='T';
+        }
+        else
+        {
+            schedule+=tutorials[i].day;
+        }
+
+        schedule+=`${tutorials[i].start}-${tutorials[i].end},`;
+    }
+
+    for(let i=0;i<labs.length;i++)
+    {
+        schedule+='P';
+
+        if(labs[i].day=='Th')
+        {
+            schedule+='H';
+        }
+        else if(labs[i].day=='Tu')
+        {
+            schedule+='T';
+        }
+        else
+        {
+            schedule+=labs[i].day;
+        }
+
+        schedule+=`${labs[i].start}-${labs[i].end},`;
+    }
+
+    return schedule.slice(0,-1);
+}
 
 function getCourseData(i){
 
@@ -32,22 +104,7 @@ function getCourseData(i){
     let tutorials=data[i].tutorials;
     let labs=data[i].labs;
 
-    let schedule=[];
-
-    for(let j=0;j<lectures.length;j++){
-
-        schedule.push(`C${lectures[j].day}${lectures[j].start}-${lectures[j].end}`);
-    }
-    for(let j=0;j<tutorials.length;j++){
-
-        schedule.push(`E${tutorials[j].day}${tutorials[j].start}-${tutorials[j].end}`);
-    }
-    for(let j=0;j<labs.length;j++){
-
-        schedule.push(`L${labs[j].day}${labs[j].start}-${labs[j].end}`);
-    }
-
-    //console.log("Schedule: ",schedule);
+   let schedule=generateScheduleString(lectures,tutorials,labs);
 
     let course_data={
         code:data[i].code,
@@ -57,9 +114,10 @@ function getCourseData(i){
         prof:prof,
         oprof: oprof,
         profemail: profemail,
-        year: year,
         semester: semester,
-        schedule: schedule
+        schedule: schedule,
+        ratingsum: 0,
+        ratingcount: 0
     }
 
     //console.log(course_data);
@@ -82,7 +140,7 @@ function getURLWithParams(data){
 async function addCourse(urlwithparams,i){
 
     await fetch(urlwithparams,{method:"POST"});
-    console.log("Added Course: ", data[i])
+    //console.log("Added Course: ", data[i])
     console.log("Added: ",data[i].code);
 
 }
