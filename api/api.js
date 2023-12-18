@@ -27,15 +27,18 @@ module.exports.getCourses=(request,response)=>{
 };
 
 //getting course specific data for the coures page
-//id is taken from the "body" of the request
+//id is taken from the "query" of the request
 //responds with all the course data
 module.exports.getCourseData=(request,response)=>{
-    let id=request.body.id;
+    
+    console.log(request.body);
+    let id=request.query.id;
     Course.findById(id).then(value=>{
         response.status(200).send(value)
     })
     .catch(error=>{
         console.log(error);
+        response.status(500).send(error);
     });
 };
 
@@ -68,7 +71,9 @@ module.exports.AddCourse=(request,response)=>{
         semester: params.semester,
         schedule: params.schedule || "Not Available",
         resources: params.resource || "Not Available",
-        grades: params.grades || "Not Availalbe"
+        grades: params.grades || "Not Availalbe",
+        ratingsum: params.ratingsum,
+        ratingcount: params.ratingcount
     };
 
     let new_course=new Course(new_course_data);
