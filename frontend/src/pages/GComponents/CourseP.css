@@ -1,4 +1,4 @@
-/* CourseP.css */
+/* CoursePage.css */
 .course-page {
     display: flex;
     flex-direction: column;
@@ -8,16 +8,18 @@
   
   .search-bar {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Align the search bar at the top */
     margin-bottom: 20px;
   }
   
   .search-input {
-    width: 200px;
+    width: 400px; /* Make the search bar wider */
     padding: 8px;
     margin-right: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 14px; /* Use a smaller font size */
+    color: #555; /* Lighter text color */
   }
   
   .search-button {
@@ -44,15 +46,19 @@
   
   .course-info h2,
   .course-contents h3,
-  .course-reviews h3 {
+  .course-reviews h3,
+  .user-review-box h3 {
     color: #333;
     margin-bottom: 10px;
+    font-size: 16px; /* Larger font size for headers */
   }
   
-  .rating-box {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+  .user-review,
+  .course-contents li,
+  .user-rating,
+  .average-rating {
+    font-size: 14px; /* Smaller font size for content */
+    color: #555; /* Darker text color */
   }
   
   .rating-box p {
@@ -61,18 +67,5 @@
   
   .rating-box input {
     padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .submit-button {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-size: 14px;
-  }
-  
+    border: 1
+  }  
