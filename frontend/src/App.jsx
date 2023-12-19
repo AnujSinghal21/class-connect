@@ -10,6 +10,7 @@ import CoursePage from "./pages/CoursePage"
 import ProfPage from "./pages/ProfPage"
 import AboutPage from "./pages/AboutPage"
 
+
 function App() {
   return (
     <Router>

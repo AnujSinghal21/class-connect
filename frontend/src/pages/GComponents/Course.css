@@ -1,0 +1,59 @@
+/* CoursePage.css */
+.course-page {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .no-course-details-box {
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .course-details-container {
+    width: 75%;
+    margin: 20px auto;
+  }
+  
+  .details-box,
+  .contents-box,
+  .rate-course-box {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .detail-row {
+    margin-bottom: 10px;
+  }
+  
+  .star-filled {
+    color: gold;
+  }
+  
+  .rate-course-box input,
+  .rate-course-box button {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  /* Add more styles as needed */
+  
