@@ -3,8 +3,9 @@ import React, { useState } from 'react';
 import './CourseP.css';
 
 const CourseP = () => {
-  const [searchValue, setSearchValue] = useState('enter course name/course number here');
+  const [searchValue, setSearchValue] = useState('Enter course name/course number here');
   const [courseDetails, setCourseDetails] = useState(null);
+  const [userRating, setUserRating] = useState(null);
 
   const handleSearch = () => {
     // Assume a successful search and set some dummy course details
@@ -19,9 +20,9 @@ const CourseP = () => {
     setCourseDetails(dummyCourseDetails);
   };
 
-  const handleRatingSubmit = (rating) => {
+  const handleRatingSubmit = () => {
     // Handle the submission of course rating
-    console.log('User rated the course:', rating);
+    console.log('User rated the course:', userRating);
   };
 
   return (
@@ -31,6 +32,7 @@ const CourseP = () => {
           type="text"
           value={searchValue}
           onChange={(e) => setSearchValue(e.target.value)}
+          className="search-input"
         />
         <button onClick={handleSearch} className="search-button">
           Search
@@ -39,14 +41,6 @@ const CourseP = () => {
 
       {courseDetails ? (
         <div className="course-details">
-          <div className="search-bar-small">
-            <input
-              type="text"
-              value={searchValue}
-              onChange={(e) => setSearchValue(e.target.value)}
-            />
-          </div>
-
           <div className="course-info oval-box">
             <h2>{courseDetails.courseName}</h2>
             <p>Professor: {courseDetails.professor}</p>
@@ -66,8 +60,11 @@ const CourseP = () => {
             <h3>Course Reviews</h3>
             <div className="rating-box">
               <p>Your Rating:</p>
-              <input type="number" min="1" max="5" onChange={(e) => handleRatingSubmit(e.target.value)} />
+              <input type="number" min="1" max="5" onChange={(e) => setUserRating(e.target.value)} />
             </div>
+            <button onClick={handleRatingSubmit} className="submit-button">
+              Submit
+            </button>
             {/* Additional code for displaying reviews can be added here */}
           </div>
         </div>

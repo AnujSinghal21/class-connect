@@ -12,16 +12,12 @@
     margin-bottom: 20px;
   }
   
-  .search-bar-small {
-    display: flex;
-    margin-bottom: 20px;
-  }
-  
-  .search-bar input,
-  .search-bar-small input {
-    width: 300px;
-    padding: 10px;
+  .search-input {
+    width: 200px;
+    padding: 8px;
     margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
   
   .search-button {
@@ -30,7 +26,7 @@
     padding: 10px;
     border: none;
     cursor: pointer;
-    border-radius: 20px; /* Oval button */
+    border-radius: 5px;
   }
   
   .course-details {
@@ -51,5 +47,32 @@
   .course-reviews h3 {
     color: #333;
     margin-bottom: 10px;
+  }
+  
+  .rating-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .rating-box p {
+    margin-right: 10px;
+  }
+  
+  .rating-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
   }
   
