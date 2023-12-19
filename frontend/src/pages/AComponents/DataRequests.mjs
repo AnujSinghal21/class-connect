@@ -1,6 +1,6 @@
 // All courses
 // const getAllCoursesURL = ""
-const Colors = ['#3498db','#2ecc71','#9b59b6','#e67e22','#e74c3c','#008080','#f1c40f', '#d98880', '#FFFFFF']
+const Colors = ['#3498db','#2ecc71','#9b59b6','#e67e22','#008080','#f1c40f','#d98880','#e74c3c','#FFFFFF']
 const courseParser = (c, i) => {
     let activities = []
     c.lectures.map((l) => {
@@ -34,8 +34,8 @@ const courseParser = (c, i) => {
         branch: c.branch,
         credits: 9,
         prof1: c.instructors[0],
-        prof2: (c.instructors.length > 1? c.instructors[1]: ""),
-        ratings: Math.floor(Math.random()*5.1),
+        prof2: (c.instructors.length > 1? c.instructors[1]: {name: "", email: ""}),
+        ratings: Math.random()*5,
         activities: activities,
         color: Colors[i]
     }
@@ -43,6 +43,7 @@ const courseParser = (c, i) => {
 
 const getAllCourses = () => { 
     // json request here
+    return getMyCourses()
 }
 
 const getMyCourses = () => {

@@ -5,15 +5,17 @@ import Waiting from "./AComponents/Waiting"
 import Filters from "./AComponents/Filters"
 import Calendar from "./AComponents/Calendar"
 import Recommendation from "./AComponents/Recommendation"
-import { getMyCourses } from "./AComponents/DataRequests.mjs"
+import { getMyCourses, getAllCourses } from "./AComponents/DataRequests.mjs"
+import RemoveCourse from "./AComponents/RemoveCourse"
 
 function MainPage() {
   const [ filters, setFilters ] = useState({})
-  const [ viewCourse, setViewCourse ] = useState("")
   const [ myCourses, setMyCourses ] = useState([])
+  const [ allCourses, setAllCourses ] = useState([])
   const [ dataLoaded, setDataLoaded ] = useState(false)
   useEffect(() => {
     setMyCourses(getMyCourses())
+    setAllCourses(getAllCourses())
     setDataLoaded(true)
   }, [])
   if (!dataLoaded){
@@ -22,31 +24,17 @@ function MainPage() {
   return (
     <div className='border border-secondary d-flex flex-row align-items-stretch' style={{height: "100%"}}>
       <div className="flex-grow-1 d-flex flex-column">
-        <div style={{ height: "30%"}}>
-          filters
-          <Filters />
+        <div style={{ height: "35%", overflow : "auto"}}>
+          <Filters filters={filters} setFilters={setFilters} myCourses={myCourses} />
+          <RemoveCourse myCourses={myCourses} setMyCourses={setMyCourses} />
         </div>
         <div className="flex-grow-1 border border-secondary">
           <Calendar courses={myCourses}/>
         </div>
       </div>
-      <div>
-        Recommendations and all this space I need
-        <Recommendation />
+      <div style={{minWidth: "25%"}}>
+        <Recommendation filters={filters} allCourses={allCourses} setAllCourses={setAllCourses} />
       </div>
-      {/* <div className="d-flex align-items-stretch">
-        <div className="col-8 m-0">
-          <div className='border border-secondary' style={{ height: "30%", width: "100%"}}>
-            Filters
-          </div>
-          <div className='border border-secondary' style={{ height: "200", width: "100%"}}>
-            Calendar
-          </div>
-        </div>
-        <div className="col">
-          Recommendations
-        </div>
-      </div> */}
     </div>
   )
 }

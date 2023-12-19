@@ -1,10 +1,22 @@
 /* eslint-disable react/prop-types */
-import { Spinner } from 'reactstrap';
+import CourseCard from "./CourseCard"
+function applyFilters(filters, allCourses){
+  return allCourses
+}
 
 function Recommendation(props) {
+  const {filters, allCourses, setAllCourses } = props
+  const viewCourses = applyFilters(filters, allCourses)
   return (
-    <div className="fs-2 mt-5 text-center">
-      {props.message} <Spinner color={props.color ? props.color : "primary"}> Loading Content ... </Spinner>
+    <div style={{maxHeight: "100vh"}} className="overflow-auto">
+      <p className='fw-bold mt-2 mb-0'>{viewCourses.length} courses found.</p><hr />
+      <div className='overflow-auto d-flex flex-column'>
+        {viewCourses.map((c, i) => {
+          return (
+            <CourseCard course={c} key={i} setAllCourses={setAllCourses} />
+          )
+        })}
+      </div>
     </div>
   )
 }

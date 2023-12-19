@@ -143,7 +143,7 @@ function Calendar(props) {
   const schedule = getSchedule(courses)
   return (
     <div className="container-fluid">
-      <table className="table table-light table-bordered border-secondary mt-2">
+      <table className="table table-light table-bordered border-secondary mt-2 mb-0">
         <thead>
           <tr>
             <th scope="col" style={{width: "10%"}} className="border-end">DAY</th>
@@ -184,8 +184,10 @@ function Calendar(props) {
           </tr>
         </tbody>
       </table>
-      <div>
-        L: Lecture, T: Tutorial, P: Practical/Lab
+      <div style={{fontSize: 12}}>
+        <i>
+          L: Lecture, T: Tutorial, P: Practical/Lab
+        </i>
       </div>
     </div>
   )
