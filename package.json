@@ -1,0 +1,29 @@
+{
+  "name": "class-connect",
+  "version": "1.0.0",
+  "description": "This project aims to help IITK students in knowing about the courses being offered so that they can wisely choose their preferred courses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnujSinghal21/class-connect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnujSinghal21/class-connect/issues"
+  },
+  "homepage": "https://github.com/AnujSinghal21/class-connect#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fetch": "^1.1.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3",
+    "node-fetch": "^2.7.0"
+  }
+}
