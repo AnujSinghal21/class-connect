@@ -4,8 +4,8 @@ import { useEffect, useState } from "react"
 import Waiting from "./AComponents/Waiting"
 import Filters from "./AComponents/Filters"
 import Calendar from "./AComponents/Calendar"
-import { getMyCourses } from "./AComponents/Getters"
 import Recommendation from "./AComponents/Recommendation"
+import { getMyCourses } from "./AComponents/DataRequests.mjs"
 
 function MainPage() {
   const [ filters, setFilters ] = useState({})
@@ -31,7 +31,7 @@ function MainPage() {
         </div>
       </div>
       <div>
-        Recommendations and all this space I need more
+        Recommendations and all this space I need
         <Recommendation />
       </div>
       {/* <div className="d-flex align-items-stretch">
