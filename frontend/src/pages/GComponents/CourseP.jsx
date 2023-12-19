@@ -1,4 +1,4 @@
-// CoursePage.js
+// CourseP.js
 import React, { useState } from 'react';
 import './CourseP.css';
 
@@ -45,18 +45,15 @@ const CourseP = () => {
               value={searchValue}
               onChange={(e) => setSearchValue(e.target.value)}
             />
-            <button onClick={handleSearch} className="search-button">
-              Search
-            </button>
           </div>
 
-          <div className="course-info">
+          <div className="course-info oval-box">
             <h2>{courseDetails.courseName}</h2>
             <p>Professor: {courseDetails.professor}</p>
             <p>Timetable: {courseDetails.timetable}</p>
           </div>
 
-          <div className="course-contents">
+          <div className="course-contents oval-box">
             <h3>Course Contents</h3>
             <ul>
               {courseDetails.courseContents.map((content, index) => (
@@ -65,7 +62,7 @@ const CourseP = () => {
             </ul>
           </div>
 
-          <div className="course-reviews">
+          <div className="course-reviews oval-box">
             <h3>Course Reviews</h3>
             <div className="rating-box">
               <p>Your Rating:</p>
