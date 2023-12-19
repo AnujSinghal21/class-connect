@@ -1,0 +1,72 @@
+/* CoursePage.css */
+.course-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .course-details {
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .search-bar-small {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .course-info,
+  .course-contents,
+  .course-reviews {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .course-info h2,
+  .course-contents h3,
+  .course-reviews h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .rating-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .rating-box p {
+    margin-right: 10px;
+  }
+  
+  .rating-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

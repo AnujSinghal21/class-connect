@@ -9,11 +9,11 @@
   }
   
   .about-heading {
-    color: #23282c; /* Blue color for the heading */
+    color: #23282c; 
   }
   
   .content-box {
-    border: 3px solid #252728; /* Blue border for the content box */
+    border: 3px solid #252728; 
     padding: 20px;
     margin: 10px 0;
   }
