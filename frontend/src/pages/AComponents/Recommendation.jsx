@@ -96,7 +96,7 @@ function Recommendation(props) {
   const viewableCourses = orderByPriority(filters, applyFilters(filters, allCourses))
   const viewCourses = showAll? viewableCourses: (viewableCourses.length <= 10? viewableCourses: viewableCourses.slice(0, 10))
   return (
-    <div style={{maxHeight: "100vh", maxWidth: 300}}>
+    <div style={{maxHeight: "100vh"}}>
       <p className='fw-bold mt-2 mb-0'>{viewableCourses.length} courses found. 
         &nbsp;&nbsp;&nbsp; Show all &nbsp;
         <Input type="checkbox" checked={showAll} onChange={() => setShowAll(!showAll)} />
