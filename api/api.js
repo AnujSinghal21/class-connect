@@ -103,7 +103,7 @@ module.exports.AddProf=(request,response)=>{
         name: params.name,
         department: params.department,
         email: params.email,
-        comments: params.comments || ["None"],
+        comments: params.comments || [],
         courses: params.courses || [],
     }
 
