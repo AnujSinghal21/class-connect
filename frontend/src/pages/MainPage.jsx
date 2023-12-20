@@ -1,11 +1,12 @@
 /* eslint-disable react/prop-types */
 
 import { useEffect, useState } from "react"
+import axios from "axios"
 import Waiting from "./AComponents/Waiting"
 import Filters from "./AComponents/Filters"
 import Calendar from "./AComponents/Calendar"
 import Recommendation from "./AComponents/Recommendation"
-import { getMyCourses, getAllCourses } from "./AComponents/DataRequests.mjs"
+import { getMyCourses, courseParser } from "./AComponents/DataRequests.mjs"
 import RemoveCourse from "./AComponents/RemoveCourse"
 
 function MainPage() {
@@ -13,10 +14,23 @@ function MainPage() {
   const [ myCourses, setMyCourses ] = useState([])
   const [ allCourses, setAllCourses ] = useState([])
   const [ dataLoaded, setDataLoaded ] = useState(false)
+  const baseUrl = '/api/courses'
   useEffect(() => {
+    axios
+    .get(baseUrl)
+    .then(response => {
+      if (parseInt(response.status) === 200){
+        const courseData = response.data.map((c) => courseParser(c))
+        setAllCourses(courseData)
+        setDataLoaded(true)
+      }else{
+        alert("Could not load data")
+      }
+    }).catch((err) => {
+      alert("Could not load data")
+      console.log(err)
+    })
     setMyCourses(getMyCourses())
-    setAllCourses(getAllCourses())
-    setDataLoaded(true)
   }, [])
   if (!dataLoaded){
     return <Waiting message="Loading Content... Please wait or refresh"/>
@@ -33,7 +47,7 @@ function MainPage() {
         </div>
       </div>
       <div style={{minWidth: "25%"}}>
-        <Recommendation filters={filters} allCourses={allCourses} setAllCourses={setAllCourses} />
+        <Recommendation filters={filters} allCourses={allCourses} myCourses={myCourses} setMyCourses={setMyCourses} />
       </div>
     </div>
   )

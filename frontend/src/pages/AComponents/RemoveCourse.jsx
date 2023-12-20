@@ -6,7 +6,11 @@ import { Button } from "reactstrap"
 function RemoveCourse(props) {
   const { myCourses, setMyCourses } = props
   const getTotalCredits = (courses) => {
-    return 57
+    const totalCredits = courses.reduce((sum, course) => sum + course.credits, 0);
+    return totalCredits
+  }
+  const removeThisCourse = (c) => {
+    setMyCourses(myCourses.filter((x) => x.id !== c.id))
   }
   return (
     <div>
@@ -19,10 +23,10 @@ function RemoveCourse(props) {
             className="rounded m-1 p-1 text-wrap fw-bold d-flex align-items-stretch"
             >
               <div className="flex-grow-1">
-                {c.code} : {c.name}
+                {c.code} : {c.name} ({c.credits})
               </div>
               <div>
-                <Button size="sm" outline color="warning">
+                <Button size="sm" outline color="warning" onClick={() => removeThisCourse(c)}>
                   &#10060;
                 </Button>
                 </div>

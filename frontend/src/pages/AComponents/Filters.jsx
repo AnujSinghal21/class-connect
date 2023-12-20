@@ -5,6 +5,10 @@ function Filters(props) {
   const { filters, setFilters, myCourses } = props
   const [ render, setRender ] = useState(false)
   useEffect(() => {
+    if (render){
+      setFilters({...filters, avoidClash : myCourses.map(c => {return {code : c.code, avoid: true}})})
+      return
+    }
     setFilters({
       searchPrompt: "",
       creditsMin : "0",

@@ -27,7 +27,6 @@ function getSchedule(courses){
   return schedule
 }
 function getTableLayout(activities){
-  let rows = []
   const getNewRow = ()=>{
     let arr = []
     for (let i = 0; i < 48; i++){
@@ -35,6 +34,7 @@ function getTableLayout(activities){
     }
     return arr
   }
+  let rows = [getNewRow()]
   const getNumberOfQuarters = (time) => {
     const startTime = new Date('1970-01-01T08:00:00');
     const endTime = new Date(`1970-01-01T${time}:00`);
@@ -83,7 +83,7 @@ function getTableLayout(activities){
         let expandable = true
         for (r2 = r + 1; r2 < rows.length; r2++){
           for (let s = slot; s < slot + rows[r][slot].cspan; s++){
-            if (rows[r2][s].text != ""){
+            if (rows[r2][s].text != "" || rows[r2][s].cspan === 0){
               expandable = false
             }
           }
