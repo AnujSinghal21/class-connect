@@ -46,7 +46,7 @@ function MainPage() {
           <Calendar courses={myCourses}/>
         </div>
       </div>
-      <div style={{minWidth: "25%"}}>
+      <div style={{width: "25%"}}>
         <Recommendation filters={filters} allCourses={allCourses} myCourses={myCourses} setMyCourses={setMyCourses} />
       </div>
     </div>
