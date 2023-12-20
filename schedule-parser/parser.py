@@ -19,6 +19,19 @@ df = pd.read_excel(excel_file_path)
 def process_row(row):
     course = {}
     course['SNO'] = row.SNO
+    tcredits=row.Credits
+    ccredits=""
+    found=0
+    for i in range(len(tcredits)):
+        if(tcredits[i]=='('):
+            found=1
+            continue
+        if(tcredits[i]==')'):
+            break
+        if(found==1):
+            ccredits+=tcredits[i]
+        
+    course['credits']=int(ccredits)
     course['branch'] = row.Branch.strip()
     course['name'] = row.CourseName.strip()
     match = re.search(r'\((.*?)\)[^()]*$', row.CourseName.strip())

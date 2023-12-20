@@ -1,6 +1,7 @@
 [
     {
         "SNO": 1,
+        "credits": 9,
         "branch": "AE",
         "name": "INCOMPRESSIBLE AERODYNAMICS(AE211)",
         "code": "AE211",
@@ -33,6 +34,7 @@
     },
     {
         "SNO": 2,
+        "credits": 5,
         "branch": "AE",
         "name": "INTRODUCTION TO VIBRATIONS(AE233M)",
         "code": "AE233M",
@@ -65,6 +67,7 @@
     },
     {
         "SNO": 3,
+        "credits": 8,
         "branch": "AE",
         "name": "EXPERIMENTS IN AEROSPACE ENGINEERING- I(AE251A)",
         "code": "AE251A",
@@ -92,6 +95,7 @@
     },
     {
         "SNO": 4,
+        "credits": 4,
         "branch": "AE",
         "name": "EXPERIMENTS IN AEROSPACE ENGINEERING- I(AE252M)",
         "code": "AE252M",
@@ -134,6 +138,7 @@
     },
     {
         "SNO": 5,
+        "credits": 9,
         "branch": "AE",
         "name": "AIRCRAFT CONTROL SYSTEMS(AE322A)",
         "code": "AE322A",
@@ -161,6 +166,7 @@
     },
     {
         "SNO": 6,
+        "credits": 11,
         "branch": "AE",
         "name": "AIRBREATHING PROPULSION(AE341A)",
         "code": "AE341A",
@@ -193,6 +199,7 @@
     },
     {
         "SNO": 7,
+        "credits": 5,
         "branch": "AE",
         "name": "EXPERIMENTS IN AEROSPACE ENGINEERING -II(AE351A)",
         "code": "AE351A",
@@ -223,6 +230,7 @@
     },
     {
         "SNO": 8,
+        "credits": 3,
         "branch": "AE",
         "name": "AEROMODEL DESIGN & FABRICATION(AE361A)",
         "code": "AE361A",
@@ -245,6 +253,7 @@
     },
     {
         "SNO": 9,
+        "credits": 4,
         "branch": "AE",
         "name": "B TECH PROJECT 1(AE371A)",
         "code": "AE371A",
@@ -261,6 +270,7 @@
     },
     {
         "SNO": 10,
+        "credits": 3,
         "branch": "AE",
         "name": "EXPERIMENTS IN FLIGHT MECHANICS(AE421A)",
         "code": "AE421A",
@@ -283,6 +293,7 @@
     },
     {
         "SNO": 11,
+        "credits": 4,
         "branch": "AE",
         "name": "AIRCRAFT DESIGN- II(AE462A)",
         "code": "AE462A",
@@ -311,6 +322,7 @@
     },
     {
         "SNO": 12,
+        "credits": 9,
         "branch": "AE",
         "name": "B TECH PROJECT(AE471A)",
         "code": "AE471A",
@@ -327,6 +339,7 @@
     },
     {
         "SNO": 13,
+        "credits": 9,
         "branch": "AE",
         "name": "UNDERGRADUATE PROJECT III(AE472A)",
         "code": "AE472A",
@@ -343,6 +356,7 @@
     },
     {
         "SNO": 14,
+        "credits": 9,
         "branch": "AE",
         "name": "UNSTEADY GAS DYNAMICS(AE606)",
         "code": "AE606",
@@ -370,6 +384,7 @@
     },
     {
         "SNO": 15,
+        "credits": 9,
         "branch": "AE",
         "name": "AERODYNAMICS II(AE612)",
         "code": "AE612",
@@ -402,6 +417,7 @@
     },
     {
         "SNO": 16,
+        "credits": 9,
         "branch": "AE",
         "name": "FINITE ELEMENT METHODS FOR FLUID DYNAMICS(AE618)",
         "code": "AE618",
@@ -434,6 +450,7 @@
     },
     {
         "SNO": 17,
+        "credits": 9,
         "branch": "AE",
         "name": "TURBULENCE(AE621)",
         "code": "AE621",
@@ -461,6 +478,7 @@
     },
     {
         "SNO": 18,
+        "credits": 9,
         "branch": "AE",
         "name": "SPACE DYNAMICS-I(AE641)",
         "code": "AE641",
@@ -488,6 +506,7 @@
     },
     {
         "SNO": 19,
+        "credits": 9,
         "branch": "AE",
         "name": "FLIGHT STABILITY AND CONTROL(AE648)",
         "code": "AE648",
@@ -520,6 +539,7 @@
     },
     {
         "SNO": 20,
+        "credits": 9,
         "branch": "AE",
         "name": "APPLIED COMPUTATIONAL FLUID DYNAMICS(AE661)",
         "code": "AE661",
@@ -552,6 +572,7 @@
     },
     {
         "SNO": 21,
+        "credits": 9,
         "branch": "AE",
         "name": "COMBUSTION DIAGNOSTICS(AE666)",
         "code": "AE666",
@@ -579,6 +600,7 @@
     },
     {
         "SNO": 22,
+        "credits": 9,
         "branch": "AE",
         "name": "MEASUREMENTS AND DATA ANALYSIS(AE669)",
         "code": "AE669",
@@ -606,6 +628,7 @@
     },
     {
         "SNO": 23,
+        "credits": 9,
         "branch": "AE",
         "name": "ADVANCED HYDRODYNAMIC STABILITY(AE674)",
         "code": "AE674",
@@ -633,6 +656,7 @@
     },
     {
         "SNO": 24,
+        "credits": 9,
         "branch": "AE",
         "name": "INTRODUCTION TO FINITE ELEMENT METHODS(AE675)",
         "code": "AE675",
@@ -660,6 +684,7 @@
     },
     {
         "SNO": 25,
+        "credits": 9,
         "branch": "AE",
         "name": "AEROELASTICITY(AE676)",
         "code": "AE676",
@@ -687,6 +712,7 @@
     },
     {
         "SNO": 26,
+        "credits": 9,
         "branch": "AE",
         "name": "COMPOSITE MATERIALS(AE681)",
         "code": "AE681",
@@ -714,6 +740,7 @@
     },
     {
         "SNO": 27,
+        "credits": 9,
         "branch": "AE",
         "name": "HELICOPTER THEORY : DYNAMICS AND AEROELASTICITY(AE686)",
         "code": "AE686",
@@ -741,6 +768,7 @@
     },
     {
         "SNO": 28,
+        "credits": 9,
         "branch": "AE",
         "name": "AEROSPACE STRUC ANALYSIS II(AE687)",
         "code": "AE687",
@@ -768,6 +796,7 @@
     },
     {
         "SNO": 29,
+        "credits": 9,
         "branch": "AE",
         "name": "INTRO TO VIRTUAL INSTRUMENTATION(AE698)",
         "code": "AE698",
@@ -801,6 +830,7 @@
     },
     {
         "SNO": 30,
+        "credits": 0,
         "branch": "AE",
         "name": "M TECH THESIS(AE699)",
         "code": "AE699",
@@ -821,6 +851,7 @@
     },
     {
         "SNO": 31,
+        "credits": 9,
         "branch": "AE",
         "name": "HYPERSONIC FLOWS(AE720)",
         "code": "AE720",
@@ -848,6 +879,7 @@
     },
     {
         "SNO": 32,
+        "credits": 9,
         "branch": "AE",
         "name": "MOLECULAR GAS DYNAMICS(AE747)",
         "code": "AE747",
@@ -875,6 +907,7 @@
     },
     {
         "SNO": 33,
+        "credits": 0,
         "branch": "AE",
         "name": "PHD THESIS(AE799)",
         "code": "AE799",
@@ -891,6 +924,7 @@
     },
     {
         "SNO": 34,
+        "credits": 0,
         "branch": "AE",
         "name": "MS - RESEARCH THESIS(AE899)",
         "code": "AE899",
@@ -907,6 +941,7 @@
     },
     {
         "SNO": 35,
+        "credits": 11,
         "branch": "AE",
         "name": "MECHANICS OF SOLIDS(ESO202)",
         "code": "ESO202",
@@ -945,6 +980,7 @@
     },
     {
         "SNO": 36,
+        "credits": 9,
         "branch": "BSBE",
         "name": "BIOCHEMICAL ENGINEERING(BSE222)",
         "code": "BSE222",
@@ -977,6 +1013,7 @@
     },
     {
         "SNO": 37,
+        "credits": 9,
         "branch": "BSBE",
         "name": "BIOCHEMISTRY & BIOCHEMICAL ENGINEERING LAB(BSE223)",
         "code": "BSE223",
@@ -1014,6 +1051,7 @@
     },
     {
         "SNO": 38,
+        "credits": 10,
         "branch": "BSBE",
         "name": "STRUCTURAL BIOLOGY(BSE321A)",
         "code": "BSE321A",
@@ -1051,6 +1089,7 @@
     },
     {
         "SNO": 39,
+        "credits": 9,
         "branch": "BSBE",
         "name": "BIOINFORMATICS & COMPUTATIONAL BIOLOGY(BSE322)",
         "code": "BSE322",
@@ -1083,6 +1122,7 @@
     },
     {
         "SNO": 40,
+        "credits": 10,
         "branch": "BSBE",
         "name": "BIOINFORMATICS & COMPUTATIONAL BIOLOGY(BSE322A)",
         "code": "BSE322A",
@@ -1115,6 +1155,7 @@
     },
     {
         "SNO": 41,
+        "credits": 11,
         "branch": "BSBE",
         "name": "TISSUE ENGINEERING(BSE421A)",
         "code": "BSE421A",
@@ -1147,6 +1188,7 @@
     },
     {
         "SNO": 42,
+        "credits": 0,
         "branch": "BSBE",
         "name": "LABORATORY METHODS(BSE602)",
         "code": "BSE602",
@@ -1163,6 +1205,7 @@
     },
     {
         "SNO": 43,
+        "credits": 9,
         "branch": "BSBE",
         "name": "BIOCHEMICAL ENGINEERING(BSE612)",
         "code": "BSE612",
@@ -1195,6 +1238,7 @@
     },
     {
         "SNO": 44,
+        "credits": 11,
         "branch": "BSBE",
         "name": "TISSUE ENGINEERING(BSE614)",
         "code": "BSE614",
@@ -1227,6 +1271,7 @@
     },
     {
         "SNO": 45,
+        "credits": 9,
         "branch": "BSBE",
         "name": "BIOPHARMACEUTICALS(BS E616)",
         "code": "BS E616",
@@ -1258,6 +1303,7 @@
     },
     {
         "SNO": 46,
+        "credits": 9,
         "branch": "BSBE",
         "name": "BIOINFORMATICS AND COMPUTATIONAL BIOLOGY(BSE633)",
         "code": "BSE633",
@@ -1289,6 +1335,7 @@
     },
     {
         "SNO": 47,
+        "credits": 9,
         "branch": "BSBE",
         "name": "OPTICAL MICROSCOPY & BIOIMAGING(BSE644)",
         "code": "BSE644",
@@ -1316,6 +1363,7 @@
     },
     {
         "SNO": 48,
+        "credits": 9,
         "branch": "BSBE",
         "name": "DEVELOPMENTAL BIOLOGY(BSE652)",
         "code": "BSE652",
@@ -1352,6 +1400,7 @@
     },
     {
         "SNO": 49,
+        "credits": 9,
         "branch": "BSBE",
         "name": "FUNCTIONAL GENOMICS(BSE653)",
         "code": "BSE653",
@@ -1379,6 +1428,7 @@
     },
     {
         "SNO": 50,
+        "credits": 9,
         "branch": "BSBE",
         "name": "HUMAN MOLECULAR GENETICS(BSE654)",
         "code": "BSE654",
@@ -1415,6 +1465,7 @@
     },
     {
         "SNO": 51,
+        "credits": 9,
         "branch": "BSBE",
         "name": "MOLECULAR VIROLOGY(BSE659)",
         "code": "BSE659",
@@ -1447,6 +1498,7 @@
     },
     {
         "SNO": 52,
+        "credits": 9,
         "branch": "BSBE",
         "name": "DECISION MAKING AND THE BRAIN(BSE662)",
         "code": "BSE662",
@@ -1474,6 +1526,7 @@
     },
     {
         "SNO": 53,
+        "credits": 0,
         "branch": "BSBE",
         "name": "M.TECH THESIS(BSE699)",
         "code": "BSE699",
@@ -1494,6 +1547,7 @@
     },
     {
         "SNO": 54,
+        "credits": 0,
         "branch": "BSBE",
         "name": "SEMINAR(BSE701)",
         "code": "BSE701",
@@ -1510,6 +1564,7 @@
     },
     {
         "SNO": 55,
+        "credits": 0,
         "branch": "BSBE",
         "name": "SEMINAR(BSE702)",
         "code": "BSE702",
@@ -1526,6 +1581,7 @@
     },
     {
         "SNO": 56,
+        "credits": 0,
         "branch": "BSBE",
         "name": "PHD THESIS(BSE799)",
         "code": "BSE799",
@@ -1542,6 +1598,7 @@
     },
     {
         "SNO": 57,
+        "credits": 6,
         "branch": "BSBE",
         "name": "INTRODUCTION TO BIOLOGY(LIF111)",
         "code": "LIF111",
@@ -1573,6 +1630,7 @@
     },
     {
         "SNO": 58,
+        "credits": 9,
         "branch": "CE",
         "name": "ENVIRONMENTAL QUALITY AND PROCESSES(CE214)",
         "code": "CE214",
@@ -1609,6 +1667,7 @@
     },
     {
         "SNO": 59,
+        "credits": 11,
         "branch": "CE",
         "name": "SOIL MECHANICS(CE252)",
         "code": "CE252",
@@ -1661,6 +1720,7 @@
     },
     {
         "SNO": 60,
+        "credits": 9,
         "branch": "CE",
         "name": "STRUCTURAL ANALYSIS(CE272)",
         "code": "CE272",
@@ -1693,6 +1753,7 @@
     },
     {
         "SNO": 61,
+        "credits": 4,
         "branch": "CE",
         "name": "UNDER GRADUATE RESEARCH -I(CE332A)",
         "code": "CE332A",
@@ -1709,6 +1770,7 @@
     },
     {
         "SNO": 62,
+        "credits": 7,
         "branch": "CE",
         "name": "FOUNDATION DESIGN(CE352A)",
         "code": "CE352A",
@@ -1752,6 +1814,7 @@
     },
     {
         "SNO": 63,
+        "credits": 6,
         "branch": "CE",
         "name": "REINFORCED CEMENT CONCRETE DESIGN(CE372A)",
         "code": "CE372A",
@@ -1779,6 +1842,7 @@
     },
     {
         "SNO": 64,
+        "credits": 9,
         "branch": "CE",
         "name": "TRANSPORTATION ENGINEERING(CE382A)",
         "code": "CE382A",
@@ -1815,6 +1879,7 @@
     },
     {
         "SNO": 65,
+        "credits": 11,
         "branch": "CE",
         "name": "WATER SUPPLY AND WASTEWATER DISPOSAL SYSTEMS(CE412A)",
         "code": "CE412A",
@@ -1852,6 +1917,7 @@
     },
     {
         "SNO": 66,
+        "credits": 11,
         "branch": "CE",
         "name": "GEOGRAPHICAL INFORMATION SYSTEM (GIS)(CE432A)",
         "code": "GIS)(CE432A",
@@ -1889,6 +1955,7 @@
     },
     {
         "SNO": 67,
+        "credits": 11,
         "branch": "CE",
         "name": "HYDRAULIC AND HYDROLOGIC DESIGN(CE462A)",
         "code": "CE462A",
@@ -1924,6 +1991,7 @@
     },
     {
         "SNO": 68,
+        "credits": 9,
         "branch": "CE",
         "name": "UNDER GRADUATE RESEARCH -II(CE491A)",
         "code": "CE491A",
@@ -1940,6 +2008,7 @@
     },
     {
         "SNO": 69,
+        "credits": 9,
         "branch": "CE",
         "name": "UNDER GRADUATE RESEARCH -III(CE492A)",
         "code": "CE492A",
@@ -1956,6 +2025,7 @@
     },
     {
         "SNO": 70,
+        "credits": 9,
         "branch": "CE",
         "name": "COMPUTER METHODS IN HYDRAULICS AND HYDROLOGY(CE613)",
         "code": "CE613",
@@ -1997,6 +2067,7 @@
     },
     {
         "SNO": 71,
+        "credits": 9,
         "branch": "CE",
         "name": "STOCHASTIC HYDROLOGY(CE614)",
         "code": "CE614",
@@ -2024,6 +2095,7 @@
     },
     {
         "SNO": 72,
+        "credits": 9,
         "branch": "CE",
         "name": "STABILITY OF STRUCTURES(CE622)",
         "code": "CE622",
@@ -2051,6 +2123,7 @@
     },
     {
         "SNO": 73,
+        "credits": 9,
         "branch": "CE",
         "name": "EXPERIMENTAL METHODS IN STRUCTURL ENGINEERING(CE623)",
         "code": "CE623",
@@ -2084,6 +2157,7 @@
     },
     {
         "SNO": 74,
+        "credits": 9,
         "branch": "CE",
         "name": "DURABILITY OF CONCRETE STRUCTURES(CE628)",
         "code": "CE628",
@@ -2115,6 +2189,7 @@
     },
     {
         "SNO": 75,
+        "credits": 9,
         "branch": "CE",
         "name": "EARTHQUAKE ANALYSIS AND DESIGN OF STRUCTURES(CE629)",
         "code": "CE629",
@@ -2142,6 +2217,7 @@
     },
     {
         "SNO": 76,
+        "credits": 9,
         "branch": "CE",
         "name": "FOUNDATION ANALYSIS AND DESIGN(CE632)",
         "code": "CE632",
@@ -2178,6 +2254,7 @@
     },
     {
         "SNO": 77,
+        "credits": 9,
         "branch": "CE",
         "name": "GROUND IMPROVEMENT TECHNIQUES(CE634)",
         "code": "CE634",
@@ -2205,6 +2282,7 @@
     },
     {
         "SNO": 78,
+        "credits": 9,
         "branch": "CE",
         "name": "FOUNDATION DYNAMICS(CE635)",
         "code": "CE635",
@@ -2241,6 +2319,7 @@
     },
     {
         "SNO": 79,
+        "credits": 9,
         "branch": "CE",
         "name": "CONSTITUTIVE MODELING OF FRICTIONAL MATERIALS(CE637)",
         "code": "CE637",
@@ -2268,6 +2347,7 @@
     },
     {
         "SNO": 80,
+        "credits": 9,
         "branch": "CE",
         "name": "ENVIRONMENTAL FLUID MECHANICS(CE656)",
         "code": "CE656",
@@ -2295,6 +2375,7 @@
     },
     {
         "SNO": 81,
+        "credits": 9,
         "branch": "CE",
         "name": "HUMANS, ENVIRONMENT AND SUSTAINABLE DEVELOPMENT(CE663)",
         "code": "CE663",
@@ -2322,6 +2403,7 @@
     },
     {
         "SNO": 82,
+        "credits": 10,
         "branch": "CE",
         "name": "ENVIRONMENTAL QUALITY & POLLUTION MONITORING TECHNIQUES(CE668)",
         "code": "CE668",
@@ -2355,6 +2437,7 @@
     },
     {
         "SNO": 83,
+        "credits": 9,
         "branch": "CE",
         "name": "ATMOSPHERIC PHYSICS AND CHEMISTRY(CE669)",
         "code": "CE669",
@@ -2382,6 +2465,7 @@
     },
     {
         "SNO": 84,
+        "credits": 11,
         "branch": "CE",
         "name": "ENVIRONMENTAL GEODESY(CE670)",
         "code": "CE670",
@@ -2415,6 +2499,7 @@
     },
     {
         "SNO": 85,
+        "credits": 9,
         "branch": "CE",
         "name": "INSTRUMENTATION LABORATORY AND FIELD PRACTICES IN GEOINFORMATICS(CE673)",
         "code": "CE673",
@@ -2431,6 +2516,7 @@
     },
     {
         "SNO": 86,
+        "credits": 6,
         "branch": "CE",
         "name": "GLOBAL NAVIGATION SATELLITE SYSTEMS(GNSS)(CE674)",
         "code": "GNSS)(CE674",
@@ -2469,6 +2555,7 @@
     },
     {
         "SNO": 87,
+        "credits": 6,
         "branch": "CE",
         "name": "GLOBAL NAVIGATION SATELLITE SYSTEMS (GNSS) FOR SURVEYING & MAPING(CE675)",
         "code": "GNSS) FOR SURVEYING & MAPING(CE675",
@@ -2501,6 +2588,7 @@
     },
     {
         "SNO": 88,
+        "credits": 9,
         "branch": "CE",
         "name": "LASER SCANNING AND PHOTOGRAMMETRY(CE676)",
         "code": "CE676",
@@ -2539,6 +2627,7 @@
     },
     {
         "SNO": 89,
+        "credits": 6,
         "branch": "CE",
         "name": "INTRODUCTION TO INERTIAL AND MULTI- SENSOR NAVIGATION(CE677)",
         "code": "CE677",
@@ -2577,6 +2666,7 @@
     },
     {
         "SNO": 90,
+        "credits": 11,
         "branch": "CE",
         "name": "SIGNAL PROCESSING ON THE SPHERE(CE679)",
         "code": "CE679",
@@ -2610,6 +2700,7 @@
     },
     {
         "SNO": 91,
+        "credits": 5,
         "branch": "CE",
         "name": "URBAN TRANSPORTATION(CE685)",
         "code": "CE685",
@@ -2642,6 +2733,7 @@
     },
     {
         "SNO": 92,
+        "credits": 11,
         "branch": "CE",
         "name": "STATISTICAL AND ECONOMETRIC METHODS FOR TRANSPORTATION ENGINEERING(CE687)",
         "code": "CE687",
@@ -2680,6 +2772,7 @@
     },
     {
         "SNO": 93,
+        "credits": 0,
         "branch": "CE",
         "name": "M.TECH SEMINAR 2(CE698)",
         "code": "CE698",
@@ -2696,6 +2789,7 @@
     },
     {
         "SNO": 94,
+        "credits": 0,
         "branch": "CE",
         "name": "M. TECH THESIS(CE699)",
         "code": "CE699",
@@ -2716,6 +2810,7 @@
     },
     {
         "SNO": 95,
+        "credits": 9,
         "branch": "CE",
         "name": "GEOTECHNICS OF TAILINGS AND TAILINGS STORAGE FACILITIES(CE722)",
         "code": "CE722",
@@ -2747,6 +2842,7 @@
     },
     {
         "SNO": 96,
+        "credits": 9,
         "branch": "CE",
         "name": "FINITE ELEMENT METHODS FOR CIVIL ENGINEERING APPLICATIONS(CE723)",
         "code": "CE723",
@@ -2779,6 +2875,7 @@
     },
     {
         "SNO": 97,
+        "credits": 5,
         "branch": "CE",
         "name": "VIBRATION BASED STRUCTURAL HEALTH MONITORING FOR CE APPLICATIONS(CE725)",
         "code": "CE725",
@@ -2801,6 +2898,7 @@
     },
     {
         "SNO": 98,
+        "credits": 5,
         "branch": "CE",
         "name": "SURFACE WATER QUALITY MODELING(CE760)",
         "code": "CE760",
@@ -2828,6 +2926,7 @@
     },
     {
         "SNO": 99,
+        "credits": 5,
         "branch": "CE",
         "name": "SOLID AND HAZARDOUS WASTE MANAGEMENT(CE763)",
         "code": "CE763",
@@ -2855,6 +2954,7 @@
     },
     {
         "SNO": 100,
+        "credits": 9,
         "branch": "CE",
         "name": "AGRICULTURAL SUSTAINABILITY AND CLIMATE CHANGE(CE766)",
         "code": "CE766",
@@ -2882,6 +2982,7 @@
     },
     {
         "SNO": 101,
+        "credits": 5,
         "branch": "CE",
         "name": "SOLID WATER INTERFACIAL PROCESSES(CE767)",
         "code": "CE767",
@@ -2909,6 +3010,7 @@
     },
     {
         "SNO": 102,
+        "credits": 6,
         "branch": "CE",
         "name": "ADJUSTMENT COMPUTATIONS FOR GEOINFORMATICS-II(CE771)",
         "code": "CE771",
@@ -2942,6 +3044,7 @@
     },
     {
         "SNO": 103,
+        "credits": 9,
         "branch": "CE",
         "name": "LABORATORY COURSE IN TRANSPORTATION ENGINEERING(CE780)",
         "code": "CE780",
@@ -2979,6 +3082,7 @@
     },
     {
         "SNO": 104,
+        "credits": 6,
         "branch": "CE",
         "name": "TRAFFIC SIMULATION(CE781)",
         "code": "CE781",
@@ -3012,6 +3116,7 @@
     },
     {
         "SNO": 105,
+        "credits": 5,
         "branch": "CE",
         "name": "PAVEMENT MATERIALS(CE785)",
         "code": "CE785",
@@ -3039,6 +3144,7 @@
     },
     {
         "SNO": 106,
+        "credits": 5,
         "branch": "CE",
         "name": "TRANSPORTATION INFRASTRUCTURE MANAGEMENT(CE788)",
         "code": "CE788",
@@ -3072,6 +3178,7 @@
     },
     {
         "SNO": 107,
+        "credits": 9,
         "branch": "CE",
         "name": "TRANSPORTATION NETWORK ANALYSIS(CE789)",
         "code": "CE789",
@@ -3099,6 +3206,7 @@
     },
     {
         "SNO": 108,
+        "credits": 5,
         "branch": "CE",
         "name": "LITERATURE SEARCH AND REVIEW(CE791)",
         "code": "CE791",
@@ -3115,6 +3223,7 @@
     },
     {
         "SNO": 109,
+        "credits": 5,
         "branch": "CE",
         "name": "SCIENTIFIC WRITING SKILLS(CE792)",
         "code": "CE792",
@@ -3131,6 +3240,7 @@
     },
     {
         "SNO": 110,
+        "credits": 5,
         "branch": "CE",
         "name": "SCIENTIFIC PRASENTATION SKILLS(CE793)",
         "code": "CE793",
@@ -3147,6 +3257,7 @@
     },
     {
         "SNO": 111,
+        "credits": 5,
         "branch": "CE",
         "name": "SCIENTIFIC DATA ANALYSIS PRESENTATION AND INTERPRETATION(CE794)",
         "code": "CE794",
@@ -3163,6 +3274,7 @@
     },
     {
         "SNO": 112,
+        "credits": 0,
         "branch": "CE",
         "name": "PHD SEMINAR I(CE797)",
         "code": "CE797",
@@ -3179,6 +3291,7 @@
     },
     {
         "SNO": 113,
+        "credits": 0,
         "branch": "CE",
         "name": "PHD SEMINAR II(CE798)",
         "code": "CE798",
@@ -3195,6 +3308,7 @@
     },
     {
         "SNO": 114,
+        "credits": 0,
         "branch": "CE",
         "name": "PHD THESIS(CE799)",
         "code": "CE799",
@@ -3211,6 +3325,7 @@
     },
     {
         "SNO": 115,
+        "credits": 5,
         "branch": "CE",
         "name": "MS RESEARCH SEMINAR II(CE898)",
         "code": "CE898",
@@ -3227,6 +3342,7 @@
     },
     {
         "SNO": 116,
+        "credits": 0,
         "branch": "CE",
         "name": "MS - RESEARCH THESIS(CE899)",
         "code": "CE899",
@@ -3243,6 +3359,7 @@
     },
     {
         "SNO": 117,
+        "credits": 9,
         "branch": "CE",
         "name": "ENGINEERING GRAPHICS(TA111)/C",
         "code": "TA111",
@@ -3296,6 +3413,7 @@
     },
     {
         "SNO": 118,
+        "credits": 9,
         "branch": "CE",
         "name": "ENGINEERING GRAPHICS(TA111)/D",
         "code": "TA111",
@@ -3349,6 +3467,7 @@
     },
     {
         "SNO": 119,
+        "credits": 9,
         "branch": "CGS",
         "name": "APPLIED COGNITIVE SCIENCE(CGS402)",
         "code": "CGS402",
@@ -3376,6 +3495,7 @@
     },
     {
         "SNO": 120,
+        "credits": 9,
         "branch": "CGS",
         "name": "COGNITIVE NEUROSCIENCE(CGS609)",
         "code": "CGS609",
@@ -3403,6 +3523,7 @@
     },
     {
         "SNO": 121,
+        "credits": 5,
         "branch": "CGS",
         "name": "EYE-TRACKING AND VR AS TOOLS IN COGNITIVE SCIENCE(CGS612)",
         "code": "CGS612",
@@ -3435,6 +3556,7 @@
     },
     {
         "SNO": 122,
+        "credits": 5,
         "branch": "CGS",
         "name": "BASICS OF EEG(CGS613)",
         "code": "CGS613",
@@ -3467,6 +3589,7 @@
     },
     {
         "SNO": 123,
+        "credits": 9,
         "branch": "CGS",
         "name": "HUMAN CENTERED COMPUTING(CGS616)",
         "code": "CGS616",
@@ -3494,6 +3617,7 @@
     },
     {
         "SNO": 124,
+        "credits": 9,
         "branch": "CGS",
         "name": "INTRODUCTION TO PSYCHOLINGUISTICS(CGS62 1)",
         "code": "CGS62 1",
@@ -3526,6 +3650,7 @@
     },
     {
         "SNO": 125,
+        "credits": 9,
         "branch": "CGS",
         "name": "BAYESIAN MODELS & DATA ANALYSIS(CGS698C)",
         "code": "CGS698C",
@@ -3553,6 +3678,7 @@
     },
     {
         "SNO": 126,
+        "credits": 9,
         "branch": "CGS",
         "name": "TOPICS IN VISUAL PERCEPTION(CGS698E)",
         "code": "CGS698E",
@@ -3585,6 +3711,7 @@
     },
     {
         "SNO": 127,
+        "credits": 9,
         "branch": "CGS",
         "name": "MIND : PHILOSOPHICAL INVESTIGATIONS(CGS698G)",
         "code": "CGS698G",
@@ -3617,6 +3744,7 @@
     },
     {
         "SNO": 128,
+        "credits": 9,
         "branch": "CGS",
         "name": "COMPUTATIONAL COGNITIVE SCIENCE(CGS786)",
         "code": "CGS786",
@@ -3644,6 +3772,7 @@
     },
     {
         "SNO": 129,
+        "credits": 0,
         "branch": "CGS",
         "name": "PHD THESIS(CGS799)",
         "code": "CGS799",
@@ -3660,6 +3789,7 @@
     },
     {
         "SNO": 130,
+        "credits": 5,
         "branch": "CGS",
         "name": "INTRODUCTION TO PROFESSION AND SCIENTIFIC COMMUNICATION(CGS888)",
         "code": "CGS888",
@@ -3687,6 +3817,7 @@
     },
     {
         "SNO": 131,
+        "credits": 0,
         "branch": "CGS",
         "name": "MS - RESEARCH THESIS(CGS899)",
         "code": "CGS899",
@@ -3703,6 +3834,7 @@
     },
     {
         "SNO": 132,
+        "credits": 2,
         "branch": "CHE",
         "name": "CHEMICAL ENGINEERING COMMUNICATION SKILLS(CHE200)",
         "code": "CHE200",
@@ -3725,6 +3857,7 @@
     },
     {
         "SNO": 133,
+        "credits": 12,
         "branch": "CHE",
         "name": "HEAT TRANSFER(CHE212)",
         "code": "CHE212",
@@ -3783,6 +3916,7 @@
     },
     {
         "SNO": 134,
+        "credits": 12,
         "branch": "CHE",
         "name": "MASS TRANSFER AND SEPARATION PROCESSES(CHE213)",
         "code": "CHE213",
@@ -3841,6 +3975,7 @@
     },
     {
         "SNO": 135,
+        "credits": 12,
         "branch": "CHE",
         "name": "CHEMICAL ENGINEERING THERMODYNAMICS(CHE221 )",
         "code": "CHE221 ",
@@ -3903,6 +4038,7 @@
     },
     {
         "SNO": 136,
+        "credits": 9,
         "branch": "CHE",
         "name": "CHEMICAL PROCESS INDUSTRIES(CHE261)",
         "code": "CHE261",
@@ -3935,6 +4071,7 @@
     },
     {
         "SNO": 137,
+        "credits": 9,
         "branch": "CHE",
         "name": "CHEMICAL REACTION ENGINEERING(CHE331A)",
         "code": "CHE331A",
@@ -3967,6 +4104,7 @@
     },
     {
         "SNO": 138,
+        "credits": 4,
         "branch": "CHE",
         "name": "UG PROJECT (UGP- I)(CHE349A)",
         "code": "UGP- I)(CHE349A",
@@ -3983,6 +4121,7 @@
     },
     {
         "SNO": 139,
+        "credits": 9,
         "branch": "CHE",
         "name": "BIOCHEMICAL ENGINEERING(CHE362A)",
         "code": "CHE362A",
@@ -4010,6 +4149,7 @@
     },
     {
         "SNO": 140,
+        "credits": 11,
         "branch": "CHE",
         "name": "PROCESS CONTROL(CHE381A)",
         "code": "CHE381A",
@@ -4053,6 +4193,7 @@
     },
     {
         "SNO": 141,
+        "credits": 8,
         "branch": "CHE",
         "name": "UNIT OPERATION LABORATORY -I(CHE391A)",
         "code": "CHE391A",
@@ -4094,6 +4235,7 @@
     },
     {
         "SNO": 142,
+        "credits": 9,
         "branch": "CHE",
         "name": "UG PROJECT II(CHE398A)",
         "code": "CHE398A",
@@ -4110,6 +4252,7 @@
     },
     {
         "SNO": 143,
+        "credits": 9,
         "branch": "CHE",
         "name": "UNIT OPERATIONS INVOLVING PARTICULATE SOLIDS FOR CHEMICAL ENGINEERS(CHE454A)",
         "code": "CHE454A",
@@ -4137,6 +4280,7 @@
     },
     {
         "SNO": 144,
+        "credits": 9,
         "branch": "CHE",
         "name": "UNDER GRADUATE PROJECT-III(CHE497A)",
         "code": "CHE497A",
@@ -4153,6 +4297,7 @@
     },
     {
         "SNO": 145,
+        "credits": 9,
         "branch": "CHE",
         "name": "UNDER GRADUATE PROJECT IV(CHE498A)",
         "code": "CHE498A",
@@ -4169,6 +4314,7 @@
     },
     {
         "SNO": 146,
+        "credits": 9,
         "branch": "CHE",
         "name": "TRANSPORT PHENOMENA(CHE611)",
         "code": "CHE611",
@@ -4196,6 +4342,7 @@
     },
     {
         "SNO": 147,
+        "credits": 9,
         "branch": "CHE",
         "name": "INTRODUCTION TO GRANULAR MECHANICS(CHE616)",
         "code": "CHE616",
@@ -4223,6 +4370,7 @@
     },
     {
         "SNO": 148,
+        "credits": 9,
         "branch": "CHE",
         "name": "ADVANCED FLUID MECHANICS(CHE619)",
         "code": "CHE619",
@@ -4250,6 +4398,7 @@
     },
     {
         "SNO": 149,
+        "credits": 9,
         "branch": "CHE",
         "name": "THERMODYNAMICS OF FLUIDS AND FLUID MIXTURES(CHE623)",
         "code": "CHE623",
@@ -4282,6 +4431,7 @@
     },
     {
         "SNO": 150,
+        "credits": 9,
         "branch": "CHE",
         "name": "PRACTICAL INTRO. TO QUANTUM MECHANICAL METHODS FOR SCIENTISTS & ENGINEERS(CHE626)",
         "code": "CHE626",
@@ -4309,6 +4459,7 @@
     },
     {
         "SNO": 151,
+        "credits": 9,
         "branch": "CHE",
         "name": "CHEMICAL REACTION ENGINEERING(CHE631)",
         "code": "CHE631",
@@ -4341,6 +4492,7 @@
     },
     {
         "SNO": 152,
+        "credits": 9,
         "branch": "CHE",
         "name": "NUMERICAL METHODS IN CHEMICAL ENGINEERING(CHE642)",
         "code": "CHE642",
@@ -4368,6 +4520,7 @@
     },
     {
         "SNO": 153,
+        "credits": 9,
         "branch": "CHE",
         "name": "OPTIMIZATION(CHE652)",
         "code": "CHE652",
@@ -4395,6 +4548,7 @@
     },
     {
         "SNO": 154,
+        "credits": 9,
         "branch": "CHE",
         "name": "ELECTROCHEMICAL ENERGY CONVERSION AND STORAGE(CHE664)",
         "code": "CHE664",
@@ -4422,6 +4576,7 @@
     },
     {
         "SNO": 155,
+        "credits": 9,
         "branch": "CHE",
         "name": "PRINCIPLES OF NON NEWTONIAM FLUID MECHANICS(CHE667)",
         "code": "CHE667",
@@ -4449,6 +4604,7 @@
     },
     {
         "SNO": 156,
+        "credits": 9,
         "branch": "CHE",
         "name": "MECHANICS OF SOFT MATERIALS(CHE678)",
         "code": "CHE678",
@@ -4476,6 +4632,7 @@
     },
     {
         "SNO": 157,
+        "credits": 9,
         "branch": "CHE",
         "name": "SPECIAL TOPICS(CHE679)",
         "code": "CHE679",
@@ -4503,6 +4660,7 @@
     },
     {
         "SNO": 158,
+        "credits": 9,
         "branch": "CHE",
         "name": "AN INTRODUCTION TO SYSTEMS BIOLOGY(CHE684)",
         "code": "CHE684",
@@ -4535,6 +4693,7 @@
     },
     {
         "SNO": 159,
+        "credits": 9,
         "branch": "CHE",
         "name": "FUNDM. OF COLLOID & INTERFACE SCI. & TECH.(CHE688)",
         "code": "CHE688",
@@ -4567,6 +4726,7 @@
     },
     {
         "SNO": 160,
+        "credits": 0,
         "branch": "CHE",
         "name": "M TECH THESIS(CHE699)",
         "code": "CHE699",
@@ -4587,6 +4747,7 @@
     },
     {
         "SNO": 161,
+        "credits": 0,
         "branch": "CHE",
         "name": "PHD THESIS(CHE799)",
         "code": "CHE799",
@@ -4603,6 +4764,7 @@
     },
     {
         "SNO": 162,
+        "credits": 0,
         "branch": "CHE",
         "name": "GRADUATE SEMINAR(CHE801)",
         "code": "CHE801",
@@ -4625,6 +4787,7 @@
     },
     {
         "SNO": 163,
+        "credits": 6,
         "branch": "CHE",
         "name": "INTRODUCTION TO PROFESSION AND COMMUNICATION SKILLS FOR CHEMICAL ENGINEERS(CHE888)",
         "code": "CHE888",
@@ -4647,6 +4810,7 @@
     },
     {
         "SNO": 164,
+        "credits": 0,
         "branch": "CHE",
         "name": "MS - RESEARCH THESIS(CHE899)",
         "code": "CHE899",
@@ -4663,6 +4827,7 @@
     },
     {
         "SNO": 165,
+        "credits": 7,
         "branch": "CHE",
         "name": "COMPUTER METHODS FOR ENGINEERS(ESC113M)",
         "code": "ESC113M",
@@ -4707,6 +4872,7 @@
     },
     {
         "SNO": 166,
+        "credits": 3,
         "branch": "CHM",
         "name": "CHEMISTRY LABORATORY(CHM111)/A",
         "code": "CHM111",
@@ -4752,6 +4918,7 @@
     },
     {
         "SNO": 167,
+        "credits": 3,
         "branch": "CHM",
         "name": "CHEMISTRY LABORATORY(CHM111)/B",
         "code": "CHM111",
@@ -4797,6 +4964,7 @@
     },
     {
         "SNO": 168,
+        "credits": 4,
         "branch": "CHM",
         "name": "GENERAL CHEMISTRY: PHYSICAL CHEMISTRY(CHM112M)/C",
         "code": "CHM112M",
@@ -4834,6 +5002,7 @@
     },
     {
         "SNO": 169,
+        "credits": 4,
         "branch": "CHM",
         "name": "GENERAL CHEMISTRY: PHYSICAL CHEMISTRY(CHM112M)/D",
         "code": "CHM112M",
@@ -4871,6 +5040,7 @@
     },
     {
         "SNO": 170,
+        "credits": 4,
         "branch": "CHM",
         "name": "GENERAL CHEMISTRY: INORGANIC & ORGANIC CHEMISTRY(CHM113M)/C",
         "code": "CHM113M",
@@ -4908,6 +5078,7 @@
     },
     {
         "SNO": 171,
+        "credits": 4,
         "branch": "CHM",
         "name": "GENERAL CHEMISTRY: INORGANIC & ORGANIC CHEMISTRY(CHM113M)/D",
         "code": "CHM113M",
@@ -4945,6 +5116,7 @@
     },
     {
         "SNO": 172,
+        "credits": 9,
         "branch": "CHM",
         "name": "BASIC ORGANIC CHEMISTRY -II(CHM202)",
         "code": "CHM202",
@@ -4977,6 +5149,7 @@
     },
     {
         "SNO": 173,
+        "credits": 9,
         "branch": "CHM",
         "name": "BASIC PHYSICAL CHEMISTRY(CHM222)",
         "code": "CHM222",
@@ -5009,6 +5182,7 @@
     },
     {
         "SNO": 174,
+        "credits": 9,
         "branch": "CHM",
         "name": "BASIC INORGANIC CHEMISTRY(CHM242)",
         "code": "CHM242",
@@ -5041,6 +5215,7 @@
     },
     {
         "SNO": 175,
+        "credits": 9,
         "branch": "CHM",
         "name": "PHYSICAL CHEMISTRY - II(CHM322)",
         "code": "CHM322",
@@ -5073,6 +5248,7 @@
     },
     {
         "SNO": 176,
+        "credits": 9,
         "branch": "CHM",
         "name": "PHYSICAL CHEMISTRY - II(CHM322A)",
         "code": "CHM322A",
@@ -5105,6 +5281,7 @@
     },
     {
         "SNO": 177,
+        "credits": 9,
         "branch": "CHM",
         "name": "INORGANIC CHEMISTRY - II(CHM342)",
         "code": "CHM342",
@@ -5137,6 +5314,7 @@
     },
     {
         "SNO": 178,
+        "credits": 9,
         "branch": "CHM",
         "name": "INORGANIC CHEMISTRY - II(CHM342A)",
         "code": "CHM342A",
@@ -5169,6 +5347,7 @@
     },
     {
         "SNO": 179,
+        "credits": 6,
         "branch": "CHM",
         "name": "INORGANIC CHEMISTRY LABORATORY EXPERIMENTS(CHM344A)",
         "code": "CHM344A",
@@ -5196,6 +5375,7 @@
     },
     {
         "SNO": 180,
+        "credits": 9,
         "branch": "CHM",
         "name": "UG PROJECT II(CHM392A)",
         "code": "CHM392A",
@@ -5212,6 +5392,7 @@
     },
     {
         "SNO": 181,
+        "credits": 4,
         "branch": "CHM",
         "name": "ORGANIC CHEMISTRY II(CHM402)",
         "code": "CHM402",
@@ -5239,6 +5420,7 @@
     },
     {
         "SNO": 182,
+        "credits": 9,
         "branch": "CHM",
         "name": "ORGANIC CHEMISTRY II(CHM402A)",
         "code": "CHM402A",
@@ -5266,6 +5448,7 @@
     },
     {
         "SNO": 183,
+        "credits": 2,
         "branch": "CHM",
         "name": "INORGANIC CHEMISTRY LAB(CHM443)",
         "code": "CHM443",
@@ -5293,6 +5476,7 @@
     },
     {
         "SNO": 184,
+        "credits": 6,
         "branch": "CHM",
         "name": "INORGANIC CHEMISTRY LAB(CHM443A)",
         "code": "CHM443A",
@@ -5320,6 +5504,7 @@
     },
     {
         "SNO": 185,
+        "credits": 9,
         "branch": "CHM",
         "name": "BIOSYSTEMS(CHM481A)",
         "code": "CHM481A",
@@ -5352,6 +5537,7 @@
     },
     {
         "SNO": 186,
+        "credits": 9,
         "branch": "CHM",
         "name": "UG PROJECT IV(CHM492A)",
         "code": "CHM492A",
@@ -5368,6 +5554,7 @@
     },
     {
         "SNO": 187,
+        "credits": 48,
         "branch": "CHM",
         "name": "MS PROJECT(CHM599)",
         "code": "CHM599",
@@ -5384,6 +5571,7 @@
     },
     {
         "SNO": 188,
+        "credits": 6,
         "branch": "CHM",
         "name": "CHEMISTRY COMMUNICATION SKILLS(CHM601)",
         "code": "CHM601",
@@ -5415,6 +5603,7 @@
     },
     {
         "SNO": 189,
+        "credits": 9,
         "branch": "CHM",
         "name": "ADVANCED ORGANIC CHEMISTRY II(CHM602)",
         "code": "CHM602",
@@ -5446,6 +5635,7 @@
     },
     {
         "SNO": 190,
+        "credits": 9,
         "branch": "CHM",
         "name": "PRINCIPLES OF ORGANIC CHEMISTRY(CHM609)",
         "code": "CHM609",
@@ -5478,6 +5668,7 @@
     },
     {
         "SNO": 191,
+        "credits": 9,
         "branch": "CHM",
         "name": "FRONTIERS IN ORGANIC CHEMISTRY(CHM612)",
         "code": "CHM612",
@@ -5505,6 +5696,7 @@
     },
     {
         "SNO": 192,
+        "credits": 9,
         "branch": "CHM",
         "name": "CHEMISTRY OF ORGANOMETALLIC COMPOUNDS(CHM616)",
         "code": "CHM616",
@@ -5537,6 +5729,7 @@
     },
     {
         "SNO": 193,
+        "credits": 9,
         "branch": "CHM",
         "name": "PRINCIPLES OF PHYSICAL CHEMISTRY(CHM629)",
         "code": "CHM629",
@@ -5569,6 +5762,7 @@
     },
     {
         "SNO": 194,
+        "credits": 9,
         "branch": "CHM",
         "name": "APPLICATIONS OF MODERN INSTRUMENTAL METHODS(CHM631)",
         "code": "CHM631",
@@ -5605,6 +5799,7 @@
     },
     {
         "SNO": 195,
+        "credits": 9,
         "branch": "CHM",
         "name": "PHYSICAL PHOTOCHEMISTRY(CHM636 )",
         "code": "CHM636 ",
@@ -5637,6 +5832,7 @@
     },
     {
         "SNO": 196,
+        "credits": 9,
         "branch": "CHM",
         "name": "THE CHEMISTRY OF METAL-CARBON BOND: STRUCTURE REACTIVITY & APPLICATIONS(CHM648)",
         "code": "CHM648",
@@ -5664,6 +5860,7 @@
     },
     {
         "SNO": 197,
+        "credits": 9,
         "branch": "CHM",
         "name": "PRINCIPLES OF INORGANIC CHEMISTRY(CHM649)",
         "code": "CHM649",
@@ -5696,6 +5893,7 @@
     },
     {
         "SNO": 198,
+        "credits": 9,
         "branch": "CHM",
         "name": "COMPUTATIONAL & ELECTRONIC STRUCTURE OF SOLIDS(CHM661)",
         "code": "CHM661",
@@ -5723,6 +5921,7 @@
     },
     {
         "SNO": 199,
+        "credits": 9,
         "branch": "CHM",
         "name": "CHEMISTRY OF NATURAL PRODUCTS(CHM662)",
         "code": "CHM662",
@@ -5755,6 +5954,7 @@
     },
     {
         "SNO": 200,
+        "credits": 9,
         "branch": "CHM",
         "name": "ELECTRON PROTON AND HYDRIDES(CHM663)",
         "code": "CHM663",
@@ -5782,6 +5982,7 @@
     },
     {
         "SNO": 201,
+        "credits": 9,
         "branch": "CHM",
         "name": "MODERN PHYSICAL METHODS IN CHEMISTRY(CHM664)",
         "code": "CHM664",
@@ -5814,6 +6015,7 @@
     },
     {
         "SNO": 202,
+        "credits": 10,
         "branch": "CHM",
         "name": "INTRODUCTION TO MOLECULAR MEDICINE(CHM666)",
         "code": "CHM666",
@@ -5841,6 +6043,7 @@
     },
     {
         "SNO": 203,
+        "credits": 9,
         "branch": "CHM",
         "name": "ADVANCED MAIN GROUP CHEMISTRY(CHM668)",
         "code": "CHM668",
@@ -5873,6 +6076,7 @@
     },
     {
         "SNO": 204,
+        "credits": 27,
         "branch": "CHM",
         "name": "PROJECT(CHM700A)",
         "code": "CHM700A",
@@ -5889,6 +6093,7 @@
     },
     {
         "SNO": 205,
+        "credits": 0,
         "branch": "CHM",
         "name": "RESEARCH(CHM799)",
         "code": "CHM799",
@@ -5905,6 +6110,7 @@
     },
     {
         "SNO": 206,
+        "credits": 0,
         "branch": "CHM",
         "name": "GENERAL SEMINAR(CHM800A)",
         "code": "CHM800A",
@@ -5921,6 +6127,7 @@
     },
     {
         "SNO": 207,
+        "credits": 0,
         "branch": "CHM",
         "name": "GRADUATE SEMINAR(CHM801A)",
         "code": "CHM801A",
@@ -5937,6 +6144,7 @@
     },
     {
         "SNO": 208,
+        "credits": 11,
         "branch": "CHM",
         "name": "INORGANIC MOLECULES MATERIALS & MEDICINE(CSO203)",
         "code": "CSO203",
@@ -5979,6 +6187,7 @@
     },
     {
         "SNO": 209,
+        "credits": 9,
         "branch": "COM",
         "name": "ENGLISH LANGUAGE & COMMUNICATION (INTERMEDIATE) (SCHEME)(ELC112)",
         "code": "INTERMEDIATE) (SCHEME)(ELC112",
@@ -6017,6 +6226,7 @@
     },
     {
         "SNO": 210,
+        "credits": 9,
         "branch": "COM",
         "name": "ENGLISH LANGUAGE & COMMUNICATION (ADVANCED) (SCHEME)(ELC113)",
         "code": "ADVANCED) (SCHEME)(ELC113",
@@ -6055,6 +6265,7 @@
     },
     {
         "SNO": 211,
+        "credits": 3,
         "branch": "COM",
         "name": "PRACTICAL ETHICS(ETH111)",
         "code": "ETH111",
@@ -6071,6 +6282,7 @@
     },
     {
         "SNO": 212,
+        "credits": 5,
         "branch": "CSE",
         "name": "MATHEMATICS FOR COMPUTER SCIENCE - II(CS202M)",
         "code": "CS202M",
@@ -6103,6 +6315,7 @@
     },
     {
         "SNO": 213,
+        "credits": 5,
         "branch": "CSE",
         "name": "MATHEMATICS FOR COMPUTER SCIENCE - III(CS203M)",
         "code": "CS203M",
@@ -6135,6 +6348,7 @@
     },
     {
         "SNO": 214,
+        "credits": 13,
         "branch": "CSE",
         "name": "INTRODUCTION TO COMPUTER ORGANISATION(CS220)",
         "code": "CS220",
@@ -6178,6 +6392,7 @@
     },
     {
         "SNO": 215,
+        "credits": 12,
         "branch": "CSE",
         "name": "SOFTWARE DEVELOPMENT AND OPERATIONS(CS253)",
         "code": "CS253",
@@ -6226,6 +6441,7 @@
     },
     {
         "SNO": 216,
+        "credits": 12,
         "branch": "CSE",
         "name": "COMPILER DESIGN(CS335A)",
         "code": "CS335A",
@@ -6269,6 +6485,7 @@
     },
     {
         "SNO": 217,
+        "credits": 4,
         "branch": "CSE",
         "name": "UG PROJECT (UGP- I)(CS395A)",
         "code": "UGP- I)(CS395A",
@@ -6285,6 +6502,7 @@
     },
     {
         "SNO": 218,
+        "credits": 9,
         "branch": "CSE",
         "name": "UG PROJECT (UGP- II)(CS396A)",
         "code": "UGP- II)(CS396A",
@@ -6301,6 +6519,7 @@
     },
     {
         "SNO": 219,
+        "credits": 9,
         "branch": "CSE",
         "name": "COMPUTER NETWORKS(CS425A)",
         "code": "CS425A",
@@ -6328,6 +6547,7 @@
     },
     {
         "SNO": 220,
+        "credits": 9,
         "branch": "CSE",
         "name": "UNDER GRADUATE PROJECT-III(CS498A)",
         "code": "CS498A",
@@ -6344,6 +6564,7 @@
     },
     {
         "SNO": 221,
+        "credits": 9,
         "branch": "CSE",
         "name": "UNDER GRADUATE PROJECT-IV(CS499A)",
         "code": "CS499A",
@@ -6360,6 +6581,7 @@
     },
     {
         "SNO": 222,
+        "credits": 9,
         "branch": "CSE",
         "name": "MATHEMATICS FOR COMPUTER SCIENCE(CS601)",
         "code": "CS601",
@@ -6392,6 +6614,7 @@
     },
     {
         "SNO": 223,
+        "credits": 9,
         "branch": "CSE",
         "name": "LINUX KERNEL PROGRAMMING(CS614)",
         "code": "CS614",
@@ -6419,6 +6642,7 @@
     },
     {
         "SNO": 224,
+        "credits": 9,
         "branch": "CSE",
         "name": "PARALLEL COMPUTING(CS633)",
         "code": "CS633",
@@ -6446,6 +6670,7 @@
     },
     {
         "SNO": 225,
+        "credits": 9,
         "branch": "CSE",
         "name": "MODERN CRYPTOLOGY(CS641)",
         "code": "CS641",
@@ -6473,6 +6698,7 @@
     },
     {
         "SNO": 226,
+        "credits": 9,
         "branch": "CSE",
         "name": "RANDOMIZED ALGORITHMS(CS648)",
         "code": "CS648",
@@ -6500,6 +6726,7 @@
     },
     {
         "SNO": 227,
+        "credits": 9,
         "branch": "CSE",
         "name": "ALGORITHMIC GAME THEORY(CS656)",
         "code": "CS656",
@@ -6527,6 +6754,7 @@
     },
     {
         "SNO": 228,
+        "credits": 9,
         "branch": "CSE",
         "name": "BIG DATA VISUAL ANALYTICS(CS661)",
         "code": "CS661",
@@ -6554,6 +6782,7 @@
     },
     {
         "SNO": 229,
+        "credits": 9,
         "branch": "CSE",
         "name": "PRACTICAL CYBER SECURITY FOR CYBER PRACTITIONERS(CS668)",
         "code": "CS668",
@@ -6586,6 +6815,7 @@
     },
     {
         "SNO": 230,
+        "credits": 9,
         "branch": "CSE",
         "name": "DESIGN FOR SECURITY(CS669)",
         "code": "CS669",
@@ -6618,6 +6848,7 @@
     },
     {
         "SNO": 231,
+        "credits": 9,
         "branch": "CSE",
         "name": "CRYPTOGRAPHIC TECHNIQUES FOR PRIVACY PRESERVATION(CS670)",
         "code": "CS670",
@@ -6645,6 +6876,7 @@
     },
     {
         "SNO": 232,
+        "credits": 9,
         "branch": "CSE",
         "name": "QUANTUM COMPUTING(CS682)",
         "code": "CS682",
@@ -6672,6 +6904,7 @@
     },
     {
         "SNO": 233,
+        "credits": 9,
         "branch": "CSE",
         "name": "ALGORITHMIC INFORMATION THEORY(CS687)",
         "code": "CS687",
@@ -6699,6 +6932,7 @@
     },
     {
         "SNO": 234,
+        "credits": 9,
         "branch": "CSE",
         "name": "COMPUTATIONAL LINGUISTICS FOR INDIAN LANGUAGES(CS689)",
         "code": "CS689",
@@ -6726,6 +6960,7 @@
     },
     {
         "SNO": 235,
+        "credits": 9,
         "branch": "CSE",
         "name": "SKETCHING AND SAMPLING FOR BIG DATA ANALYSIS (NUMERICAL LINEAR ALGEBRA)(CS698C)",
         "code": "NUMERICAL LINEAR ALGEBRA)(CS698C",
@@ -6758,6 +6993,7 @@
     },
     {
         "SNO": 236,
+        "credits": 9,
         "branch": "CSE",
         "name": "DEEP REINFORCEMENT LEARNING(CS698R)",
         "code": "CS698R",
@@ -6790,6 +7026,7 @@
     },
     {
         "SNO": 237,
+        "credits": 9,
         "branch": "CSE",
         "name": "FUNDAMENTALS OF ERROR CORRECTING CODES(CS698Z)",
         "code": "CS698Z",
@@ -6817,6 +7054,7 @@
     },
     {
         "SNO": 238,
+        "credits": 0,
         "branch": "CSE",
         "name": "M TECH THESIS(CS699)",
         "code": "CS699",
@@ -6837,6 +7075,7 @@
     },
     {
         "SNO": 239,
+        "credits": 9,
         "branch": "CSE",
         "name": "BLOCKCHAIN TECHNOLOGY AND APPLICATIONS(CS731)",
         "code": "CS731",
@@ -6864,6 +7103,7 @@
     },
     {
         "SNO": 240,
+        "credits": 9,
         "branch": "CSE",
         "name": "ADVANCED COMPILER OPTIMIZATIONS(CS738)",
         "code": "CS738",
@@ -6891,6 +7131,7 @@
     },
     {
         "SNO": 241,
+        "credits": 9,
         "branch": "CSE",
         "name": "INTRODUCTION TO MACHINE LEARNING(CS771)",
         "code": "CS771",
@@ -6918,6 +7159,7 @@
     },
     {
         "SNO": 242,
+        "credits": 9,
         "branch": "CSE",
         "name": "PROBABILISTIC MACHINE LEARNING(CS772)",
         "code": "CS772",
@@ -6945,6 +7187,7 @@
     },
     {
         "SNO": 243,
+        "credits": 9,
         "branch": "CSE",
         "name": "TOPICS IN LEARNING THEORY(CS777)",
         "code": "CS777",
@@ -6972,6 +7215,7 @@
     },
     {
         "SNO": 244,
+        "credits": 9,
         "branch": "CSE",
         "name": "HUMAN COMPUTER INTERACTION(CS798H)",
         "code": "CS798H",
@@ -6999,6 +7243,7 @@
     },
     {
         "SNO": 245,
+        "credits": 0,
         "branch": "CSE",
         "name": "PHD THESIS(CS799)",
         "code": "CS799",
@@ -7015,6 +7260,7 @@
     },
     {
         "SNO": 246,
+        "credits": 0,
         "branch": "CSE",
         "name": "MS - RESEARCH THESIS(CS899)",
         "code": "CS899",
@@ -7031,6 +7277,7 @@
     },
     {
         "SNO": 247,
+        "credits": 7,
         "branch": "CSE",
         "name": "FUNDAMENTALS OF COMPUTING - I(ESC111M)/A",
         "code": "ESC111M",
@@ -7080,6 +7327,7 @@
     },
     {
         "SNO": 248,
+        "credits": 7,
         "branch": "CSE",
         "name": "FUNDAMENTALS OF COMPUTING - I(ESC111M)/B",
         "code": "ESC111M",
@@ -7129,6 +7377,7 @@
     },
     {
         "SNO": 249,
+        "credits": 7,
         "branch": "CSE",
         "name": "FUNDAMENTALS OF COMPUTING - II(ESC112M)/A",
         "code": "ESC112M",
@@ -7178,6 +7427,7 @@
     },
     {
         "SNO": 250,
+        "credits": 7,
         "branch": "CSE",
         "name": "FUNDAMENTALS OF COMPUTING - II(ESC112M)/B",
         "code": "ESC112M",
@@ -7227,6 +7477,7 @@
     },
     {
         "SNO": 251,
+        "credits": 12,
         "branch": "CSE",
         "name": "DATA STRUCTURE & ALGORITHM(ESO207)",
         "code": "ESO207",
@@ -7270,6 +7521,7 @@
     },
     {
         "SNO": 252,
+        "credits": 9,
         "branch": "DES",
         "name": "TOPICS IN MOTION PICTURES(DES623)",
         "code": "DES623",
@@ -7297,6 +7549,7 @@
     },
     {
         "SNO": 253,
+        "credits": 9,
         "branch": "DES",
         "name": "ELECTRONICS FOR DESIGNERS(DES634)",
         "code": "DES634",
@@ -7324,6 +7577,7 @@
     },
     {
         "SNO": 254,
+        "credits": 9,
         "branch": "DES",
         "name": "HUMAN FACTORS IN DESIGN(DES642)",
         "code": "DES642",
@@ -7351,6 +7605,7 @@
     },
     {
         "SNO": 255,
+        "credits": 9,
         "branch": "DES",
         "name": "DESIGN FOR AUGMENTED REALITY AND VIRTUAL REALITY(DES643)",
         "code": "DES643",
@@ -7378,6 +7633,7 @@
     },
     {
         "SNO": 256,
+        "credits": 9,
         "branch": "DES",
         "name": "DESIGN PROJECT II(DES682)",
         "code": "DES682",
@@ -7405,6 +7661,7 @@
     },
     {
         "SNO": 257,
+        "credits": 9,
         "branch": "DES",
         "name": "SPECIAL STUDIES/PROJECT COURSES IN DESIGN(DES698)",
         "code": "DES698",
@@ -7432,6 +7689,7 @@
     },
     {
         "SNO": 258,
+        "credits": 0,
         "branch": "DES",
         "name": "M DES THESIS(DES699)",
         "code": "DES699",
@@ -7452,6 +7710,7 @@
     },
     {
         "SNO": 259,
+        "credits": 0,
         "branch": "DES",
         "name": "PH.D THESIS(DES799)",
         "code": "DES799",
@@ -7468,6 +7727,7 @@
     },
     {
         "SNO": 260,
+        "credits": 0,
         "branch": "DES",
         "name": "SEMINAR I(DES801)",
         "code": "DES801",
@@ -7490,6 +7750,7 @@
     },
     {
         "SNO": 261,
+        "credits": 3,
         "branch": "DES",
         "name": "AN INTRODUCTION TO PROFESSION AND COMMUNICATION SKILLS FOR DESGINNERS(DES888)",
         "code": "DES888",
@@ -7512,6 +7773,7 @@
     },
     {
         "SNO": 262,
+        "credits": 9,
         "branch": "DMS",
         "name": "INTRODUCTION TO MANAGEMENT(DMS201)",
         "code": "DMS201",
@@ -7552,6 +7814,7 @@
     },
     {
         "SNO": 263,
+        "credits": 9,
         "branch": "DMS",
         "name": "FINANCIAL ENGINEERING(DMS611)",
         "code": "DMS611",
@@ -7579,6 +7842,7 @@
     },
     {
         "SNO": 264,
+        "credits": 9,
         "branch": "DMS",
         "name": "THEORY AND APPLICATIONS OF MULTI- CRITERIA DECISION MAKING(DMS621)",
         "code": "DMS621",
@@ -7606,6 +7870,7 @@
     },
     {
         "SNO": 265,
+        "credits": 9,
         "branch": "DMS",
         "name": "ADVANCED DECISION MODELS(DMS637)",
         "code": "DMS637",
@@ -7633,6 +7898,7 @@
     },
     {
         "SNO": 266,
+        "credits": 9,
         "branch": "DMS",
         "name": "ANALYTICS IN TRANSPORT AND TELECOM(DMS639)",
         "code": "DMS639",
@@ -7660,6 +7926,7 @@
     },
     {
         "SNO": 267,
+        "credits": 10,
         "branch": "DMS",
         "name": "SOFTWARE PROJECT MANAGEMENT(DMS671)",
         "code": "DMS671",
@@ -7687,6 +7954,7 @@
     },
     {
         "SNO": 268,
+        "credits": 9,
         "branch": "DMS",
         "name": "APPLIED MACHINE LEARNING(DMS673)",
         "code": "DMS673",
@@ -7714,6 +7982,7 @@
     },
     {
         "SNO": 269,
+        "credits": 0,
         "branch": "DMS",
         "name": "SEMINAR(DMS698)",
         "code": "DMS698",
@@ -7730,6 +7999,7 @@
     },
     {
         "SNO": 270,
+        "credits": 0,
         "branch": "DMS",
         "name": "M TECH THESIS(DMS699)",
         "code": "DMS699",
@@ -7746,6 +8016,7 @@
     },
     {
         "SNO": 271,
+        "credits": 9,
         "branch": "DMS",
         "name": "RESEARCH METHODOLOGY(DMS700)",
         "code": "DMS700",
@@ -7773,6 +8044,7 @@
     },
     {
         "SNO": 272,
+        "credits": 0,
         "branch": "DMS",
         "name": "PHD THESIS(DMS799)",
         "code": "DMS799",
@@ -7789,6 +8061,7 @@
     },
     {
         "SNO": 273,
+        "credits": 10,
         "branch": "DMS",
         "name": "FINANCIAL MANAGEMENT(MBA607)",
         "code": "MBA607",
@@ -7816,6 +8089,7 @@
     },
     {
         "SNO": 274,
+        "credits": 10,
         "branch": "DMS",
         "name": "SOCIO-POLITICAL AND ETHICAL ASPECTS OF BUSINESS(MBA617)",
         "code": "MBA617",
@@ -7843,6 +8117,7 @@
     },
     {
         "SNO": 275,
+        "credits": 10,
         "branch": "DMS",
         "name": "INTRODUCTION TO UNIVERSAL HUMAN VALUES AND ETHICS(MBA618)",
         "code": "MBA618",
@@ -7870,6 +8145,7 @@
     },
     {
         "SNO": 276,
+        "credits": 10,
         "branch": "DMS",
         "name": "ECONOMICS OF BUSINESS POLICY(MBA630)",
         "code": "MBA630",
@@ -7897,6 +8173,7 @@
     },
     {
         "SNO": 277,
+        "credits": 10,
         "branch": "DMS",
         "name": "MARKETING RESEARCH(MBA633)",
         "code": "MBA633",
@@ -7924,6 +8201,7 @@
     },
     {
         "SNO": 278,
+        "credits": 10,
         "branch": "DMS",
         "name": "PRODUCTION AND OPERATIONS MANAGEMENT(MBA661)",
         "code": "MBA661",
@@ -7955,6 +8233,7 @@
     },
     {
         "SNO": 279,
+        "credits": 10,
         "branch": "DMS",
         "name": "PROJECT FINANCING & MANAGEMENT(MBA677)",
         "code": "MBA677",
@@ -7982,6 +8261,7 @@
     },
     {
         "SNO": 280,
+        "credits": 9,
         "branch": "DMS",
         "name": "CAPSTONE PROJECT II(MBA702)",
         "code": "MBA702",
@@ -7998,6 +8278,7 @@
     },
     {
         "SNO": 281,
+        "credits": 9,
         "branch": "DMS",
         "name": "CAPSTONE PROJECT III(MBA703)",
         "code": "MBA703",
@@ -8014,6 +8295,7 @@
     },
     {
         "SNO": 282,
+        "credits": 9,
         "branch": "DMS",
         "name": "CAPSTONE PROJECT IV(MBA704)",
         "code": "MBA704",
@@ -8030,6 +8312,7 @@
     },
     {
         "SNO": 283,
+        "credits": 5,
         "branch": "DMS",
         "name": "HR ANALYTICS(MBA718M)",
         "code": "MBA718M",
@@ -8057,6 +8340,7 @@
     },
     {
         "SNO": 284,
+        "credits": 5,
         "branch": "DMS",
         "name": "SUSTAINABLE DEVELOPMENT FOR BUSINESSES(MBA725M)",
         "code": "MBA725M",
@@ -8084,6 +8368,7 @@
     },
     {
         "SNO": 285,
+        "credits": 5,
         "branch": "DMS",
         "name": "E-SUPPLY CHAIN MANAGEMENT(MBA746M)",
         "code": "MBA746M",
@@ -8111,6 +8396,7 @@
     },
     {
         "SNO": 286,
+        "credits": 5,
         "branch": "DMS",
         "name": "SECURITY ANALYSIS FOR INVESTMENTS(MBA770M)",
         "code": "MBA770M",
@@ -8138,6 +8424,7 @@
     },
     {
         "SNO": 287,
+        "credits": 5,
         "branch": "DMS",
         "name": "ADVANCED CORPORATE FINANCE(MBA775M)",
         "code": "MBA775M",
@@ -8165,6 +8452,7 @@
     },
     {
         "SNO": 288,
+        "credits": 5,
         "branch": "DMS",
         "name": "MERGERS AND ACQUISITIONS(MBA776M)",
         "code": "MBA776M",
@@ -8192,6 +8480,7 @@
     },
     {
         "SNO": 289,
+        "credits": 5,
         "branch": "DMS",
         "name": "PORTFOLIO MANAGEMENT(MBA780M)",
         "code": "MBA780M",
@@ -8219,6 +8508,7 @@
     },
     {
         "SNO": 290,
+        "credits": 11,
         "branch": "ECO",
         "name": "ECONOMY, SOCIETY & PUBLIC POLICY(ECO111)",
         "code": "ECO111",
@@ -8257,6 +8547,7 @@
     },
     {
         "SNO": 291,
+        "credits": 11,
         "branch": "ECO",
         "name": "MACROECONOMICS I(ECO231)",
         "code": "ECO231",
@@ -8295,6 +8586,7 @@
     },
     {
         "SNO": 292,
+        "credits": 11,
         "branch": "ECO",
         "name": "ECONOMETRICS I(ECO251)",
         "code": "ECO251",
@@ -8333,6 +8625,7 @@
     },
     {
         "SNO": 293,
+        "credits": 9,
         "branch": "ECO",
         "name": "DEVELOPMENT ECONOMICS(ECO311A)",
         "code": "ECO311A",
@@ -8365,6 +8658,7 @@
     },
     {
         "SNO": 294,
+        "credits": 12,
         "branch": "ECO",
         "name": "ECONOMETRICS II(ECO342A)",
         "code": "ECO342A",
@@ -8397,6 +8691,7 @@
     },
     {
         "SNO": 295,
+        "credits": 9,
         "branch": "ECO",
         "name": "UG PROJECT -II(ECO399A)",
         "code": "ECO399A",
@@ -8413,6 +8708,7 @@
     },
     {
         "SNO": 296,
+        "credits": 9,
         "branch": "ECO",
         "name": "INDIAN ECONOMIC PROBLEMS(ECO413A)",
         "code": "ECO413A",
@@ -8445,6 +8741,7 @@
     },
     {
         "SNO": 297,
+        "credits": 9,
         "branch": "ECO",
         "name": "INTRODUCTORY TIME SERIES ANALYSIS(ECO425A)",
         "code": "ECO425A",
@@ -8472,6 +8769,7 @@
     },
     {
         "SNO": 298,
+        "credits": 9,
         "branch": "ECO",
         "name": "BEHAVIOURAL AND EXPERIMENTAL ECONOMICS(ECO506A)",
         "code": "ECO506A",
@@ -8499,6 +8797,7 @@
     },
     {
         "SNO": 299,
+        "credits": 9,
         "branch": "ECO",
         "name": "BAYESIAN ECONOMETRICS(ECO545A)",
         "code": "ECO545A",
@@ -8526,6 +8825,7 @@
     },
     {
         "SNO": 300,
+        "credits": 6,
         "branch": "ECO",
         "name": "COMPUTATIONAL METHODS IN ECONOMICS(ECO611)",
         "code": "ECO611",
@@ -8558,6 +8858,7 @@
     },
     {
         "SNO": 301,
+        "credits": 6,
         "branch": "ECO",
         "name": "ECONOMIC DATA ANALYSIS: METHODS AND COMPUTATIONAL ASPECTS(ECO613)",
         "code": "ECO613",
@@ -8590,6 +8891,7 @@
     },
     {
         "SNO": 302,
+        "credits": 9,
         "branch": "ECO",
         "name": "M SC THESIS(ECO699)",
         "code": "ECO699",
@@ -8610,6 +8912,7 @@
     },
     {
         "SNO": 303,
+        "credits": 9,
         "branch": "ECO",
         "name": "MACROECONOMICS(ECO702 )",
         "code": "ECO702 ",
@@ -8637,6 +8940,7 @@
     },
     {
         "SNO": 304,
+        "credits": 9,
         "branch": "ECO",
         "name": "QUANTITATIVE METHODS(ECO703)",
         "code": "ECO703",
@@ -8669,6 +8973,7 @@
     },
     {
         "SNO": 305,
+        "credits": 9,
         "branch": "ECO",
         "name": "INTERNATIONAL FINANCE AND INVESTMENT(ECO712)",
         "code": "ECO712",
@@ -8696,6 +9001,7 @@
     },
     {
         "SNO": 306,
+        "credits": 9,
         "branch": "ECO",
         "name": "ADVANCED TOPICS IN MICROECONOMICS(ECO713)",
         "code": "ECO713",
@@ -8723,6 +9029,7 @@
     },
     {
         "SNO": 307,
+        "credits": 9,
         "branch": "ECO",
         "name": "GAME THEORY APPLICATIONS(ECO714)",
         "code": "ECO714",
@@ -8755,6 +9062,7 @@
     },
     {
         "SNO": 308,
+        "credits": 9,
         "branch": "ECO",
         "name": "PRODUCTION ECONOMICS AND EFFICIENCY ANALYSIS(ECO741)",
         "code": "ECO741",
@@ -8782,6 +9090,7 @@
     },
     {
         "SNO": 309,
+        "credits": 9,
         "branch": "ECO",
         "name": "LABOUR ECONOMICS(ECO753)",
         "code": "ECO753",
@@ -8809,6 +9118,7 @@
     },
     {
         "SNO": 310,
+        "credits": 9,
         "branch": "ECO",
         "name": "CONTRACT THEORY(ECO755)",
         "code": "ECO755",
@@ -8836,6 +9146,7 @@
     },
     {
         "SNO": 311,
+        "credits": 9,
         "branch": "ECO",
         "name": "PROGRAMME EVALUATION: METHODS AND APPLICATIONS(ECO756)",
         "code": "ECO756",
@@ -8863,6 +9174,7 @@
     },
     {
         "SNO": 312,
+        "credits": 0,
         "branch": "ECO",
         "name": "PHD THESIS(ECO799)",
         "code": "ECO799",
@@ -8879,6 +9191,7 @@
     },
     {
         "SNO": 313,
+        "credits": 11,
         "branch": "EE",
         "name": "ANALOG ELECTRONICS(EE210)",
         "code": "EE210",
@@ -8917,6 +9230,7 @@
     },
     {
         "SNO": 314,
+        "credits": 11,
         "branch": "EE",
         "name": "CONTROL SYSTEMS ANALYSIS(EE250)",
         "code": "EE250",
@@ -8955,6 +9269,7 @@
     },
     {
         "SNO": 315,
+        "credits": 9,
         "branch": "EE",
         "name": "DIGITAL SIGNAL PROCESSING(EE301A)",
         "code": "EE301A",
@@ -8987,6 +9302,7 @@
     },
     {
         "SNO": 316,
+        "credits": 9,
         "branch": "EE",
         "name": "MICROELECTRONICS II(EE311A)",
         "code": "EE311A",
@@ -9019,6 +9335,7 @@
     },
     {
         "SNO": 317,
+        "credits": 9,
         "branch": "EE",
         "name": "COMMUNICATION SYSTEMS(EE321A)",
         "code": "EE321A",
@@ -9051,6 +9368,7 @@
     },
     {
         "SNO": 318,
+        "credits": 11,
         "branch": "EE",
         "name": "ELECTROMAGNETIC THEORY(EE340A)",
         "code": "EE340A",
@@ -9089,6 +9407,7 @@
     },
     {
         "SNO": 319,
+        "credits": 9,
         "branch": "EE",
         "name": "POWER ELECTRONICS(EE360A)",
         "code": "EE360A",
@@ -9121,6 +9440,7 @@
     },
     {
         "SNO": 320,
+        "credits": 12,
         "branch": "EE",
         "name": "ELECTRICAL ENGINEERING LABORATORY -II(EE381A)",
         "code": "EE381A",
@@ -9174,6 +9494,7 @@
     },
     {
         "SNO": 321,
+        "credits": 9,
         "branch": "EE",
         "name": "MATHEMATICAL STRUCTURES OF SIGNALS & SYSTEMS(EE600)",
         "code": "EE600",
@@ -9201,6 +9522,7 @@
     },
     {
         "SNO": 322,
+        "credits": 9,
         "branch": "EE",
         "name": "HIGH FREQUENCY ANALOG CIRCUIT DESIGN(EE613)",
         "code": "EE613",
@@ -9233,6 +9555,7 @@
     },
     {
         "SNO": 323,
+        "credits": 9,
         "branch": "EE",
         "name": "SOLAR PHOTOVOLTAIC TECHNOLOGIES(EE615)",
         "code": "EE615",
@@ -9260,6 +9583,7 @@
     },
     {
         "SNO": 324,
+        "credits": 9,
         "branch": "EE",
         "name": "OPTICAL COHERENT IMAGING(EE620)",
         "code": "EE620",
@@ -9287,6 +9611,7 @@
     },
     {
         "SNO": 325,
+        "credits": 9,
         "branch": "EE",
         "name": "DETECTION & ESTIMATION THEORY(EE623)",
         "code": "EE623",
@@ -9314,6 +9639,7 @@
     },
     {
         "SNO": 326,
+        "credits": 9,
         "branch": "EE",
         "name": "TOPICS IN STOCHASTIC PROCESSES(EE626)",
         "code": "EE626",
@@ -9341,6 +9667,7 @@
     },
     {
         "SNO": 327,
+        "credits": 9,
         "branch": "EE",
         "name": "ECONOMIC OPERATION & CONTROL OF POWER SYSTEMS(EE632)",
         "code": "EE632",
@@ -9368,6 +9695,7 @@
     },
     {
         "SNO": 328,
+        "credits": 9,
         "branch": "EE",
         "name": "ELECTRIC POWER SYSTEM OPERATION AND MGMT. UNDER RESTRUCTURED ENVIRONMENT(EE633)",
         "code": "EE633",
@@ -9395,6 +9723,7 @@
     },
     {
         "SNO": 329,
+        "credits": 9,
         "branch": "EE",
         "name": "ADVANCED RF ANTENNAS(EE638)",
         "code": "EE638",
@@ -9422,6 +9751,7 @@
     },
     {
         "SNO": 330,
+        "credits": 9,
         "branch": "EE",
         "name": "COMPUTATIONAL ELECTROMAGNETICS(EE640 )",
         "code": "EE640 ",
@@ -9454,6 +9784,7 @@
     },
     {
         "SNO": 331,
+        "credits": 9,
         "branch": "EE",
         "name": "ELECTROMAGNETIC INTERFERENCE AND COMPATIBILITY TECHNIQUES(EE644)",
         "code": "EE644",
@@ -9481,6 +9812,7 @@
     },
     {
         "SNO": 332,
+        "credits": 9,
         "branch": "EE",
         "name": "MICROWAVE CIRCUITS(EE648)",
         "code": "EE648",
@@ -9513,6 +9845,7 @@
     },
     {
         "SNO": 333,
+        "credits": 12,
         "branch": "EE",
         "name": "THE FINITE ELEMENT METHOD FOR ELECTRIC AND MAGNETIC FIELDS(EE649)",
         "code": "EE649",
@@ -9546,6 +9879,7 @@
     },
     {
         "SNO": 334,
+        "credits": 12,
         "branch": "EE",
         "name": "THE FINITE ELEMENT METHOD FOR ELECTRIC AND MAGNETIC FIELDS(EE649A)",
         "code": "EE649A",
@@ -9573,6 +9907,7 @@
     },
     {
         "SNO": 335,
+        "credits": 9,
         "branch": "EE",
         "name": "NONLINEAR SYSTEMS(EE651)",
         "code": "EE651",
@@ -9605,6 +9940,7 @@
     },
     {
         "SNO": 336,
+        "credits": 9,
         "branch": "EE",
         "name": "ROBUST CONTROL SYSTEMS(EE654)",
         "code": "EE654",
@@ -9632,6 +9968,7 @@
     },
     {
         "SNO": 337,
+        "credits": 12,
         "branch": "EE",
         "name": "ARTIFICIAL INTELLIGENCE MACHINE LEARNING DEEP LEARNING & ITS APPLICATIONS(EE656)",
         "code": "EE656",
@@ -9665,6 +10002,7 @@
     },
     {
         "SNO": 338,
+        "credits": 9,
         "branch": "EE",
         "name": "CONTROL TECHNIQUES IN POWER ELECTRONICS(EE662)",
         "code": "EE662",
@@ -9692,6 +10030,7 @@
     },
     {
         "SNO": 339,
+        "credits": 9,
         "branch": "EE",
         "name": "ANALYSIS OF MODERN WIRELESS NETWORKS(EE672)",
         "code": "EE672",
@@ -9719,6 +10058,7 @@
     },
     {
         "SNO": 340,
+        "credits": 9,
         "branch": "EE",
         "name": "INTRODUCTION TO REINFORCEMENT LEARNING(EE675)",
         "code": "EE675",
@@ -9746,6 +10086,7 @@
     },
     {
         "SNO": 341,
+        "credits": 9,
         "branch": "EE",
         "name": "COMPACT MODELING(EE681)",
         "code": "EE681",
@@ -9782,6 +10123,7 @@
     },
     {
         "SNO": 342,
+        "credits": 9,
         "branch": "EE",
         "name": "MEMORY TECHNOLOGY AND NEUROMORPHIC COMPUTING(EE687)",
         "code": "EE687",
@@ -9809,6 +10151,7 @@
     },
     {
         "SNO": 343,
+        "credits": 9,
         "branch": "EE",
         "name": "ANALYSIS & DESIGN OF NETWORKED DYNAMICAL SYSTEMS(EE689)",
         "code": "EE689",
@@ -9836,6 +10179,7 @@
     },
     {
         "SNO": 344,
+        "credits": 9,
         "branch": "EE",
         "name": "SMART GRID TECHNOLOGY APPLICATIONS(EE698B)",
         "code": "EE698B",
@@ -9868,6 +10212,7 @@
     },
     {
         "SNO": 345,
+        "credits": 9,
         "branch": "EE",
         "name": "PEER TO PEER NETWORKS(EE698C)",
         "code": "EE698C",
@@ -9900,6 +10245,7 @@
     },
     {
         "SNO": 346,
+        "credits": 9,
         "branch": "EE",
         "name": "CIRCUIT DESIGN FOR FREQUENCY & PHASE SYNTHESIS(EE698G)",
         "code": "EE698G",
@@ -9927,6 +10273,7 @@
     },
     {
         "SNO": 347,
+        "credits": 9,
         "branch": "EE",
         "name": "INTRODUCTION TO FLEXIBLE ELECTRONICS(EE698N)",
         "code": "EE698N",
@@ -9954,6 +10301,7 @@
     },
     {
         "SNO": 348,
+        "credits": 9,
         "branch": "EE",
         "name": "ADVANCED TOPICS IN MACHINE LEARNING(EE698R)",
         "code": "EE698R",
@@ -9981,6 +10329,7 @@
     },
     {
         "SNO": 349,
+        "credits": 9,
         "branch": "EE",
         "name": "HIGH VOLTAGE POWER TRANSMISSION ENGINEEERING(EE698S)",
         "code": "EE698S",
@@ -10008,6 +10357,7 @@
     },
     {
         "SNO": 350,
+        "credits": 9,
         "branch": "EE",
         "name": "INTRODUCTION TO QUANTUM OPTICS(EE698Y)",
         "code": "EE698Y",
@@ -10035,6 +10385,7 @@
     },
     {
         "SNO": 351,
+        "credits": 0,
         "branch": "EE",
         "name": "M TECH THESIS(EE699)",
         "code": "EE699",
@@ -10055,6 +10406,7 @@
     },
     {
         "SNO": 352,
+        "credits": 5,
         "branch": "EE",
         "name": "DATA STRUCTURES & ALGORITHMS FOR ELECTRICAL ENGINEERS(EE798B)",
         "code": "EE798B",
@@ -10082,6 +10434,7 @@
     },
     {
         "SNO": 353,
+        "credits": 9,
         "branch": "EE",
         "name": "MACHINE LEARNING FOR WIRELESS COMMUNICATIONS(EE798L)",
         "code": "EE798L",
@@ -10114,6 +10467,7 @@
     },
     {
         "SNO": 354,
+        "credits": 9,
         "branch": "EE",
         "name": "HIGH POWER CONVERTERS: DESIGN, CONTROL AND OPERATION(EE798M)",
         "code": "EE798M",
@@ -10146,6 +10500,7 @@
     },
     {
         "SNO": 355,
+        "credits": 9,
         "branch": "EE",
         "name": "UAV COMMUNICATIONS(EE798T)",
         "code": "EE798T",
@@ -10178,6 +10533,7 @@
     },
     {
         "SNO": 356,
+        "credits": 9,
         "branch": "EE",
         "name": "ADVANCED FIBER-OPTIC COMMUNICATIONS(EE798U)",
         "code": "EE798U",
@@ -10210,6 +10566,7 @@
     },
     {
         "SNO": 357,
+        "credits": 9,
         "branch": "EE",
         "name": "QUANTUM COMPUTING AND COMMUNICATION(EE798V)",
         "code": "EE798V",
@@ -10241,6 +10598,7 @@
     },
     {
         "SNO": 358,
+        "credits": 9,
         "branch": "EE",
         "name": "MATHEMATICAL OPTIMIZATION(EE798W)",
         "code": "EE798W",
@@ -10268,6 +10626,7 @@
     },
     {
         "SNO": 359,
+        "credits": 0,
         "branch": "EE",
         "name": "PHD THESIS(EE799)",
         "code": "EE799",
@@ -10284,6 +10643,7 @@
     },
     {
         "SNO": 360,
+        "credits": 0,
         "branch": "EE",
         "name": "MS - RESEARCH THESIS(EE899)",
         "code": "EE899",
@@ -10300,6 +10660,7 @@
     },
     {
         "SNO": 361,
+        "credits": 14,
         "branch": "EE",
         "name": "INTRODUCTION TO ELECTRONICS(ESC201)",
         "code": "ESC201",
@@ -10368,6 +10729,7 @@
     },
     {
         "SNO": 362,
+        "credits": 13,
         "branch": "EE",
         "name": "INTRODUCTION TO ELECTRICAL ENGINEERING(ESO203)",
         "code": "ESO203",
@@ -10427,6 +10789,7 @@
     },
     {
         "SNO": 363,
+        "credits": 9,
         "branch": "ES",
         "name": "FUNDAMENTALS OF GEOPHYSICS(ES204)",
         "code": "ES204",
@@ -10459,6 +10822,7 @@
     },
     {
         "SNO": 364,
+        "credits": 9,
         "branch": "ES",
         "name": "SEDIMENTOLOGY(ES205)",
         "code": "ES205",
@@ -10492,6 +10856,7 @@
     },
     {
         "SNO": 365,
+        "credits": 11,
         "branch": "ES",
         "name": "IGNEOUS & METAMORPHIC PETROLOGY(ES206)",
         "code": "ES206",
@@ -10530,6 +10895,7 @@
     },
     {
         "SNO": 366,
+        "credits": 4,
         "branch": "ES",
         "name": "FIELD GEOLOGY-I(ES207)",
         "code": "ES207",
@@ -10550,6 +10916,7 @@
     },
     {
         "SNO": 367,
+        "credits": 9,
         "branch": "ES",
         "name": "UNDER GRADUATE PROJECT -II(ES392A)",
         "code": "ES392A",
@@ -10566,6 +10933,7 @@
     },
     {
         "SNO": 368,
+        "credits": 9,
         "branch": "ES",
         "name": "UNDER GRADUATE PROJECT -IV(ES394A)",
         "code": "ES394A",
@@ -10582,6 +10950,7 @@
     },
     {
         "SNO": 369,
+        "credits": 6,
         "branch": "ES",
         "name": "GEOCHEMISTRY(ES413A)",
         "code": "ES413A",
@@ -10609,6 +10978,7 @@
     },
     {
         "SNO": 370,
+        "credits": 6,
         "branch": "ES",
         "name": "FIELD GEOLOGY II(ES414A)",
         "code": "ES414A",
@@ -10625,6 +10995,7 @@
     },
     {
         "SNO": 371,
+        "credits": 8,
         "branch": "ES",
         "name": "GEOLOGICAL REMOTE SENSING AND GIS(ES415A)",
         "code": "ES415A",
@@ -10658,6 +11029,7 @@
     },
     {
         "SNO": 372,
+        "credits": 8,
         "branch": "ES",
         "name": "EXPLORATION GEOPHYSICS(ES416A)",
         "code": "ES416A",
@@ -10695,6 +11067,7 @@
     },
     {
         "SNO": 373,
+        "credits": 4,
         "branch": "ES",
         "name": "FIELD GEOLOGY III(ES418A)",
         "code": "ES418A",
@@ -10711,6 +11084,7 @@
     },
     {
         "SNO": 374,
+        "credits": 6,
         "branch": "ES",
         "name": "HYDROLOGICAL SYSTEMS(ES419A)",
         "code": "ES419A",
@@ -10738,6 +11112,7 @@
     },
     {
         "SNO": 375,
+        "credits": 9,
         "branch": "ES",
         "name": "ENVIRONMENTAL GEOLOGY(ES451A)",
         "code": "ES451A",
@@ -10770,6 +11145,7 @@
     },
     {
         "SNO": 376,
+        "credits": 9,
         "branch": "ES",
         "name": "MICROSTRUCTURES IN EARTH SCIENCES(ES453A)",
         "code": "ES453A",
@@ -10803,6 +11179,7 @@
     },
     {
         "SNO": 377,
+        "credits": 9,
         "branch": "ES",
         "name": "SEDIMENTOLOGY AND BASIN ANALYSIS(ES653)",
         "code": "ES653",
@@ -10835,6 +11212,7 @@
     },
     {
         "SNO": 378,
+        "credits": 9,
         "branch": "ES",
         "name": "GEOPHYSICAL METHODS(ES656)",
         "code": "ES656",
@@ -10872,6 +11250,7 @@
     },
     {
         "SNO": 379,
+        "credits": 9,
         "branch": "ES",
         "name": "EXPERIMENTAL ROCK MECHANICS & ROCK PHYSICS(ES657)",
         "code": "ES657",
@@ -10905,6 +11284,7 @@
     },
     {
         "SNO": 380,
+        "credits": 9,
         "branch": "ES",
         "name": "PLANETARY REMOTE SENSING(ES661)",
         "code": "ES661",
@@ -10937,6 +11317,7 @@
     },
     {
         "SNO": 381,
+        "credits": 9,
         "branch": "ES",
         "name": "GEODYNAMICS(ES667)",
         "code": "ES667",
@@ -10969,6 +11350,7 @@
     },
     {
         "SNO": 382,
+        "credits": 9,
         "branch": "ES",
         "name": "MINERAL RESOURCE EXPLORATION(ES671)",
         "code": "ES671",
@@ -11001,6 +11383,7 @@
     },
     {
         "SNO": 383,
+        "credits": 0,
         "branch": "ES",
         "name": "M TECH THESIS(ES699)",
         "code": "ES699",
@@ -11021,6 +11404,7 @@
     },
     {
         "SNO": 384,
+        "credits": 0,
         "branch": "ES",
         "name": "PG SEMINAR IN EARTH SCIENCES(ES702)",
         "code": "ES702",
@@ -11037,6 +11421,7 @@
     },
     {
         "SNO": 385,
+        "credits": 0,
         "branch": "ES",
         "name": "PH D THESIS(ES799)",
         "code": "ES799",
@@ -11053,6 +11438,7 @@
     },
     {
         "SNO": 386,
+        "credits": 9,
         "branch": "HSS",
         "name": "ART CRITICISM: THEORY AND PRACTICE(ART406A)",
         "code": "ART406A",
@@ -11089,6 +11475,7 @@
     },
     {
         "SNO": 387,
+        "credits": 9,
         "branch": "HSS",
         "name": "AN INTRODUCTION TO THE JAPANESE & KOREAN CINEMATIC ART(ART410A)",
         "code": "ART410A",
@@ -11121,6 +11508,7 @@
     },
     {
         "SNO": 388,
+        "credits": 9,
         "branch": "HSS",
         "name": "STUDIO ART PRACTICES(ART703)",
         "code": "ART703",
@@ -11153,6 +11541,7 @@
     },
     {
         "SNO": 389,
+        "credits": 9,
         "branch": "HSS",
         "name": "VISUAL ETHNOGRAPHY(ART706)",
         "code": "ART706",
@@ -11185,6 +11574,7 @@
     },
     {
         "SNO": 390,
+        "credits": 9,
         "branch": "HSS",
         "name": "TOPICS IN INDIAN FOLK ART(ART709)",
         "code": "ART709",
@@ -11212,6 +11602,7 @@
     },
     {
         "SNO": 391,
+        "credits": 11,
         "branch": "HSS",
         "name": "LEARNING ENGLISH AS A SECOND LANGUAGE(ENG113)",
         "code": "ENG113",
@@ -11254,6 +11645,7 @@
     },
     {
         "SNO": 392,
+        "credits": 9,
         "branch": "HSS",
         "name": "A LINGUISTIC HISTORY OF INDIA(ENG401A)",
         "code": "ENG401A",
@@ -11286,6 +11678,7 @@
     },
     {
         "SNO": 393,
+        "credits": 9,
         "branch": "HSS",
         "name": "CURRENT ISSUES IN LINGUISTICS(ENG423A)",
         "code": "ENG423A",
@@ -11318,6 +11711,7 @@
     },
     {
         "SNO": 394,
+        "credits": 9,
         "branch": "HSS",
         "name": "MODERN DRAMA(ENG433A)",
         "code": "ENG433A",
@@ -11350,6 +11744,7 @@
     },
     {
         "SNO": 395,
+        "credits": 9,
         "branch": "HSS",
         "name": "THE WRITERS VISION OF THE FUTURE(ENG436A)",
         "code": "ENG436A",
@@ -11382,6 +11777,7 @@
     },
     {
         "SNO": 396,
+        "credits": 9,
         "branch": "HSS",
         "name": "INDIAN LITERATURE(ENG437A)",
         "code": "ENG437A",
@@ -11414,6 +11810,7 @@
     },
     {
         "SNO": 397,
+        "credits": 9,
         "branch": "HSS",
         "name": "POSTCOLONIAL LITERATURE(ENG438A)",
         "code": "ENG438A",
@@ -11446,6 +11843,7 @@
     },
     {
         "SNO": 398,
+        "credits": 9,
         "branch": "HSS",
         "name": "LANGUAGES OF SOUTH ASIA(ENG448A)",
         "code": "ENG448A",
@@ -11478,6 +11876,7 @@
     },
     {
         "SNO": 399,
+        "credits": 9,
         "branch": "HSS",
         "name": "WORLD CINEMA AFTER WORLD WAR II(ENG466A)",
         "code": "ENG466A",
@@ -11510,6 +11909,7 @@
     },
     {
         "SNO": 400,
+        "credits": 9,
         "branch": "HSS",
         "name": "SYNTAX AND STRUCTURES OF LANGUAGE(ENG467A)",
         "code": "ENG467A",
@@ -11542,6 +11942,7 @@
     },
     {
         "SNO": 401,
+        "credits": 9,
         "branch": "HSS",
         "name": "INTRODUCTION TO INDIAN ENGLISH AUTOBIOGRAPHY(ENG611)",
         "code": "ENG611",
@@ -11569,6 +11970,7 @@
     },
     {
         "SNO": 402,
+        "credits": 9,
         "branch": "HSS",
         "name": "FUNDAMENTALS OF MODERN LINGUISTICS(ENG701)",
         "code": "ENG701",
@@ -11596,6 +11998,7 @@
     },
     {
         "SNO": 403,
+        "credits": 9,
         "branch": "HSS",
         "name": "LANGUAGE CURRICULUM DESIGN(ENG707)",
         "code": "ENG707",
@@ -11628,6 +12031,7 @@
     },
     {
         "SNO": 404,
+        "credits": 9,
         "branch": "HSS",
         "name": "LINGUISTIC ANALYSIS(ENG709)",
         "code": "ENG709",
@@ -11655,6 +12059,7 @@
     },
     {
         "SNO": 405,
+        "credits": 9,
         "branch": "HSS",
         "name": "FORM FOCUSSED INSTRUCTION IN ESL CONTEXTS(ENG713)",
         "code": "ENG713",
@@ -11682,6 +12087,7 @@
     },
     {
         "SNO": 406,
+        "credits": 9,
         "branch": "HSS",
         "name": "INDIVIDUAL PROJECTS(ENG716)",
         "code": "ENG716",
@@ -11709,6 +12115,7 @@
     },
     {
         "SNO": 407,
+        "credits": 9,
         "branch": "HSS",
         "name": "SEMINAR IN LINGUISTICS(ENG717)",
         "code": "ENG717",
@@ -11736,6 +12143,7 @@
     },
     {
         "SNO": 408,
+        "credits": 9,
         "branch": "HSS",
         "name": "RESPONSBILE DISSENT(ENG742)",
         "code": "ENG742",
@@ -11768,6 +12176,7 @@
     },
     {
         "SNO": 409,
+        "credits": 9,
         "branch": "HSS",
         "name": "POSTMODERN THEORY AND LITERATURE(ENG749)",
         "code": "ENG749",
@@ -11795,6 +12204,7 @@
     },
     {
         "SNO": 410,
+        "credits": 9,
         "branch": "HSS",
         "name": "POSTWAR AMERICAN FICTION(ENG750)",
         "code": "ENG750",
@@ -11822,6 +12232,7 @@
     },
     {
         "SNO": 411,
+        "credits": 9,
         "branch": "HSS",
         "name": "HISTORY OF LINGUISTIC THOUGHT(ENG759)",
         "code": "ENG759",
@@ -11854,6 +12265,7 @@
     },
     {
         "SNO": 412,
+        "credits": 0,
         "branch": "HSS",
         "name": "PHD THESIS(ENG799)",
         "code": "ENG799",
@@ -11870,6 +12282,7 @@
     },
     {
         "SNO": 413,
+        "credits": 3,
         "branch": "HSS",
         "name": "INTRODUCTION TO PROFESSION AND COMMUNICATION SKILLS(ENG888)",
         "code": "ENG888",
@@ -11892,6 +12305,7 @@
     },
     {
         "SNO": 414,
+        "credits": 0,
         "branch": "HSS",
         "name": "PHD THESIS(FA799)",
         "code": "FA799",
@@ -11908,6 +12322,7 @@
     },
     {
         "SNO": 415,
+        "credits": 3,
         "branch": "HSS",
         "name": "INTRODUCTION TO PROFESSION AND COMMUNICATION SKILL IN FINE ARTS(FA888)",
         "code": "FA888",
@@ -11930,6 +12345,7 @@
     },
     {
         "SNO": 416,
+        "credits": 9,
         "branch": "HSS",
         "name": "SOFT SKILLS AND PERSONALITY DEVELOPMENT(HSS401A)",
         "code": "HSS401A",
@@ -11962,6 +12378,7 @@
     },
     {
         "SNO": 417,
+        "credits": 9,
         "branch": "HSS",
         "name": "LITERATURE AND PROFESSION(HSS405A)",
         "code": "HSS405A",
@@ -11994,6 +12411,7 @@
     },
     {
         "SNO": 418,
+        "credits": 11,
         "branch": "HSS",
         "name": "INTRODUCTION TO INDIAN PHILOSOPHY(PHI140)",
         "code": "PHI140",
@@ -12036,6 +12454,7 @@
     },
     {
         "SNO": 419,
+        "credits": 9,
         "branch": "HSS",
         "name": "PHILOSOPHY OF SCIENCE(PHI446A)",
         "code": "PHI446A",
@@ -12068,6 +12487,7 @@
     },
     {
         "SNO": 420,
+        "credits": 9,
         "branch": "HSS",
         "name": "MORAL THINKING(PHI447A)",
         "code": "PHI447A",
@@ -12100,6 +12520,7 @@
     },
     {
         "SNO": 421,
+        "credits": 9,
         "branch": "HSS",
         "name": "EXISTENTIALISM(PHI481A)",
         "code": "PHI481A",
@@ -12132,6 +12553,7 @@
     },
     {
         "SNO": 422,
+        "credits": 9,
         "branch": "HSS",
         "name": "ADVANCED TOPICS IN PHILOSOPHY OF SCIENCE(PHI755)",
         "code": "PHI755",
@@ -12159,6 +12581,7 @@
     },
     {
         "SNO": 423,
+        "credits": 9,
         "branch": "HSS",
         "name": "MORAL JUDGEMENT(PHI757)",
         "code": "PHI757",
@@ -12186,6 +12609,7 @@
     },
     {
         "SNO": 424,
+        "credits": 9,
         "branch": "HSS",
         "name": "CONTEMPORARY EPISTEMOLOGY I(PHI758)",
         "code": "PHI758",
@@ -12213,6 +12637,7 @@
     },
     {
         "SNO": 425,
+        "credits": 9,
         "branch": "HSS",
         "name": "PHILOSOPHY OF MIND(PHI775)",
         "code": "PHI775",
@@ -12240,6 +12665,7 @@
     },
     {
         "SNO": 426,
+        "credits": 0,
         "branch": "HSS",
         "name": "PHD THESIS(PHI799)",
         "code": "PHI799",
@@ -12256,6 +12682,7 @@
     },
     {
         "SNO": 427,
+        "credits": 3,
         "branch": "HSS",
         "name": "INTRODUCTION TO PROFESSION AND COMMUNICATION SKILLS(PHI888)",
         "code": "PHI888",
@@ -12278,6 +12705,7 @@
     },
     {
         "SNO": 428,
+        "credits": 9,
         "branch": "HSS",
         "name": "SOCIAL COGNITION(PSY468A)",
         "code": "PSY468A",
@@ -12310,6 +12738,7 @@
     },
     {
         "SNO": 429,
+        "credits": 9,
         "branch": "HSS",
         "name": "PSYCHOLOGY OF WELLBEING(PSY470A)",
         "code": "PSY470A",
@@ -12342,6 +12771,7 @@
     },
     {
         "SNO": 430,
+        "credits": 9,
         "branch": "HSS",
         "name": "SELECTED TOPICS IN PSYCHOLOGY(PSY777)",
         "code": "PSY777",
@@ -12369,6 +12799,7 @@
     },
     {
         "SNO": 431,
+        "credits": 9,
         "branch": "HSS",
         "name": "DISASTER MENTAL HEALTH(PSY794)",
         "code": "PSY794",
@@ -12396,6 +12827,7 @@
     },
     {
         "SNO": 432,
+        "credits": 0,
         "branch": "HSS",
         "name": "PHD THESIS(PSY799)",
         "code": "PSY799",
@@ -12412,6 +12844,7 @@
     },
     {
         "SNO": 433,
+        "credits": 3,
         "branch": "HSS",
         "name": "INTRODUCTION TO PROFESSION AND COMMUNICATION SKILLS(PSY888)",
         "code": "PSY888",
@@ -12439,6 +12872,7 @@
     },
     {
         "SNO": 434,
+        "credits": 11,
         "branch": "HSS",
         "name": "INTRODUCTORY SOCIOLOGY(SOC171)",
         "code": "SOC171",
@@ -12481,6 +12915,7 @@
     },
     {
         "SNO": 435,
+        "credits": 9,
         "branch": "HSS",
         "name": "INDIAN SOCIETY AND CULTURE(SOC473A)",
         "code": "SOC473A",
@@ -12513,6 +12948,7 @@
     },
     {
         "SNO": 436,
+        "credits": 9,
         "branch": "HSS",
         "name": "ENVIRONMENTAL SOCIOLOGY(SOC475A)",
         "code": "SOC475A",
@@ -12545,6 +12981,7 @@
     },
     {
         "SNO": 437,
+        "credits": 9,
         "branch": "HSS",
         "name": "CONTEMPORARY APPLICATIONS OF SOCIAL DEMOGRAPHY(SOC476A)",
         "code": "SOC476A",
@@ -12577,6 +13014,7 @@
     },
     {
         "SNO": 438,
+        "credits": 9,
         "branch": "HSS",
         "name": "SOCIOLOGY OF THE NEW MEDIA(SOC484A)",
         "code": "SOC484A",
@@ -12609,6 +13047,7 @@
     },
     {
         "SNO": 439,
+        "credits": 9,
         "branch": "HSS",
         "name": "HUMAN RIGHTS THEORY AND PRACTICE(SOC486A)",
         "code": "SOC486A",
@@ -12641,6 +13080,7 @@
     },
     {
         "SNO": 440,
+        "credits": 9,
         "branch": "HSS",
         "name": "METHODS OF SOCIOLOGICAL RESEARCH(SOC751)",
         "code": "SOC751",
@@ -12672,6 +13112,7 @@
     },
     {
         "SNO": 441,
+        "credits": 9,
         "branch": "HSS",
         "name": "LAW AND SOCIAL CHANGE(SOC757)",
         "code": "SOC757",
@@ -12703,6 +13144,7 @@
     },
     {
         "SNO": 442,
+        "credits": 0,
         "branch": "HSS",
         "name": "PHD THESIS(SOC799)",
         "code": "SOC799",
@@ -12719,6 +13161,7 @@
     },
     {
         "SNO": 443,
+        "credits": 3,
         "branch": "HSS",
         "name": "INTRODUCTION TO PROFESSION AND COMMUNICATION SKILLS(SOC888)",
         "code": "SOC888",
@@ -12750,6 +13193,7 @@
     },
     {
         "SNO": 444,
+        "credits": 0,
         "branch": "IME",
         "name": "SEMINAR(IME698)",
         "code": "IME698",
@@ -12766,6 +13210,7 @@
     },
     {
         "SNO": 445,
+        "credits": 0,
         "branch": "IME",
         "name": "M TECH THESIS(IME699)",
         "code": "IME699",
@@ -12786,6 +13231,7 @@
     },
     {
         "SNO": 446,
+        "credits": 0,
         "branch": "IME",
         "name": "PHD THESIS(IME799)",
         "code": "IME799",
@@ -12802,6 +13248,7 @@
     },
     {
         "SNO": 447,
+        "credits": 0,
         "branch": "IME",
         "name": "MANAGEMENT SEMINARS(MBA698)",
         "code": "MBA698",
@@ -12818,6 +13265,7 @@
     },
     {
         "SNO": 448,
+        "credits": 11,
         "branch": "ME",
         "name": "THERMODYNAMICS(ESO201 )",
         "code": "ESO201 ",
@@ -12856,6 +13304,7 @@
     },
     {
         "SNO": 449,
+        "credits": 6,
         "branch": "ME",
         "name": "NATURE AND PROPERTIES OF MATERIALS(ME222)",
         "code": "ME222",
@@ -12883,6 +13332,7 @@
     },
     {
         "SNO": 450,
+        "credits": 8,
         "branch": "ME",
         "name": "FLUID MECHANICS(ME231)",
         "code": "ME231",
@@ -12916,6 +13366,7 @@
     },
     {
         "SNO": 451,
+        "credits": 10,
         "branch": "ME",
         "name": "FLUID MECHANICS(ME231A)",
         "code": "ME231A",
@@ -12948,6 +13399,7 @@
     },
     {
         "SNO": 452,
+        "credits": 9,
         "branch": "ME",
         "name": "THEORY OF MECHANISMS AND MACHINES(ME252)",
         "code": "ME252",
@@ -12980,6 +13432,7 @@
     },
     {
         "SNO": 453,
+        "credits": 7,
         "branch": "ME",
         "name": "PRIMARY MANUFACTURING PROCESSES(ME261)",
         "code": "ME261",
@@ -13013,6 +13466,7 @@
     },
     {
         "SNO": 454,
+        "credits": 10,
         "branch": "ME",
         "name": "HEAT & MASS TRANSFER(ME341A)",
         "code": "ME341A",
@@ -13056,6 +13510,7 @@
     },
     {
         "SNO": 455,
+        "credits": 8,
         "branch": "ME",
         "name": "DESIGN OF MACHINE ELEMENTS(ME351A)",
         "code": "ME351A",
@@ -13089,6 +13544,7 @@
     },
     {
         "SNO": 456,
+        "credits": 10,
         "branch": "ME",
         "name": "VIBRATION & CONTROL(ME354A)",
         "code": "ME354A",
@@ -13132,6 +13588,7 @@
     },
     {
         "SNO": 457,
+        "credits": 9,
         "branch": "ME",
         "name": "MANUFACTURING SYSTEMS(ME461A)",
         "code": "ME461A",
@@ -13168,6 +13625,7 @@
     },
     {
         "SNO": 458,
+        "credits": 9,
         "branch": "ME",
         "name": "INTRODUCTION TO CONTINUUM MECHANICS(ME622)",
         "code": "ME622",
@@ -13195,6 +13653,7 @@
     },
     {
         "SNO": 459,
+        "credits": 9,
         "branch": "ME",
         "name": "FINITE ELEMENT METHODS IN ENGINEERING MECHANICS(ME623)",
         "code": "ME623",
@@ -13227,6 +13686,7 @@
     },
     {
         "SNO": 460,
+        "credits": 9,
         "branch": "ME",
         "name": "COMPUTATIONAL FLUID DYNAMICS AND HEAT TRANSFER(ME630)",
         "code": "ME630",
@@ -13254,6 +13714,7 @@
     },
     {
         "SNO": 461,
+        "credits": 9,
         "branch": "ME",
         "name": "VISCOUS FLOW THEORY(ME631)",
         "code": "ME631",
@@ -13281,6 +13742,7 @@
     },
     {
         "SNO": 462,
+        "credits": 9,
         "branch": "ME",
         "name": "GEOPHYSICAL AND FLUID DYNAMICS(ME632)",
         "code": "ME632",
@@ -13308,6 +13770,7 @@
     },
     {
         "SNO": 463,
+        "credits": 9,
         "branch": "ME",
         "name": "ADVANCED COMPUTATIONAL FLUID DYNAMICS(ME634)",
         "code": "ME634",
@@ -13335,6 +13798,7 @@
     },
     {
         "SNO": 464,
+        "credits": 9,
         "branch": "ME",
         "name": "LIQUID VAPOUR PHASE CHANGE PHENOMENA(ME639)",
         "code": "ME639",
@@ -13367,6 +13831,7 @@
     },
     {
         "SNO": 465,
+        "credits": 9,
         "branch": "ME",
         "name": "CONVECTIVE HEAT AND MASS TRANSFER(ME642)",
         "code": "ME642",
@@ -13394,6 +13859,7 @@
     },
     {
         "SNO": 466,
+        "credits": 9,
         "branch": "ME",
         "name": "SOLAR ENERGY TECHNOLOGY(ME645)",
         "code": "ME645",
@@ -13421,6 +13887,7 @@
     },
     {
         "SNO": 467,
+        "credits": 9,
         "branch": "ME",
         "name": "INTRODUCTION TO TURBULENT FLUID MECHANICS(ME647)",
         "code": "ME647",
@@ -13453,6 +13920,7 @@
     },
     {
         "SNO": 468,
+        "credits": 9,
         "branch": "ME",
         "name": "EXPERIMENTAL METHODS IN THERMAL SCIENCES(ME649)",
         "code": "ME649",
@@ -13485,6 +13953,7 @@
     },
     {
         "SNO": 469,
+        "credits": 9,
         "branch": "ME",
         "name": "MOLECULAR SIMULATIONS IN MECHANICAL ENGINEERING(ME653)",
         "code": "ME653",
@@ -13512,6 +13981,7 @@
     },
     {
         "SNO": 470,
+        "credits": 9,
         "branch": "ME",
         "name": "MICROMANUFACTURING PROCESSES(ME672)",
         "code": "ME672",
@@ -13539,6 +14009,7 @@
     },
     {
         "SNO": 471,
+        "credits": 9,
         "branch": "ME",
         "name": "NON - LINEAR FINITE ELEMENT METHODS IN SOLID MECHANICS(ME676)",
         "code": "ME676",
@@ -13571,6 +14042,7 @@
     },
     {
         "SNO": 472,
+        "credits": 9,
         "branch": "ME",
         "name": "DAMAGE MECHANICS OF COMPOSITE MATERIALS(ME679)",
         "code": "ME679",
@@ -13598,6 +14070,7 @@
     },
     {
         "SNO": 473,
+        "credits": 9,
         "branch": "ME",
         "name": "MATHEMATICS FOR ENGINEERS(ME681)",
         "code": "ME681",
@@ -13630,6 +14103,7 @@
     },
     {
         "SNO": 474,
+        "credits": 9,
         "branch": "ME",
         "name": "DIFFERENCE EQUATIONS FOR ENGINEERS(ME682)",
         "code": "ME682",
@@ -13657,6 +14131,7 @@
     },
     {
         "SNO": 475,
+        "credits": 9,
         "branch": "ME",
         "name": "TECHNIQUES IN NON- DESTRUCTIVE EVALUATION(ME683)",
         "code": "ME683",
@@ -13684,6 +14159,7 @@
     },
     {
         "SNO": 476,
+        "credits": 9,
         "branch": "ME",
         "name": "APPLIED NUMERICAL METHODS(ME685)",
         "code": "ME685",
@@ -13716,6 +14192,7 @@
     },
     {
         "SNO": 477,
+        "credits": 9,
         "branch": "ME",
         "name": "ALTERNATIVE FUELS & ADVANCE IN IC ENGINES(ME690)",
         "code": "ME690",
@@ -13748,6 +14225,7 @@
     },
     {
         "SNO": 478,
+        "credits": 9,
         "branch": "ME",
         "name": "WELDING TECHNOLOGY(ME692)",
         "code": "ME692",
@@ -13775,6 +14253,7 @@
     },
     {
         "SNO": 479,
+        "credits": 9,
         "branch": "ME",
         "name": "ENGINE DESIGN(ME698F)",
         "code": "ME698F",
@@ -13802,6 +14281,7 @@
     },
     {
         "SNO": 480,
+        "credits": 0,
         "branch": "ME",
         "name": "M TECH THESIS(ME699)",
         "code": "ME699",
@@ -13822,6 +14302,7 @@
     },
     {
         "SNO": 481,
+        "credits": 9,
         "branch": "ME",
         "name": "THEORY OF PLASTICITY(ME721)",
         "code": "ME721",
@@ -13849,6 +14330,7 @@
     },
     {
         "SNO": 482,
+        "credits": 9,
         "branch": "ME",
         "name": "WAVE PROPAGATION IN SOLIDS(ME723)",
         "code": "ME723",
@@ -13876,6 +14358,7 @@
     },
     {
         "SNO": 483,
+        "credits": 9,
         "branch": "ME",
         "name": "FRACTURE AND FATIGUE(ME728)",
         "code": "ME728",
@@ -13903,6 +14386,7 @@
     },
     {
         "SNO": 484,
+        "credits": 9,
         "branch": "ME",
         "name": "MODELLING OF MECHANICAL PROPERTIES OF MATERIALS(ME729)",
         "code": "ME729",
@@ -13935,6 +14419,7 @@
     },
     {
         "SNO": 485,
+        "credits": 9,
         "branch": "ME",
         "name": "OPTIMIZATION METHODS IN ENGINEERING DESIGN(ME752)",
         "code": "ME752",
@@ -13967,6 +14452,7 @@
     },
     {
         "SNO": 486,
+        "credits": 9,
         "branch": "ME",
         "name": "DYNAMICS OF ROTATING MACHINERY(ME757)",
         "code": "ME757",
@@ -13994,6 +14480,7 @@
     },
     {
         "SNO": 487,
+        "credits": 9,
         "branch": "ME",
         "name": "ROBOT MANIPULATORS: DYNAMICS AND CONTROL(ME763)",
         "code": "ME763",
@@ -14021,6 +14508,7 @@
     },
     {
         "SNO": 488,
+        "credits": 9,
         "branch": "ME",
         "name": "ROBOT MOTION PLANNING(ME766)",
         "code": "ME766",
@@ -14048,6 +14536,7 @@
     },
     {
         "SNO": 489,
+        "credits": 9,
         "branch": "ME",
         "name": "MATERIALS SELECTION IN MECHANICAL DESIGN(ME770)",
         "code": "ME770",
@@ -14075,6 +14564,7 @@
     },
     {
         "SNO": 490,
+        "credits": 9,
         "branch": "ME",
         "name": "SMART MATERIALS AND STRUCTURE(ME771)",
         "code": "ME771",
@@ -14102,6 +14592,7 @@
     },
     {
         "SNO": 491,
+        "credits": 9,
         "branch": "ME",
         "name": "BIOMEMS AND MICROSYSTEMS TECHNOLOGY(ME774)",
         "code": "ME774",
@@ -14129,6 +14620,7 @@
     },
     {
         "SNO": 492,
+        "credits": 0,
         "branch": "ME",
         "name": "PHD THESIS(ME799)",
         "code": "ME799",
@@ -14145,6 +14637,7 @@
     },
     {
         "SNO": 493,
+        "credits": 9,
         "branch": "ME",
         "name": "COMPLIANT MECHANISMS(ME851)",
         "code": "ME851",
@@ -14172,6 +14665,7 @@
     },
     {
         "SNO": 494,
+        "credits": 0,
         "branch": "ME",
         "name": "MS - RESEARCH THESIS(ME899)",
         "code": "ME899",
@@ -14188,6 +14682,7 @@
     },
     {
         "SNO": 495,
+        "credits": 3,
         "branch": "ME",
         "name": "MANUFACTURING PROCESSES II(TA212)",
         "code": "TA212",
@@ -14215,6 +14710,7 @@
     },
     {
         "SNO": 496,
+        "credits": 11,
         "branch": "MSE",
         "name": "RATE PROCESSES(MSE202)",
         "code": "MSE202",
@@ -14253,6 +14749,7 @@
     },
     {
         "SNO": 497,
+        "credits": 11,
         "branch": "MSE",
         "name": "STRUCTURE & CHARACTERIZATION OF MATERIALS(MSE203)",
         "code": "MSE203",
@@ -14295,6 +14792,7 @@
     },
     {
         "SNO": 498,
+        "credits": 6,
         "branch": "MSE",
         "name": "INTRODUCTION OF BIOMATERIALS(MSE204A)",
         "code": "MSE204A",
@@ -14327,6 +14825,7 @@
     },
     {
         "SNO": 499,
+        "credits": 8,
         "branch": "MSE",
         "name": "PHYSICS OF MATERIALS(MSE205)",
         "code": "MSE205",
@@ -14360,6 +14859,7 @@
     },
     {
         "SNO": 500,
+        "credits": 3,
         "branch": "MSE",
         "name": "PHYSICAL METALLURGY AND MATERIALS CHARACTERIZATION LABORATORY(MSE251)",
         "code": "MSE251",
@@ -14391,6 +14891,7 @@
     },
     {
         "SNO": 501,
+        "credits": 6,
         "branch": "MSE",
         "name": "PRINCIPLES OF METAL EXTRACTION & REFINING(MSE304A)",
         "code": "MSE304A",
@@ -14418,6 +14919,7 @@
     },
     {
         "SNO": 502,
+        "credits": 6,
         "branch": "MSE",
         "name": "MATERIALS PROCESSING(MSE305A)",
         "code": "MSE305A",
@@ -14445,6 +14947,7 @@
     },
     {
         "SNO": 503,
+        "credits": 3,
         "branch": "MSE",
         "name": "FUNCTIONAL MATERIALS LABORATORY(MSE312A)",
         "code": "MSE312A",
@@ -14476,6 +14979,7 @@
     },
     {
         "SNO": 504,
+        "credits": 3,
         "branch": "MSE",
         "name": "PROCESS ENGINEERING LABORATORY(MSE314A)",
         "code": "MSE314A",
@@ -14503,6 +15007,7 @@
     },
     {
         "SNO": 505,
+        "credits": 3,
         "branch": "MSE",
         "name": "MANUFACTURING PROCESSES LABORATORY(MSE315A)",
         "code": "MSE315A",
@@ -14530,6 +15035,7 @@
     },
     {
         "SNO": 506,
+        "credits": 3,
         "branch": "MSE",
         "name": "INSTRUMENTATION FOR MATERIALS ENGINEERING LABORATORY(MSE353A)",
         "code": "MSE353A",
@@ -14556,6 +15062,7 @@
     },
     {
         "SNO": 507,
+        "credits": 9,
         "branch": "MSE",
         "name": "IRON AND STEEL MAKING(MSE421)",
         "code": "MSE421",
@@ -14588,6 +15095,7 @@
     },
     {
         "SNO": 508,
+        "credits": 9,
         "branch": "MSE",
         "name": "SCIENCE AND TECHNOLOGY OF THIN FILMS AND DEVICE FABRICATION(MSE604)",
         "code": "MSE604",
@@ -14620,6 +15128,7 @@
     },
     {
         "SNO": 509,
+        "credits": 9,
         "branch": "MSE",
         "name": "THERMODYNAMICS OF MATERIALS(MSE616)",
         "code": "MSE616",
@@ -14652,6 +15161,7 @@
     },
     {
         "SNO": 510,
+        "credits": 9,
         "branch": "MSE",
         "name": "MATHEMATICS AND COMPUTATIONAL METHODS(MSE617)",
         "code": "MSE617",
@@ -14684,6 +15194,7 @@
     },
     {
         "SNO": 511,
+        "credits": 9,
         "branch": "MSE",
         "name": "ENERGY MATERIALS AND TECHNOLOGIES(MSE624)",
         "code": "MSE624",
@@ -14716,6 +15227,7 @@
     },
     {
         "SNO": 512,
+        "credits": 9,
         "branch": "MSE",
         "name": "ELECTROCERAMIC MATERIALS AND APPLICATIONS(MSE631)",
         "code": "MSE631",
@@ -14743,6 +15255,7 @@
     },
     {
         "SNO": 513,
+        "credits": 9,
         "branch": "MSE",
         "name": "SYMMETRY AND PROPERTIES OF CRYSTALS(MSE638)",
         "code": "MSE638",
@@ -14770,6 +15283,7 @@
     },
     {
         "SNO": 514,
+        "credits": 9,
         "branch": "MSE",
         "name": "INTERFACES AND MATERIALS PROPERTIES(MSE639)",
         "code": "MSE639",
@@ -14802,6 +15316,7 @@
     },
     {
         "SNO": 515,
+        "credits": 9,
         "branch": "MSE",
         "name": "SELECTION AND DESIGNING WITH ENGINEERING MATERIALS(MSE667)",
         "code": "MSE667",
@@ -14829,6 +15344,7 @@
     },
     {
         "SNO": 516,
+        "credits": 9,
         "branch": "MSE",
         "name": "MATERIALS FAILURE: ANALYSIS AND PREVENTION(MSE676)",
         "code": "MSE676",
@@ -14856,6 +15372,7 @@
     },
     {
         "SNO": 517,
+        "credits": 9,
         "branch": "MSE",
         "name": "COMPUTER SIMULATIONS IN MATERIALS SCIENCE(MSE682)",
         "code": "MSE682",
@@ -14888,6 +15405,7 @@
     },
     {
         "SNO": 518,
+        "credits": 9,
         "branch": "MSE",
         "name": "INTRODUCTION TO ADVANCED MICROELECTRONICS PACKAGING(MSE684)",
         "code": "MSE684",
@@ -14915,6 +15433,7 @@
     },
     {
         "SNO": 519,
+        "credits": 0,
         "branch": "MSE",
         "name": "M.TECH THESIS(MSE699)",
         "code": "MSE699",
@@ -14935,6 +15454,7 @@
     },
     {
         "SNO": 520,
+        "credits": 0,
         "branch": "MSE",
         "name": "PH D THESIS(MSE799)",
         "code": "MSE799",
@@ -14951,6 +15471,7 @@
     },
     {
         "SNO": 521,
+        "credits": 6,
         "branch": "MSE",
         "name": "INTRODUCTION TO PROFESSIONAL AND COMMUNICATION SKILLS(MSE888)",
         "code": "MSE888",
@@ -14978,6 +15499,7 @@
     },
     {
         "SNO": 522,
+        "credits": 6,
         "branch": "MSE",
         "name": "MANUFACTURING PROCESSES I(TA201A)",
         "code": "TA201A",
@@ -15011,6 +15533,7 @@
     },
     {
         "SNO": 523,
+        "credits": 3,
         "branch": "MSE",
         "name": "MANUFACTURING PROCESSES I(TA211)",
         "code": "TA211",
@@ -15038,6 +15561,7 @@
     },
     {
         "SNO": 524,
+        "credits": 5,
         "branch": "MSP",
         "name": "CHARACTERIZATION OF MATERIALS(MS604)",
         "code": "MS604",
@@ -15070,6 +15594,7 @@
     },
     {
         "SNO": 525,
+        "credits": 9,
         "branch": "MSP",
         "name": "MATERIALS ENGINEERING(MS605)",
         "code": "MS605",
@@ -15110,6 +15635,7 @@
     },
     {
         "SNO": 526,
+        "credits": 0,
         "branch": "MSP",
         "name": "GRADUATE SEMINAR(MS698)",
         "code": "MS698",
@@ -15126,6 +15652,7 @@
     },
     {
         "SNO": 527,
+        "credits": 0,
         "branch": "MSP",
         "name": "M TECH THESIS(MS699)",
         "code": "MS699",
@@ -15146,6 +15673,7 @@
     },
     {
         "SNO": 528,
+        "credits": 0,
         "branch": "MSP",
         "name": "PHD THESIS(MS799)",
         "code": "MS799",
@@ -15162,6 +15690,7 @@
     },
     {
         "SNO": 529,
+        "credits": 3,
         "branch": "MSP",
         "name": "INTRODUCTION TO PROFESSION AND COMMUNICATION SKILLS FOR MATERIAL SCIENTISTS(MS888)",
         "code": "MS888",
@@ -15198,6 +15727,7 @@
     },
     {
         "SNO": 530,
+        "credits": 9,
         "branch": "MTH",
         "name": "COMPUTABILITY THEORY(IDC608)",
         "code": "IDC608",
@@ -15225,6 +15755,7 @@
     },
     {
         "SNO": 531,
+        "credits": 11,
         "branch": "MTH",
         "name": "PROBABILITY AND STATISTICS(MSO201)",
         "code": "MSO201",
@@ -15263,6 +15794,7 @@
     },
     {
         "SNO": 532,
+        "credits": 11,
         "branch": "MTH",
         "name": "MATHEMATICS I(MTH101A)",
         "code": "MTH101A",
@@ -15305,6 +15837,7 @@
     },
     {
         "SNO": 533,
+        "credits": 11,
         "branch": "MTH",
         "name": "MATHEMATICS - II(MTH102A)/A",
         "code": "MTH102A",
@@ -15347,6 +15880,7 @@
     },
     {
         "SNO": 534,
+        "credits": 11,
         "branch": "MTH",
         "name": "MATHEMATICS - II(MTH102A)/C",
         "code": "MTH102A",
@@ -15389,6 +15923,7 @@
     },
     {
         "SNO": 535,
+        "credits": 6,
         "branch": "MTH",
         "name": "SINGLE VARIABLE CALCULUS(MTH111M)",
         "code": "MTH111M",
@@ -15427,6 +15962,7 @@
     },
     {
         "SNO": 536,
+        "credits": 6,
         "branch": "MTH",
         "name": "APPLICATION OF SINGLE VARIABLE CALCULUS & SEVERAL VARIABLE CALCULUS(MTH112M)",
         "code": "MTH112M",
@@ -15465,6 +16001,7 @@
     },
     {
         "SNO": 537,
+        "credits": 6,
         "branch": "MTH",
         "name": "LINEAR ALGEBRA(MTH113M)/C",
         "code": "MTH113M",
@@ -15503,6 +16040,7 @@
     },
     {
         "SNO": 538,
+        "credits": 6,
         "branch": "MTH",
         "name": "LINEAR ALGEBRA(MTH113M)/D",
         "code": "MTH113M",
@@ -15541,6 +16079,7 @@
     },
     {
         "SNO": 539,
+        "credits": 6,
         "branch": "MTH",
         "name": "LINEAR ALGEBRA(MTH113M)/A",
         "code": "MTH113M",
@@ -15579,6 +16118,7 @@
     },
     {
         "SNO": 540,
+        "credits": 6,
         "branch": "MTH",
         "name": "LINEAR ALGEBRA(MTH113M)/B",
         "code": "MTH113M",
@@ -15617,6 +16157,7 @@
     },
     {
         "SNO": 541,
+        "credits": 6,
         "branch": "MTH",
         "name": "ORDINARY DIFFERENTIAL EQUATIONS(MTH114M)/C",
         "code": "MTH114M",
@@ -15655,6 +16196,7 @@
     },
     {
         "SNO": 542,
+        "credits": 6,
         "branch": "MTH",
         "name": "ORDINARY DIFFERENTIAL EQUATIONS(MTH114M)/D",
         "code": "MTH114M",
@@ -15693,6 +16235,7 @@
     },
     {
         "SNO": 543,
+        "credits": 6,
         "branch": "MTH",
         "name": "ORDINARY DIFFERENTIAL EQUATIONS(MTH114M)/B",
         "code": "MTH114M",
@@ -15731,6 +16274,7 @@
     },
     {
         "SNO": 544,
+        "credits": 6,
         "branch": "MTH",
         "name": "ORDINARY DIFFERENTIAL EQUATIONS(MTH114M)/A",
         "code": "MTH114M",
@@ -15769,6 +16313,7 @@
     },
     {
         "SNO": 545,
+        "credits": 11,
         "branch": "MTH",
         "name": "ALGEBRA I(MTH204)",
         "code": "MTH204",
@@ -15807,6 +16352,7 @@
     },
     {
         "SNO": 546,
+        "credits": 11,
         "branch": "MTH",
         "name": "ABSTRACT ALGEBRA(MTH204A)",
         "code": "MTH204A",
@@ -15845,6 +16391,7 @@
     },
     {
         "SNO": 547,
+        "credits": 11,
         "branch": "MTH",
         "name": "ABSTRACT ALGEBRA(MTH204B)",
         "code": "MTH204B",
@@ -15883,6 +16430,7 @@
     },
     {
         "SNO": 548,
+        "credits": 11,
         "branch": "MTH",
         "name": "INTRODUCTION TO FOURIER SERIES(MTH205)",
         "code": "MTH205",
@@ -15915,6 +16463,7 @@
     },
     {
         "SNO": 549,
+        "credits": 11,
         "branch": "MTH",
         "name": "THEORY OF STATISTICS(MTH211A)",
         "code": "MTH211A",
@@ -15953,6 +16502,7 @@
     },
     {
         "SNO": 550,
+        "credits": 11,
         "branch": "MTH",
         "name": "ANALYSIS - I(MTH301)",
         "code": "MTH301",
@@ -15991,6 +16541,7 @@
     },
     {
         "SNO": 551,
+        "credits": 11,
         "branch": "MTH",
         "name": "TOPOLOGY(MTH304)",
         "code": "MTH304",
@@ -16029,6 +16580,7 @@
     },
     {
         "SNO": 552,
+        "credits": 11,
         "branch": "MTH",
         "name": "SEVERAL VARIABLE CALCULUS & DEFFERENTIAL GEOMETRY(MTH305)",
         "code": "MTH305",
@@ -16066,6 +16618,7 @@
     },
     {
         "SNO": 553,
+        "credits": 10,
         "branch": "MTH",
         "name": "NUMERICAL ANALYSIS AND SCIENTIFIC COMPUTING-I(MTH308)",
         "code": "MTH308",
@@ -16104,6 +16657,7 @@
     },
     {
         "SNO": 554,
+        "credits": 10,
         "branch": "MTH",
         "name": "NUMERICAL ANALYSIS AND SCIENTIFIC COMPUTING-I(MTH308B)",
         "code": "MTH308B",
@@ -16142,6 +16696,7 @@
     },
     {
         "SNO": 555,
+        "credits": 11,
         "branch": "MTH",
         "name": "PROBABILITY THEORY(MTH309)",
         "code": "MTH309",
@@ -16180,6 +16735,7 @@
     },
     {
         "SNO": 556,
+        "credits": 5,
         "branch": "MTH",
         "name": "DATA SCIENCE LAB 3(MTH312A)",
         "code": "MTH312A",
@@ -16213,6 +16769,7 @@
     },
     {
         "SNO": 557,
+        "credits": 6,
         "branch": "MTH",
         "name": "ELEMENTARY STOCHASTIC PROCESSES II(MTH313M)",
         "code": "MTH313M",
@@ -16251,6 +16808,7 @@
     },
     {
         "SNO": 558,
+        "credits": 10,
         "branch": "MTH",
         "name": "MULTIVARIATE ANALYSIS(MTH314A)",
         "code": "MTH314A",
@@ -16284,6 +16842,7 @@
     },
     {
         "SNO": 559,
+        "credits": 4,
         "branch": "MTH",
         "name": "UG PROJECT (UGP- I)(MTH391A)",
         "code": "UGP- I)(MTH391A",
@@ -16300,6 +16859,7 @@
     },
     {
         "SNO": 560,
+        "credits": 9,
         "branch": "MTH",
         "name": "UNDER GRADUATE PROJECT II(MTH392A)",
         "code": "MTH392A",
@@ -16316,6 +16876,7 @@
     },
     {
         "SNO": 561,
+        "credits": 9,
         "branch": "MTH",
         "name": "UG PROJECT (UGP- III)(MTH393A)",
         "code": "UGP- III)(MTH393A",
@@ -16332,6 +16893,7 @@
     },
     {
         "SNO": 562,
+        "credits": 9,
         "branch": "MTH",
         "name": "UNDER GRADUATE PROJECT IV(MTH394A)",
         "code": "MTH394A",
@@ -16348,6 +16910,7 @@
     },
     {
         "SNO": 563,
+        "credits": 9,
         "branch": "MTH",
         "name": "THEORY OF COMPUTATION(MTH401)",
         "code": "MTH401",
@@ -16375,6 +16938,7 @@
     },
     {
         "SNO": 564,
+        "credits": 11,
         "branch": "MTH",
         "name": "APPLIED STOCHASTIC PROCESS(MTH412A)",
         "code": "MTH412A",
@@ -16413,6 +16977,7 @@
     },
     {
         "SNO": 565,
+        "credits": 11,
         "branch": "MTH",
         "name": "INFERENCE I(MTH418)",
         "code": "MTH418",
@@ -16451,6 +17016,7 @@
     },
     {
         "SNO": 566,
+        "credits": 11,
         "branch": "MTH",
         "name": "ORDINARY DIFFERENTIAL EQUATIONS(MTH421A)",
         "code": "MTH421A",
@@ -16489,6 +17055,7 @@
     },
     {
         "SNO": 567,
+        "credits": 10,
         "branch": "MTH",
         "name": "AN INTRODUCTION TO BAYESIAN ANALYSIS(MTH422A)",
         "code": "MTH422A",
@@ -16526,6 +17093,7 @@
     },
     {
         "SNO": 568,
+        "credits": 11,
         "branch": "MTH",
         "name": "PARTIAL DIFFERENTIAL EQUATIONS(MTH424)",
         "code": "MTH424",
@@ -16564,6 +17132,7 @@
     },
     {
         "SNO": 569,
+        "credits": 9,
         "branch": "MTH",
         "name": "PROJECT-I(MTH598A)",
         "code": "MTH598A",
@@ -16580,6 +17149,7 @@
     },
     {
         "SNO": 570,
+        "credits": 9,
         "branch": "MTH",
         "name": "PROJECT-II(MTH599A)",
         "code": "MTH599A",
@@ -16596,6 +17166,7 @@
     },
     {
         "SNO": 571,
+        "credits": 9,
         "branch": "MTH",
         "name": "RINGS AND MODULES(MTH613)",
         "code": "MTH613",
@@ -16623,6 +17194,7 @@
     },
     {
         "SNO": 572,
+        "credits": 9,
         "branch": "MTH",
         "name": "DIFFERENTIABLE MANIFOLDS AND LIE GROUPS(MTH624)",
         "code": "MTH624",
@@ -16650,6 +17222,7 @@
     },
     {
         "SNO": 573,
+        "credits": 9,
         "branch": "MTH",
         "name": "TOPICS IN TOPOLOGY(MTH628)",
         "code": "MTH628",
@@ -16682,6 +17255,7 @@
     },
     {
         "SNO": 574,
+        "credits": 9,
         "branch": "MTH",
         "name": "GAME THEORY(MTH636)",
         "code": "MTH636",
@@ -16709,6 +17283,7 @@
     },
     {
         "SNO": 575,
+        "credits": 9,
         "branch": "MTH",
         "name": "INTRODUCTION TO LIE ALGEBRAS AND REPRESENTATION THEORY(MTH641)",
         "code": "MTH641",
@@ -16741,6 +17316,7 @@
     },
     {
         "SNO": 576,
+        "credits": 9,
         "branch": "MTH",
         "name": "DIFFERENTIAL GEOMETRY(MTH648)",
         "code": "MTH648",
@@ -16768,6 +17344,7 @@
     },
     {
         "SNO": 577,
+        "credits": 9,
         "branch": "MTH",
         "name": "ADVANCED CALCULUS(MTH652)",
         "code": "MTH652",
@@ -16800,6 +17377,7 @@
     },
     {
         "SNO": 578,
+        "credits": 9,
         "branch": "MTH",
         "name": "INTEGRAL EQUATIONS(MTH653)",
         "code": "MTH653",
@@ -16832,6 +17410,7 @@
     },
     {
         "SNO": 579,
+        "credits": 9,
         "branch": "MTH",
         "name": "CHEVLLEY GROUPS AND ALGEBRAIC GROUPS(MTH662)",
         "code": "MTH662",
@@ -16864,6 +17443,7 @@
     },
     {
         "SNO": 580,
+        "credits": 9,
         "branch": "MTH",
         "name": "ANALYTICAL TECHNIQUES FOR PDE(MTH663)",
         "code": "MTH663",
@@ -16896,6 +17476,7 @@
     },
     {
         "SNO": 581,
+        "credits": 9,
         "branch": "MTH",
         "name": "CATEGORY THEORY(MTH666)",
         "code": "MTH666",
@@ -16923,6 +17504,7 @@
     },
     {
         "SNO": 582,
+        "credits": 9,
         "branch": "MTH",
         "name": "ECONOMETRICS(MTH676)",
         "code": "MTH676",
@@ -16955,6 +17537,7 @@
     },
     {
         "SNO": 583,
+        "credits": 9,
         "branch": "MTH",
         "name": "SPATIO-TEMPORAL MODELS IN MATHEMATICAL BIOLOGY(MTH679)",
         "code": "MTH679",
@@ -16982,6 +17565,7 @@
     },
     {
         "SNO": 584,
+        "credits": 9,
         "branch": "MTH",
         "name": "LINEAR AND NON-LINEAR MODELS(MTH689)",
         "code": "MTH689",
@@ -17014,6 +17598,7 @@
     },
     {
         "SNO": 585,
+        "credits": 9,
         "branch": "MTH",
         "name": "PROJECT-I(MTH697A)",
         "code": "MTH697A",
@@ -17030,6 +17615,7 @@
     },
     {
         "SNO": 586,
+        "credits": 9,
         "branch": "MTH",
         "name": "PROJECT II(MTH698A)",
         "code": "MTH698A",
@@ -17046,6 +17632,7 @@
     },
     {
         "SNO": 587,
+        "credits": 9,
         "branch": "MTH",
         "name": "PROJECT- III(MTH699A)",
         "code": "MTH699A",
@@ -17062,6 +17649,7 @@
     },
     {
         "SNO": 588,
+        "credits": 9,
         "branch": "MTH",
         "name": "MS PROJECT - 4(MTH700A)",
         "code": "MTH700A",
@@ -17078,6 +17666,7 @@
     },
     {
         "SNO": 589,
+        "credits": 9,
         "branch": "MTH",
         "name": "FRACTIONAL SOBOLEV SPACES AND FRACTIONAL PRATIAL DIFFERENTIAL EQUATIONS(MTH703)",
         "code": "MTH703",
@@ -17110,6 +17699,7 @@
     },
     {
         "SNO": 590,
+        "credits": 4,
         "branch": "MTH",
         "name": "FREDHOLM THEORY(MTH715)",
         "code": "MTH715",
@@ -17137,6 +17727,7 @@
     },
     {
         "SNO": 591,
+        "credits": 9,
         "branch": "MTH",
         "name": "NUMERICAL SOLUTION OF INTEGRAL EQUATIONS(MTH720)",
         "code": "MTH720",
@@ -17164,6 +17755,7 @@
     },
     {
         "SNO": 592,
+        "credits": 9,
         "branch": "MTH",
         "name": "HILBERT SPACE METHODS IN COMPLEX ANALYSIS(MTH725)",
         "code": "MTH725",
@@ -17196,6 +17788,7 @@
     },
     {
         "SNO": 593,
+        "credits": 9,
         "branch": "MTH",
         "name": "REPRESENTATION THEORY OF FINITE GROUPS(MTH732)",
         "code": "MTH732",
@@ -17228,6 +17821,7 @@
     },
     {
         "SNO": 594,
+        "credits": 9,
         "branch": "MTH",
         "name": "REPRESENTATION THEORY OF LINEAR LIE GROUPS(MTH733)",
         "code": "MTH733",
@@ -17255,6 +17849,7 @@
     },
     {
         "SNO": 595,
+        "credits": 9,
         "branch": "MTH",
         "name": "BANACH ALGEBRAS C* ALGEBRAS AND SPECTRAL THEORY(MTH734)",
         "code": "MTH734",
@@ -17287,6 +17882,7 @@
     },
     {
         "SNO": 596,
+        "credits": 9,
         "branch": "MTH",
         "name": "DISCONTINUOUS GALERKIN METHOD FOR PDES: THEORY, COMPUTATION & APPLICATION(MTH737)",
         "code": "MTH737",
@@ -17319,6 +17915,7 @@
     },
     {
         "SNO": 597,
+        "credits": 9,
         "branch": "MTH",
         "name": "ALGEBRA(MTH751)",
         "code": "MTH751",
@@ -17351,6 +17948,7 @@
     },
     {
         "SNO": 598,
+        "credits": 9,
         "branch": "MTH",
         "name": "MATHEMATICAL METHODS(MTH752)",
         "code": "MTH752",
@@ -17383,6 +17981,7 @@
     },
     {
         "SNO": 599,
+        "credits": 9,
         "branch": "MTH",
         "name": "ALGEBRIC TOPOLOGY II(MTH759)",
         "code": "MTH759",
@@ -17410,6 +18009,7 @@
     },
     {
         "SNO": 600,
+        "credits": 0,
         "branch": "MTH",
         "name": "RESEARCH(MTH799)",
         "code": "MTH799",
@@ -17426,6 +18026,7 @@
     },
     {
         "SNO": 601,
+        "credits": 0,
         "branch": "NET",
         "name": "M TECH THESIS(NT699)",
         "code": "NT699",
@@ -17446,6 +18047,7 @@
     },
     {
         "SNO": 602,
+        "credits": 0,
         "branch": "NET",
         "name": "PHD THESIS(NT799)",
         "code": "NT799",
@@ -17462,6 +18064,7 @@
     },
     {
         "SNO": 603,
+        "credits": 3,
         "branch": "PHY",
         "name": "PHYSICS LABORATORY(PHY111)/C",
         "code": "PHY111",
@@ -17504,6 +18107,7 @@
     },
     {
         "SNO": 604,
+        "credits": 3,
         "branch": "PHY",
         "name": "PHYSICS LABORATORY(PHY111)/D",
         "code": "PHY111",
@@ -17546,6 +18150,7 @@
     },
     {
         "SNO": 605,
+        "credits": 11,
         "branch": "PHY",
         "name": "CLASSICAL DYNAMICS(PHY112)",
         "code": "PHY112",
@@ -17584,6 +18189,7 @@
     },
     {
         "SNO": 606,
+        "credits": 11,
         "branch": "PHY",
         "name": "CLASSICAL ELECTRODYNAMICS(PHY11 3)",
         "code": "PHY11 3",
@@ -17622,6 +18228,7 @@
     },
     {
         "SNO": 607,
+        "credits": 11,
         "branch": "PHY",
         "name": "QUANTUM PHYSICS(PHY114)",
         "code": "PHY114",
@@ -17660,6 +18267,7 @@
     },
     {
         "SNO": 608,
+        "credits": 11,
         "branch": "PHY",
         "name": "OSCILLATIONS AND WAVES(PHY115)",
         "code": "PHY115",
@@ -17698,6 +18306,7 @@
     },
     {
         "SNO": 609,
+        "credits": 6,
         "branch": "PHY",
         "name": "FUNDAMENTAL OF SOFT MATTER(PHY205M)",
         "code": "PHY205M",
@@ -17730,6 +18339,7 @@
     },
     {
         "SNO": 610,
+        "credits": 6,
         "branch": "PHY",
         "name": "THERMAL PHYSICS(PHY210M)",
         "code": "PHY210M",
@@ -17768,6 +18378,7 @@
     },
     {
         "SNO": 611,
+        "credits": 6,
         "branch": "PHY",
         "name": "RELATIVITY(PHY226M)",
         "code": "PHY226M",
@@ -17806,6 +18417,7 @@
     },
     {
         "SNO": 612,
+        "credits": 9,
         "branch": "PHY",
         "name": "MODERN OPTICS (ITS PHYSICS & ENGINEERING)(PHY307)",
         "code": "ITS PHYSICS & ENGINEERING)(PHY307",
@@ -17833,6 +18445,7 @@
     },
     {
         "SNO": 613,
+        "credits": 9,
         "branch": "PHY",
         "name": "INTRODUCTION TO QUANTUM MATERIALS(PHY406)",
         "code": "PHY406",
@@ -17860,6 +18473,7 @@
     },
     {
         "SNO": 614,
+        "credits": 11,
         "branch": "PHY",
         "name": "STATISTICAL MECHANICS(PHY412)",
         "code": "PHY412",
@@ -17898,6 +18512,7 @@
     },
     {
         "SNO": 615,
+        "credits": 11,
         "branch": "PHY",
         "name": "STATISTICAL MECHANICS(PHY412A)",
         "code": "PHY412A",
@@ -17936,6 +18551,7 @@
     },
     {
         "SNO": 616,
+        "credits": 11,
         "branch": "PHY",
         "name": "MATHEMATICAL METHODS II(PHY422A)",
         "code": "PHY422A",
@@ -17974,6 +18590,7 @@
     },
     {
         "SNO": 617,
+        "credits": 11,
         "branch": "PHY",
         "name": "QUANTUM MECHANICS II(PHY432)",
         "code": "PHY432",
@@ -18007,6 +18624,7 @@
     },
     {
         "SNO": 618,
+        "credits": 4,
         "branch": "PHY",
         "name": "EXPERIMENTAL PHYSICS I(PHY461)",
         "code": "PHY461",
@@ -18044,6 +18662,7 @@
     },
     {
         "SNO": 619,
+        "credits": 8,
         "branch": "PHY",
         "name": "EXPERIMENTAL PHYSICS II(PHY462)",
         "code": "PHY462",
@@ -18081,6 +18700,7 @@
     },
     {
         "SNO": 620,
+        "credits": 12,
         "branch": "PHY",
         "name": "COMPUTATIONAL PHYSICS(PHY473)",
         "code": "PHY473",
@@ -18119,6 +18739,7 @@
     },
     {
         "SNO": 621,
+        "credits": 12,
         "branch": "PHY",
         "name": "COMPUTATIONAL PHYSICS(PHY473A)",
         "code": "PHY473A",
@@ -18157,6 +18778,7 @@
     },
     {
         "SNO": 622,
+        "credits": 9,
         "branch": "PHY",
         "name": "M SC REVIEW PROJECT II(PHY501A)",
         "code": "PHY501A",
@@ -18173,6 +18795,7 @@
     },
     {
         "SNO": 623,
+        "credits": 8,
         "branch": "PHY",
         "name": "M.SC. REVIEW PROJECT III(PHY502A)",
         "code": "PHY502A",
@@ -18189,6 +18812,7 @@
     },
     {
         "SNO": 624,
+        "credits": 4,
         "branch": "PHY",
         "name": "INTRODUCTION TO ATOMIC AND NUCLEAR PHYSICS(PHY524)",
         "code": "PHY524",
@@ -18222,6 +18846,7 @@
     },
     {
         "SNO": 625,
+        "credits": 11,
         "branch": "PHY",
         "name": "CLASSICAL ELECTRODYNAMICS I(PHY552)",
         "code": "PHY552",
@@ -18260,6 +18885,7 @@
     },
     {
         "SNO": 626,
+        "credits": 11,
         "branch": "PHY",
         "name": "CLASSICAL ELECTRODYNAMICS I(PHY552A)",
         "code": "PHY552A",
@@ -18298,6 +18924,7 @@
     },
     {
         "SNO": 627,
+        "credits": 9,
         "branch": "PHY",
         "name": "BACHELOR OF SCIENCE PROJECT -III(PHY557A)",
         "code": "PHY557A",
@@ -18314,6 +18941,7 @@
     },
     {
         "SNO": 628,
+        "credits": 9,
         "branch": "PHY",
         "name": "BACHELOR OF SCIENCE PROJECT -IV(PHY558A)",
         "code": "PHY558A",
@@ -18330,6 +18958,7 @@
     },
     {
         "SNO": 629,
+        "credits": 11,
         "branch": "PHY",
         "name": "M.SC. PROJECT III(PHY566A)",
         "code": "PHY566A",
@@ -18346,6 +18975,7 @@
     },
     {
         "SNO": 630,
+        "credits": 11,
         "branch": "PHY",
         "name": "M.SC. PROJECT IV(PHY568A)",
         "code": "PHY568A",
@@ -18362,6 +18992,7 @@
     },
     {
         "SNO": 631,
+        "credits": 9,
         "branch": "PHY",
         "name": "M SC RESEARCH PROJECT - I(PHY597A)",
         "code": "PHY597A",
@@ -18378,6 +19009,7 @@
     },
     {
         "SNO": 632,
+        "credits": 9,
         "branch": "PHY",
         "name": "M.SC.RESEARCH PROJECT II(PHY599A)",
         "code": "PHY599A",
@@ -18394,6 +19026,7 @@
     },
     {
         "SNO": 633,
+        "credits": 9,
         "branch": "PHY",
         "name": "QUANTUM MANY BODY PHYSICS(PHY607)",
         "code": "PHY607",
@@ -18426,6 +19059,7 @@
     },
     {
         "SNO": 634,
+        "credits": 11,
         "branch": "PHY",
         "name": "INTRODUCTION TO NUCLEAR AND PARTICLE PHYSICS(PHY611)",
         "code": "PHY611",
@@ -18459,6 +19093,7 @@
     },
     {
         "SNO": 635,
+        "credits": 11,
         "branch": "PHY",
         "name": "ATOMIC, MOLECULAR & OPTICAL PHYSICS (AMO)(PHY612)",
         "code": "AMO)(PHY612",
@@ -18492,6 +19127,7 @@
     },
     {
         "SNO": 636,
+        "credits": 9,
         "branch": "PHY",
         "name": "CONDENSED MATTER II(PHY622)",
         "code": "PHY622",
@@ -18519,6 +19155,7 @@
     },
     {
         "SNO": 637,
+        "credits": 9,
         "branch": "PHY",
         "name": "MAGNETISM IN MATERIALS(PHY624)",
         "code": "PHY624",
@@ -18546,6 +19183,7 @@
     },
     {
         "SNO": 638,
+        "credits": 11,
         "branch": "PHY",
         "name": "MATHEMATICAL METHODS II(PHY625)",
         "code": "PHY625",
@@ -18584,6 +19222,7 @@
     },
     {
         "SNO": 639,
+        "credits": 11,
         "branch": "PHY",
         "name": "QUANTUM MECHANICS II(PHY626)",
         "code": "PHY626",
@@ -18617,6 +19256,7 @@
     },
     {
         "SNO": 640,
+        "credits": 9,
         "branch": "PHY",
         "name": "PHOTONIC GREEN NANOTECHNOLOGY(PHY64 9)",
         "code": "PHY64 9",
@@ -18649,6 +19289,7 @@
     },
     {
         "SNO": 641,
+        "credits": 9,
         "branch": "PHY",
         "name": "TURBULENCE IN SPACE PLASMAS(PHY661)",
         "code": "PHY661",
@@ -18676,6 +19317,7 @@
     },
     {
         "SNO": 642,
+        "credits": 9,
         "branch": "PHY",
         "name": "UNCERTAINITY INFORMATION AND CLASSICAL DYNAMICS(PHY665)",
         "code": "PHY665",
@@ -18703,6 +19345,7 @@
     },
     {
         "SNO": 643,
+        "credits": 9,
         "branch": "PHY",
         "name": "QUANTUM TECHNOLOGY(PHY676)",
         "code": "PHY676",
@@ -18730,6 +19373,7 @@
     },
     {
         "SNO": 644,
+        "credits": 9,
         "branch": "PHY",
         "name": "NANOMAGNETISM, SPINTRONICS, AND APPLICATIONS(PHY678)",
         "code": "PHY678",
@@ -18757,6 +19401,7 @@
     },
     {
         "SNO": 645,
+        "credits": 9,
         "branch": "PHY",
         "name": "PARTICLE PHYSICS(PHY680)",
         "code": "PHY680",
@@ -18784,6 +19429,7 @@
     },
     {
         "SNO": 646,
+        "credits": 9,
         "branch": "PHY",
         "name": "GROUP THEORY AND ITS APPLICATIONS TO PARTICLE PHYSICS(PHY690J)",
         "code": "PHY690J",
@@ -18811,6 +19457,7 @@
     },
     {
         "SNO": 647,
+        "credits": 9,
         "branch": "PHY",
         "name": "ADVANCED GENERAL RELATIVITY AND BLACK HOLES(PHY690M)",
         "code": "PHY690M",
@@ -18838,6 +19485,7 @@
     },
     {
         "SNO": 648,
+        "credits": 9,
         "branch": "PHY",
         "name": "TAPESTRY OF FIELD THEORY; CLASSICAL & QUANTUM, EQUILIBRIUM & NONEQUILIBRIUM PERSPECTIVES(PHY690Z)",
         "code": "PHY690Z",
@@ -18865,6 +19513,7 @@
     },
     {
         "SNO": 649,
+        "credits": 12,
         "branch": "PHY",
         "name": "MEASUREMENT TECHNIQUES(PHY692)",
         "code": "PHY692",
@@ -18908,6 +19557,7 @@
     },
     {
         "SNO": 650,
+        "credits": 9,
         "branch": "PHY",
         "name": "M SC RESEARCH PROJECT - I(PHY697A)",
         "code": "PHY697A",
@@ -18924,6 +19574,7 @@
     },
     {
         "SNO": 651,
+        "credits": 9,
         "branch": "PHY",
         "name": "M.SC.RESEARCH PROJECT II(PHY699A)",
         "code": "PHY699A",
@@ -18940,6 +19591,7 @@
     },
     {
         "SNO": 652,
+        "credits": 9,
         "branch": "PHY",
         "name": "HIGH ENERGY PHYSICS II(PHY781)",
         "code": "PHY781",
@@ -18967,6 +19619,7 @@
     },
     {
         "SNO": 653,
+        "credits": 0,
         "branch": "PHY",
         "name": "RESEARCH(PHY799)",
         "code": "PHY799",
@@ -18983,6 +19636,7 @@
     },
     {
         "SNO": 654,
+        "credits": 3,
         "branch": "PHY",
         "name": "INTRODUCTION TO PROFESSION AND COMMUNICATION SKILLS FOR PHYSICISTS(PHY888)",
         "code": "PHY888",
@@ -19005,6 +19659,7 @@
     },
     {
         "SNO": 655,
+        "credits": 8,
         "branch": "PHY",
         "name": "QUANTUM PHYSICS(PSO201)",
         "code": "PSO201",
@@ -19038,6 +19693,7 @@
     },
     {
         "SNO": 656,
+        "credits": 9,
         "branch": "PSE",
         "name": "PHOTONICS SYSTEMS AND APPLICATIONS(PSE604)",
         "code": "PSE604",
@@ -19065,6 +19721,7 @@
     },
     {
         "SNO": 657,
+        "credits": 9,
         "branch": "PSE",
         "name": "PHOTONICS LAB TECHNIQUES(PSE605)",
         "code": "PSE605",
@@ -19098,6 +19755,7 @@
     },
     {
         "SNO": 658,
+        "credits": 9,
         "branch": "PSE",
         "name": "RESEARCH IN PHOTONICS AND LASERS(PSE606)",
         "code": "PSE606",
@@ -19120,6 +19778,7 @@
     },
     {
         "SNO": 659,
+        "credits": 0,
         "branch": "PSE",
         "name": "M. TECH THESIS(PSE699)",
         "code": "PSE699",
@@ -19140,6 +19799,7 @@
     },
     {
         "SNO": 660,
+        "credits": 0,
         "branch": "PSE",
         "name": "PHD THESIS(PSE799)",
         "code": "PSE799",
@@ -19156,6 +19816,7 @@
     },
     {
         "SNO": 661,
+        "credits": 0,
         "branch": "PSE",
         "name": "MS - RESEARCH THESIS(PSE899)",
         "code": "PSE899",
@@ -19172,6 +19833,7 @@
     },
     {
         "SNO": 662,
+        "credits": 5,
         "branch": "SDS",
         "name": "DATA SCIENCE LAB 2(MTH209)",
         "code": "MTH209",
@@ -19205,6 +19867,7 @@
     },
     {
         "SNO": 663,
+        "credits": 10,
         "branch": "SDS",
         "name": "STATISTICAL COMPUTING(MTH210)",
         "code": "MTH210",
@@ -19243,6 +19906,7 @@
     },
     {
         "SNO": 664,
+        "credits": 11,
         "branch": "SDS",
         "name": "THEORY OF STATISTICS(MTH211)",
         "code": "MTH211",
@@ -19281,6 +19945,7 @@
     },
     {
         "SNO": 665,
+        "credits": 6,
         "branch": "SDS",
         "name": "ELEMENTARY STOCHASTIC PROCESSES I(MTH212M)",
         "code": "MTH212M",
@@ -19319,6 +19984,7 @@
     },
     {
         "SNO": 666,
+        "credits": 9,
         "branch": "SEE",
         "name": "ENERGY, CLIMATE CHANGE & SUSTAINABILITY(SEE211)",
         "code": "SEE211",
@@ -19355,6 +20021,7 @@
     },
     {
         "SNO": 667,
+        "credits": 9,
         "branch": "SEE",
         "name": "THERMODYNAMICS OF ENERGY SYSTEMS(SEE604)",
         "code": "SEE604",
@@ -19382,6 +20049,7 @@
     },
     {
         "SNO": 668,
+        "credits": 9,
         "branch": "SEE",
         "name": "AN INTRODUCTION TO SUSTAINABLE ENERGY TECHNOLOGIES(SEE605)",
         "code": "SEE605",
@@ -19419,6 +20087,7 @@
     },
     {
         "SNO": 669,
+        "credits": 9,
         "branch": "SEE",
         "name": "HYDROGEN ENERGY: PRODUCTION STORAGE AND UTILIZATION(SEE607)",
         "code": "SEE607",
@@ -19455,6 +20124,7 @@
     },
     {
         "SNO": 670,
+        "credits": 9,
         "branch": "SEE",
         "name": "ENERGY SYSTEMS: MODELLING AND ANALYSIS(SEE611)",
         "code": "SEE611",
@@ -19495,6 +20165,7 @@
     },
     {
         "SNO": 671,
+        "credits": 9,
         "branch": "SEE",
         "name": "MANUFACTURING ENERGY SYSTEMS(SEE612)",
         "code": "SEE612",
@@ -19522,6 +20193,7 @@
     },
     {
         "SNO": 672,
+        "credits": 9,
         "branch": "SEE",
         "name": "SOLAR PHOTOVOLTAICS(SEE613)",
         "code": "SEE613",
@@ -19558,6 +20230,7 @@
     },
     {
         "SNO": 673,
+        "credits": 9,
         "branch": "SEE",
         "name": "WIND ENERGY(SEE614)",
         "code": "SEE614",
@@ -19585,6 +20258,7 @@
     },
     {
         "SNO": 674,
+        "credits": 9,
         "branch": "SEE",
         "name": "SOLAR THERMAL ENGINEERING(SEE615)",
         "code": "SEE615",
@@ -19617,6 +20291,7 @@
     },
     {
         "SNO": 675,
+        "credits": 9,
         "branch": "SEE",
         "name": "RENEWABLES INTEGRATED SMART POWER SYSTEMS(SEE616)",
         "code": "SEE616",
@@ -19644,6 +20319,7 @@
     },
     {
         "SNO": 676,
+        "credits": 5,
         "branch": "SEE",
         "name": "ECOLOGICAL PRINCIPLES AND BIODIVERSITY FOR SUSTAINABILITY(SEE626M)",
         "code": "SEE626M",
@@ -19671,6 +20347,7 @@
     },
     {
         "SNO": 677,
+        "credits": 9,
         "branch": "SEE",
         "name": "ELECTRIC VEHICLES(SEE627)",
         "code": "SEE627",
@@ -19698,6 +20375,7 @@
     },
     {
         "SNO": 678,
+        "credits": 0,
         "branch": "SEE",
         "name": "SEMINAR PARTICIPATION(SEE690)",
         "code": "SEE690",
@@ -19725,6 +20403,7 @@
     },
     {
         "SNO": 679,
+        "credits": 0,
         "branch": "SEE",
         "name": "SEMINAR PRESENTATION(SEE691)",
         "code": "SEE691",
@@ -19752,6 +20431,7 @@
     },
     {
         "SNO": 680,
+        "credits": 0,
         "branch": "SEE",
         "name": "M TECH THESIS(SEE699)",
         "code": "SEE699",
@@ -19772,6 +20452,7 @@
     },
     {
         "SNO": 681,
+        "credits": 0,
         "branch": "SEE",
         "name": "PHD THESIS(SEE799)",
         "code": "SEE799",
@@ -19788,6 +20469,7 @@
     },
     {
         "SNO": 682,
+        "credits": 3,
         "branch": "SEE",
         "name": "INTRODUCTION TO PROFESSION & COMMUNICATION(SEE888)",
         "code": "SEE888",
@@ -19819,6 +20501,7 @@
     },
     {
         "SNO": 683,
+        "credits": 0,
         "branch": "SEE",
         "name": "MS - RESEARCH THESIS(SEE899)",
         "code": "SEE899",
@@ -19835,6 +20518,7 @@
     },
     {
         "SNO": 684,
+        "credits": 3,
         "branch": "SPEC",
         "name": "MORNING EXERCISE(PE111)",
         "code": "PE111",
@@ -19851,6 +20535,7 @@
     },
     {
         "SNO": 685,
+        "credits": 3,
         "branch": "SPEC",
         "name": "EVENING EXERCISE(PE112)",
         "code": "PE112",
@@ -19878,6 +20563,7 @@
     },
     {
         "SNO": 686,
+        "credits": 9,
         "branch": "SSA",
         "name": "INTRODUCTION TO ASTRONOMY; PLANETS AND STARS(SPA201)",
         "code": "SPA201",
@@ -19914,6 +20600,7 @@
     },
     {
         "SNO": 687,
+        "credits": 9,
         "branch": "SSA",
         "name": "NUMERICAL METHODS IN SPACE SCIENCES & ENGINEERING(SPA604)",
         "code": "SPA604",
@@ -19941,6 +20628,7 @@
     },
     {
         "SNO": 688,
+        "credits": 9,
         "branch": "SSA",
         "name": "RADIO ASTRONOMY(SPA611)",
         "code": "SPA611",
@@ -19973,6 +20661,7 @@
     },
     {
         "SNO": 689,
+        "credits": 9,
         "branch": "SSA",
         "name": "RADIO ASTRONOMY LABORATORY(SPA612)",
         "code": "SPA612",
@@ -20010,6 +20699,7 @@
     },
     {
         "SNO": 690,
+        "credits": 9,
         "branch": "SSA",
         "name": "OBSERVATIONAL TECHNIQUES & TELESCOPES(SPA615)",
         "code": "SPA615",
@@ -20037,6 +20727,7 @@
     },
     {
         "SNO": 691,
+        "credits": 9,
         "branch": "SSA",
         "name": "SPACE DATA ACQUISITION AND ANALYSIS(SPA625)",
         "code": "SPA625",
@@ -20074,6 +20765,7 @@
     },
     {
         "SNO": 692,
+        "credits": 0,
         "branch": "SSA",
         "name": "PHD THESIS(SPA799)",
         "code": "SPA799",
