@@ -7,20 +7,20 @@ const {Course,Prof}=require("../database/models.js")
 //no query parameters required
 //Fields sent as response: id,title,code,department,credits,schedule,ratingsum,ratingcount
 module.exports.getCourses=(request,response)=>{
-    Course.find(request.query).select('title code department prof credits schedule ratingsum ratingcount')
+    Course.find(request.query).select('title code department prof oprof credits schedule ratingsum ratingcount')
     .then(value=>{
-        let prelim_data={
-            id: value._id,
-            title: value.title,
-            code: value.code,
-            department: value.department,
-            prof: value.prof,
-            credits: value.credits,
-            schedule: value.schedule,
-            ratingsum: value.ratingsum,
-            ratingcount: value.ratingcount
-        };
-        console.log(prelim_data);
+        // let prelim_data={
+        //     id: value._id,
+        //     title: value.title,
+        //     code: value.code,
+        //     department: value.department,
+        //     prof: value.prof,
+        //     credits: value.credits,
+        //     schedule: value.schedule,
+        //     ratingsum: value.ratingsum,
+        //     ratingcount: value.ratingcount
+        // };
+        // console.log(prelim_data);
         response.status(200).send(value);
     })
     .catch(error=>{console.log(error)});
