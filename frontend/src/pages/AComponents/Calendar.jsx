@@ -142,7 +142,7 @@ function Calendar(props) {
   const courses = props.courses? props.courses: []
   const schedule = getSchedule(courses)
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" style={{userSelect: "none"}}>
       <table className="table table-light table-bordered border-secondary mt-2 mb-0">
         <thead>
           <tr>

@@ -26,7 +26,7 @@ function Filters(props) {
   }
   return (
     <div>
-      <div className="p-2">
+      <div className="p-2" style={{userSelect: "none"}}>
       <InputGroup size="sm">
         <InputGroupText>
           Search
