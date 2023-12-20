@@ -58,12 +58,7 @@ const Course = () => {
               <strong>Professor:</strong> {courseDetails.professor}
             </div>
             <div className="detail-row">
-              <strong>Average Rating:</strong>
-              {Array.from({ length: 5 }, (_, index) => (
-                <span key={index} className={index < courseDetails.averageRating ? 'star-filled' : 'star-empty'}>
-                  ★
-                </span>
-              ))}
+              <strong>Average Rating:</strong> <span className="bold">{courseDetails.averageRating}</span>
             </div>
           </div>
 
