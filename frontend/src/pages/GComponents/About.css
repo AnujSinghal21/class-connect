@@ -1,0 +1,136 @@
+/* About.css */
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .about-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-heading h1 {
+    font-size: 36px; 
+    color: #333;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .about-heading hr {
+    border: 1px solid #333;
+  }
+  
+  .larger-font {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .box-oval {
+    background: linear-gradient(to right, #d9d9d600, #fdfcfc);
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .developers-section h2 {
+    font-size: 24px; 
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid #333; 
+  }
+  
+  .developer-names {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .developer {
+    text-align: center;
+    background: linear-gradient(to right, #ffff, #bdbcbc);
+    width: 45%;
+    margin-bottom: 15px;
+    border: 1px solid #ddd; 
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .developer:hover {
+    transform: scale(1.05); 
+  }
+  
+  .developer p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .smaller-font {
+    font-size: 14px;
+  }
+  
+  .rate-section h2 {
+    font-size: 24px; 
+    color: #333;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .rating-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .star {
+    font-size: 36px; 
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out; 
+  }
+  
+  .star:hover {
+    color: #ffd700; 
+  }
+  
+  .submit-rating {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out; /
+  }
+  
+  .submit-rating:hover {
+    background-color: #45a049;
+  }
+  
+  .submitted {
+    text-align: center;
+  }
+  
+  .thank-you-box {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #000000, #ffffff);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: white;
+    margin: 20px auto;
+  }
+  
+  .thank-you-box p {
+    margin: 0;
+  }
+  
+  

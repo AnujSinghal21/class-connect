@@ -1,32 +1,34 @@
-// CoursePage.js
+
 import React, { useState } from 'react';
 import './Course.css';
 
 const Course = () => {
   const [courseName, setCourseName] = useState('');
   const [courseDetails, setCourseDetails] = useState(null);
-  const [courseRating, setCourseRating] = useState('');
-  const [isCourseRated, setIsCourseRated] = useState(false);
+  const [gradingDetails, setGradingDetails] = useState('');
+  const [rating, setRating] = useState(0);
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleStarClick = (clickedStar) => {
+    setRating(clickedStar);
+  };
+
+  const handleSubmit = () => {
+    setSubmitted(true);
+  };
 
   const handleSearch = () => {
-    // For simplicity, let's mock course details based on the search term
-    // You might want to fetch actual data from an API
     const mockCourseDetails = {
-      name: 'Introduction to React',
-      credits: '3',
-      department: 'Computer Science',
-      professor: 'Dr. Smith',
-      averageRating: 4.5, // Assume the average rating is 4.5 out of 5
-      contents: 'This course covers the basics of React development.',
+      name: 'Algorithms - Design and Analysis(CS345)',
+      credits: '9',
+      department: 'Computer Science and Engineering',
+      professor: 'Professor Surender Baswana',
+      averageRating: 5,
+      contents: 'COURSE CONTENT .....',
     };
 
     setCourseDetails(mockCourseDetails);
-  };
-
-  const handleRateCourse = () => {
-    // You can handle the rating logic here
-    // For now, let's just set a flag to indicate that the course is rated
-    setIsCourseRated(true);
+    setGradingDetails('Grading Details Content ...');
   };
 
   return (
@@ -34,7 +36,7 @@ const Course = () => {
       <div className="search-bar">
         <input
           type="text"
-          placeholder="Enter Course name/number"
+          placeholder="Enter Course name/Course number"
           value={courseName}
           onChange={(e) => setCourseName(e.target.value)}
         />
@@ -43,22 +45,36 @@ const Course = () => {
 
       {courseDetails ? (
         <div className="course-details-container">
-          <h2>Course Details</h2>
-          <div className="details-box">
+          <div className="course-details-box">
+            <h2 className="course-details-heading">Course Details</h2>
             <div className="detail-row">
-              <strong>Name:</strong> {courseDetails.name}
+              <div>
+                <strong>{courseDetails.name}</strong>
+              </div>
             </div>
             <div className="detail-row">
-              <strong>Credits:</strong> {courseDetails.credits}
+              <div>
+                <strong>Credits:</strong> {courseDetails.credits}
+              </div>
             </div>
             <div className="detail-row">
               <strong>Department:</strong> {courseDetails.department}
             </div>
             <div className="detail-row">
-              <strong>Professor:</strong> {courseDetails.professor}
+              <strong>Professor(s):</strong> {courseDetails.professor}
             </div>
-            <div className="detail-row">
-              <strong>Average Rating:</strong> <span className="bold">{courseDetails.averageRating}</span>
+
+            <div className="rating-container">
+              <strong>Average Rating:</strong>
+              <span className="bold"> {courseDetails.averageRating}/5</span>
+              <div className="star-rating">
+                {[1, 2, 3, 4, 5].map((index) => (
+                  <span
+                    key={index}
+                    className={`star ${index <= courseDetails.averageRating ? 'filled' : ''}`}
+                  >★</span>
+                ))}
+              </div>
             </div>
           </div>
 
@@ -67,19 +83,35 @@ const Course = () => {
             <p>{courseDetails.contents}</p>
           </div>
 
-          <div className="rate-course-box">
-            {isCourseRated ? (
-              <p>Thank you for rating the course!</p>
-            ) : (
-              <>
-                <input
-                  type="number"
-                  placeholder="Rate the course (out of 5)"
-                  value={courseRating}
-                  onChange={(e) => setCourseRating(e.target.value)}
-                />
-                <button onClick={handleRateCourse}>Submit Rating</button>
-              </>
+          <div className="grading-details-box">
+            <h2>Grading Details</h2>
+            <p>{gradingDetails}</p>
+          </div>
+
+          <div className={`rate-section ${submitted ? 'submitted' : ''}`}>
+            {!submitted && <h2>Rate this course</h2>}
+            {!submitted && (
+              <div className="rating-input">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <span
+                    key={star}
+                    className={`star ${rating >= star ? 'gold' : ''}`}
+                    onClick={() => handleStarClick(star)}
+                  >
+                    &#9733;
+                  </span>
+                ))}
+              </div>
+            )}
+            {!submitted && (
+              <button className="submit-rating" onClick={handleSubmit}>
+                Submit
+              </button>
+            )}
+            {submitted && (
+              <div className="thank-you-box oval-box">
+                <p>Thank you for rating this course</p>
+              </div>
             )}
           </div>
         </div>
