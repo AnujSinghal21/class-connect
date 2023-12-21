@@ -1,7 +1,7 @@
 
-import React, { useState } from 'react';
+import React, { useEffect,useState } from 'react';
 import './Course.css';
-
+import axios from "axios"
 const Course = () => {
   const [courseName, setCourseName] = useState('');
   const [courseDetails, setCourseDetails] = useState(null);
