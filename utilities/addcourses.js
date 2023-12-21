@@ -2,6 +2,7 @@ const data=require('../schedule-parser/courses.json')
 const {Course}=require('../database/models.js');
 const { response } = require('express');
 const fetch=require('node-fetch');
+const helper=require('./helper.js');
 
 let n=data.length
 
@@ -89,7 +90,7 @@ function getCourseData(i){
     let code=data[i].code;
     let title=data[i].name;
     let prof=data[i].instructors[0].name;
-    let profemail=data[i].instructors[0].email;
+    let profemail=helper.cleanEmail(data[i].instructors[0].email);
     let oprof=null;
 
     if(data[i].instructors.length>1){
