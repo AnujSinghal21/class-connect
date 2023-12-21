@@ -5,7 +5,7 @@ function CourseCard(props) {
   const course = props.course
   const rating = course.ratingcount === 0? 2.5 : course.ratingsum / course.ratingcount
   const openCourse = ()=>{
-    window.open(`/courses?code=${course.email}`, '_self')
+    window.open(`/courses?code=${course.code}`, '_self')
   }
   return (
     <div className="m-1">

@@ -21,7 +21,7 @@ function CoursePage() {
     .then(response => {
       if (parseInt(response.status) === 200){
         const data = response.data
-        console.log(data)
+        //console.log(data)
         setCourses(data)
         setLoaded(true)
       }else{
@@ -31,7 +31,7 @@ function CoursePage() {
       alert("Could not load data")
       console.log(err)
     })
-  }, [baseUrl, code])
+  }, [])
 
   if (!loaded){
     return (
@@ -57,7 +57,7 @@ function CoursePage() {
     return <CourseDetails course={courses[0]} />
   }
   
-  const orderByPriority = (courses) => {
+  const orderByPriority = (coursesArr) => {
     const query = prompt
     const tokenizer = (text) => {
       return text.toLowerCase().split(/\s+/).filter(t => t !== '')
@@ -71,12 +71,13 @@ function CoursePage() {
       const SName = (countOfWords(tokenizer(item.title), TokenizedPrompt)) * 8
       const SProf1 = (countOfWords(tokenizer(item.prof), TokenizedPrompt)) * 15
       const SProf2 = (countOfWords(tokenizer(item.oprof), TokenizedPrompt)) * 15
-      const SRating = (item.ratings ** 0.5)
+      //const SRating = (item.ratings ** 0.5)
   
-      const score = (SCode + SName + SProf1 + SProf2) * SRating
+      const score = (SCode + SName + SProf1 + SProf2)
+      //const score = SName * SRating
       return score
     }
-    const scoreArray = courses.map((item) => { return {score: getRelevance(item), value: item}})
+    const scoreArray = coursesArr.map((item) => { return {score: getRelevance(item), value: item}})
     scoreArray.sort((a, b) => b.score - a.score)
     return scoreArray.map((item) => item.value)
   }
