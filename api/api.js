@@ -103,8 +103,10 @@ module.exports.AddProf=(request,response)=>{
         name: params.name,
         department: params.department,
         email: params.email,
-        comments: params.comments || ["None"],
+        comments: params.comments || [],
         courses: params.courses || [],
+        ratingsum: 0,
+        ratingcount: 0
     }
 
     let new_prof= new Prof(prof_data);
@@ -147,9 +149,19 @@ module.exports.rateCourse=async (request,response)=>{
 
     //console.log(params);
 
-    let final_value=await Course.findByIdAndUpdate(params.id,{$inc:{ ratingsum: params.ratingsum, ratingcount: 1}},{new: true});
+    let check_exist=await Course.find({_id: params.id, ratings: {$elemMatch: {ip: request.ip}}});
+    console.log(check_exist);
+    if(check_exist.length==0)
+    {
+        final_value= await Course.findByIdAndUpdate(params.id,{$inc:{ ratingsum: params.ratingsum, ratingcount: 1}, $push:{ratings:{ rating: params.ratingsum, ip: request.ip}}},{new: true});
+        response.status(200).send(final_value);
+    }
+    else
+    {
+        response.status(403).send("Rating is already given");
+    }
     //console.log(final_value);
-    response.status(200).send(final_value);
+    
 }
 
 //update prof ratings
@@ -159,7 +171,15 @@ module.exports.rateProf=async (request,response)=>{
 
     //console.log(params);
 
-    let final_value=await Prof.findByIdAndUpdate(params.id,{$inc:{ ratingsum: params.ratingsum, ratingcount: 1}},{new: true});
-    //console.log(final_value);
-    response.status(200).send(final_value);
+    let check_exist=await Prof.find({_id: params.id, ratings: {$elemMatch: {ip: request.ip}}});
+    console.log(check_exist);
+    if(check_exist.length==0)
+    {
+        final_value= await Prof.findByIdAndUpdate(params.id,{$inc:{ ratingsum: params.ratingsum, ratingcount: 1}, $push:{ratings:{ rating: params.ratingsum, ip: request.ip}}},{new: true});
+        response.status(200).send(final_value);
+    }
+    else
+    {
+        response.status(403).send("Rating is already given");
+    }
 }
