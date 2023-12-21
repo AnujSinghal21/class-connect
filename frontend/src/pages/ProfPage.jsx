@@ -7,7 +7,6 @@ import Waiting from "./AComponents/Waiting"
 import ProfDetails from "./AComponents/ProfDetails"
 import ProfCard from "./AComponents/ProfCard"
 
-//import ProfessorPage from './GComponents/ProfessorPage'
 function ProfPage() {
   const [ loaded, setLoaded ] = useState(false)
   const [ profs, setProfs ] = useState([])
@@ -23,7 +22,6 @@ function ProfPage() {
     .then(response => {
       if (parseInt(response.status) === 200){
         const data = response.data
-        console.log(data)
         setProfs(data)
         setLoaded(true)
       }else{
