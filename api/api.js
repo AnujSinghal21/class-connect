@@ -126,7 +126,7 @@ module.exports.AddProf=(request,response)=>{
 //comment received as request query
 module.exports.addCourseComment=async (request,response)=>{
 
-    let params=request.body;
+    let params=request.query;
 
     console.log(params.id);
 
@@ -156,7 +156,7 @@ module.exports.addCourseComment=async (request,response)=>{
 //comment received as request query
 module.exports.addProfComment=async (request,response)=>{
 
-    let params=request.body;
+    let params=request.query;
 
     let check_exist=await Prof.find({_id: params.id, comments: {$elemMatch: {ip: request.ip}}});
     console.log(check_exist);
