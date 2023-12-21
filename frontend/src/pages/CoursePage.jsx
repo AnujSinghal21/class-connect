@@ -68,9 +68,9 @@ function CoursePage() {
     const getRelevance = (item) => {
       const TokenizedPrompt = tokenizer(query)
       const SCode = (countOfWords(tokenizer(item.code), TokenizedPrompt)) * 50
-      const SName = (countOfWords(tokenizer(item.name), TokenizedPrompt)) * 8
-      const SProf1 = (countOfWords(tokenizer(item.prof1.name), TokenizedPrompt)) * 15
-      const SProf2 = (countOfWords(tokenizer(item.prof2.name), TokenizedPrompt)) * 15
+      const SName = (countOfWords(tokenizer(item.title), TokenizedPrompt)) * 8
+      const SProf1 = (countOfWords(tokenizer(item.prof), TokenizedPrompt)) * 15
+      const SProf2 = (countOfWords(tokenizer(item.oprof), TokenizedPrompt)) * 15
       const SRating = (item.ratings ** 0.5)
   
       const score = (SCode + SName + SProf1 + SProf2) * SRating
