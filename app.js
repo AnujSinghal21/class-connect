@@ -3,11 +3,14 @@ const connect=require('./database/connect.js');
 const APIRouter=require('./api/router.js');
 const dotenv=require('dotenv');
 const cors=require('cors');
+const bodyparser=require('body-parser');
 const app=express();
+
 
 dotenv.config();
 
 app.use(cors());
+app.use(bodyparser.urlencoded({ extended: false }));
 
 connect();
 
