@@ -2,7 +2,8 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 import { Alert, InputGroup, Input, Button } from 'reactstrap'
 import CourseDetails from "./GComponents/CourseDetails"
-import CourseCard from "./AComponents/CourseCard"
+import CourseCard from "./GComponents/CourseCard"
+import Waiting from "./AComponents/Waiting"
 
 function CoursePage() {
   const [ loaded, setLoaded ] = useState(false)
@@ -11,7 +12,7 @@ function CoursePage() {
   const [ showAll, setShowAll ] = useState(false)
   const params = new URLSearchParams(window.location.search)
   let code = params.get("code")
-  let title = params.get("title")
+  // let title = params.get("title")
   const baseUrl = `/api/courses${code===null? "": `?code=${code}`}`
 
   useEffect(() => {
@@ -56,7 +57,7 @@ function CoursePage() {
     return <CourseDetails course={courses[0]} />
   }
   
-  const orderByPriority = (coursesArray) => {
+  const orderByPriority = (courses) => {
     const query = prompt
     const tokenizer = (text) => {
       return text.toLowerCase().split(/\s+/).filter(t => t !== '')

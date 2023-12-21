@@ -22,10 +22,10 @@ function CourseDetails(props) {
     console.log(data)
     if (data.rating > 0 && data.rating <= 5){
       const ratingParams = {
-        id: prof._id,
+        id: course._id,
         ratingsum: data.rating
       }
-      const ratingUrl = `/api/profs/rate?${encodeObject(ratingParams)}`
+      const ratingUrl = `/api/courses/rate?${encodeObject(ratingParams)}`
       axios
       .post(ratingUrl)
       .then((response) => {
@@ -34,10 +34,10 @@ function CourseDetails(props) {
     }
     if (data.comment !== ""){
       const commentParams = {
-        id: prof._id,
+        id: course._id,
         comment: data.comment
       }
-      const commentUrl = `/api/profs?${encodeObject(commentParams)}`
+      const commentUrl = `/api/courses?${encodeObject(commentParams)}`
       axios
       .put(commentUrl)
       .then((response) => {
