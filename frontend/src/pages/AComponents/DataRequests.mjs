@@ -4,6 +4,7 @@ const courseParser = (c) => {
     let prof2 = {"name": "", email: ""}
     if (c.prof && c.prof !== "null"){
         prof1.name = c.prof
+        prof1.email = c.profemail
     }
     if (c.oprof && c.oprof !== "null"){
         prof2.name = c.oprof
