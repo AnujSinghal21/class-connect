@@ -41,7 +41,7 @@ function RateComment(props) {
       <div className='d-flex my-2'>
         <Button color='primary m-auto' 
         onClick={() => {
-          onSubmit({rating: rating, comment: comment})
+          onSubmit({rating: rating, comment: comment.slice(0, 200)})
           setSubmitted(true)
         }}>Submit</Button>
       </div>

@@ -126,20 +126,49 @@ module.exports.AddProf=(request,response)=>{
 //comment received as request query
 module.exports.addCourseComment=async (request,response)=>{
 
-    let id=request.query.id;
+    let params=request.body;
 
-    let updated_course= await Course.findByIdAndUpdate(id,{$push:{comments: request.query.comments}},{new: true});
-    response.status(200).send(updated_course);
+    console.log(params.id);
+
+    let check_exist=await Course.find({_id: params.id, comments: {$elemMatch: {ip: request.ip}}});
+
+    if(check_exist.length==0)
+    {
+        try
+        {
+            final_value= await Course.findByIdAndUpdate(params.id,{$push:{comments:{ comment: params.comment, ip: request.ip}}},{new: true});
+            response.status(200).send(final_value);
+        }
+        catch(error)
+        {
+            console.log("here");
+            console.log(error);
+            response.status(500);
+        }
+    }
+    else
+    {
+        response.status(403).send("Comment is already given");
+    }
 };
 
 //adding a comment to a professor
 //comment received as request query
 module.exports.addProfComment=async (request,response)=>{
 
-    let id=request.query.id;
+    let params=request.query;
 
-    let updated_prof= await Prof.findByIdAndUpdate(id,{$push:{comments: request.query.comments}},{new: true});
-    response.status(200).send(updated_prof);
+    let check_exist=await Prof.find({_id: params.id, comments: {$elemMatch: {ip: request.ip}}});
+    console.log(check_exist);
+    if(check_exist.length==0)
+    {
+        final_value= await Prof.findByIdAndUpdate(params.id,{$push:{comments:{ comment: params.comment, ip: request.ip}}},{new: true});
+        response.status(200).send(final_value);
+    }
+    else
+    {
+        response.status(403).send("Comment is already given");
+    }
 };
 
 //update course ratings

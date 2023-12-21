@@ -50,7 +50,10 @@ const CourseSchema= new mongoose.Schema({
         rating: Number,
         ip: String
     }],
-    comments: [String]
+    comments: [{
+        comment: String,
+        ip: String
+    }]
 
 });
 
@@ -84,7 +87,7 @@ const ProfSchema= new mongoose.Schema({
         ip: String
     }],
     comments: [{
-        rating: Number,
+        comment: String,
         ip: String
     }]
 })
