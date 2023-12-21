@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { Alert, InputGroup, Input, Button } from 'reactstrap'
 import CourseDetails from "./GComponents/CourseDetails"
 import CourseCard from "./AComponents/CourseCard"
+import Waiting from "./AComponents/Waiting"
 
 function CoursePage() {
   const [ loaded, setLoaded ] = useState(false)
@@ -10,9 +11,8 @@ function CoursePage() {
   const [ prompt, setPrompt ] = useState("")
   const [ showAll, setShowAll ] = useState(false)
   const params = new URLSearchParams(window.location.search)
-  let code = params.get("code")
-  let title = params.get("title")
-  const baseUrl = `/api/courses${code===null? "": `?code=${code}`}`
+  let id = params.get("id")
+  const baseUrl = id === null ? `/api/courses`: `/api/course?id=${id}`
 
   useEffect(() => {
     axios
@@ -30,7 +30,7 @@ function CoursePage() {
       alert("Could not load data")
       console.log(err)
     })
-  }, [baseUrl, code])
+  }, [])
 
   if (!loaded){
     return (
@@ -67,12 +67,10 @@ function CoursePage() {
     const getRelevance = (item) => {
       const TokenizedPrompt = tokenizer(query)
       const SCode = (countOfWords(tokenizer(item.code), TokenizedPrompt)) * 50
-      const SName = (countOfWords(tokenizer(item.name), TokenizedPrompt)) * 8
-      const SProf1 = (countOfWords(tokenizer(item.prof1.name), TokenizedPrompt)) * 15
-      const SProf2 = (countOfWords(tokenizer(item.prof2.name), TokenizedPrompt)) * 15
-      const SRating = (item.ratings ** 0.5)
-  
-      const score = (SCode + SName + SProf1 + SProf2) * SRating
+      const SName = (countOfWords(tokenizer(item.title), TokenizedPrompt)) * 8
+      const SProf1 = (countOfWords(tokenizer(item.prof), TokenizedPrompt)) * 15
+      const SProf2 = (countOfWords(tokenizer(item.oprof), TokenizedPrompt)) * 15  
+      const score = (SCode + SName + SProf1 + SProf2) 
       return score
     }
     const scoreArray = courses.map((item) => { return {score: getRelevance(item), value: item}})

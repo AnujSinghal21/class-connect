@@ -11,7 +11,7 @@ const courseParser = (c) => {
     }
     let ratings = 2.5
     if (c.ratingcount !== 0) {
-        ratings = (2.5 + (2.5 * (c.ratingsum / c.ratingcount)))
+        ratings = c.ratingsum / c.ratingcount
     }
     let activities = c.schedule.split(',').map(a => {
         return {
