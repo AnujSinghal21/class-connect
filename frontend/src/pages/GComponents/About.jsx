@@ -26,12 +26,12 @@ const About = () => {
           and open electives. The vast DOAA course schedule poses a challenge, making it daunting to find courses
           that align with personal preferences and seamlessly fit into academic templates. Also respective professors
           and their grading also matters a lot. </p>
-          <p className="larger-font">So we bring you "<strong>CLASS-CONNECT</strong>",
+          <p className="larger-font">So we bring you "<strong>Class Connect</strong>",
           a platform designed to address these challenges and simplify the course selection process.
-          With "<strong>CLASS-CONNECT</strong>", finding the perfect courses becomes effortless. We provide quick answers to
+          With "<strong>Class Connect</strong>", finding the perfect courses becomes effortless. We provide quick answers to
           your queries and personalized recommendations, streamlining the entire process in just a few minutes.
           Bid farewell to the tedious task of navigating schedules and seeking reviews on different platforms.
-          "<strong>CLASS-CONNECT</strong>" is your all-in-one solution for efficient and informed course selection.
+          "<strong>Class Connect</strong>" is your all-in-one solution for efficient and informed course selection.
         </p>
       </div>
 
