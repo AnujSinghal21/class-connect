@@ -46,6 +46,10 @@ const CourseSchema= new mongoose.Schema({
     grades: String,
     ratingsum: Number,
     ratingcount: Number,
+    ratings: [{
+        rating: Number,
+        ip: String
+    }],
     comments: [String]
 
 });
@@ -74,7 +78,15 @@ const ProfSchema= new mongoose.Schema({
         required: false
     },
     ratingsum: Number,
-    ratingcount: Number
+    ratingcount: Number,
+    ratings: [{
+        rating: Number,
+        ip: String
+    }],
+    comments: [{
+        rating: Number,
+        ip: String
+    }]
 })
 
 
