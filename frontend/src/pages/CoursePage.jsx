@@ -1,6 +1,9 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
 import { Alert, InputGroup, Input, Button } from 'reactstrap'
+import CourseDetails from "./GComponents/CourseDetails"
+import CourseCard from "./AComponents/CourseCard"
+
 function CoursePage() {
   const [ loaded, setLoaded ] = useState(false)
   const [ courses, setCourses ] = useState([])
