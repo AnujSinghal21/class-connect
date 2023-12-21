@@ -31,7 +31,7 @@ function ProfPage() {
       alert("Could not load data")
       console.log(err)
     })
-  }, [baseUrl, email])
+  }, [])
 
   if (!loaded){
     return (
