@@ -1,125 +1,105 @@
-
-import React, { useEffect,useState } from 'react';
-import './Course.css';
-import axios from "axios"
-const CourseDetails = () => {
-  const [courseName, setCourseName] = useState('');
-  const [courseDetails, setCourseDetails] = useState(null);
-  const [gradingDetails, setGradingDetails] = useState('');
-  const [rating, setRating] = useState(0);
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleStarClick = (clickedStar) => {
-    setRating(clickedStar);
-  };
-
-  const handleSubmit = () => {
-    setSubmitted(true);
-  };
-
-  const handleSearch = () => {
-    const mockCourseDetails = {
-      name: 'Algorithms - Design and Analysis(CS345)',
-      credits: '9',
-      department: 'Computer Science and Engineering',
-      professor: 'Professor Surender Baswana',
-      averageRating: 5,
-      contents: 'COURSE CONTENT .....',
-    };
-
-    setCourseDetails(mockCourseDetails);
-    setGradingDetails('Grading Details Content ...');
-  };
-
+/* eslint-disable react/prop-types */
+import { useState } from 'react'
+import { Nav, NavItem, NavLink, TabContent, TabPane} from 'reactstrap'
+import axios from 'axios'
+import RateComment from './RateComment'
+import Comment from './Comment'
+function CourseDetails(props) {
+  const course = props.course
+  console.log(course)
+  const rating = course.ratingcount === 0? 2.5 : course.ratingsum / course.ratingcount
+  const [ tab, setTab] = useState(1)
+  const encodeObject = (obj) => {
+    const queryParams = new URLSearchParams();
+    for (const key in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
+        queryParams.append(key, obj[key]);
+      }
+    }
+    return queryParams.toString()
+  }
+  const handleNewReview = (data)=>{
+    console.log(data)
+    if (data.rating > 0 && data.rating <= 5){
+      const ratingParams = {
+        id: prof._id,
+        ratingsum: data.rating
+      }
+      const ratingUrl = `/api/profs/rate?${encodeObject(ratingParams)}`
+      axios
+      .post(ratingUrl)
+      .then((response) => {
+        console.log(response)
+      })
+    }
+    if (data.comment !== ""){
+      const commentParams = {
+        id: prof._id,
+        comment: data.comment
+      }
+      const commentUrl = `/api/profs?${encodeObject(commentParams)}`
+      axios
+      .put(commentUrl)
+      .then((response) => {
+        console.log(response)
+      })
+    }
+  }
   return (
-    <div className="course-page">
-      {/* <div className="search-bar">
-        <input
-          type="text"
-          placeholder="Enter Course name/Course number"
-          value={courseName}
-          onChange={(e) => setCourseName(e.target.value)}
-        />
-        <button onClick={handleSearch}>Search</button>
-      </div> */}
-
-      {courseDetails ? (
-        <div className="course-details-container">
-          <div className="course-details-box">
-            <h2 className="course-details-heading">Course Details</h2>
-            <div className="detail-row">
-              <div>
-                <strong>{courseDetails.name}</strong>
-              </div>
-            </div>
-            <div className="detail-row">
-              <div>
-                <strong>Credits:</strong> {courseDetails.credits}
-              </div>
-            </div>
-            <div className="detail-row">
-              <strong>Department:</strong> {courseDetails.department}
-            </div>
-            <div className="detail-row">
-              <strong>Professor(s):</strong> {courseDetails.professor}
-            </div>
-
-            <div className="rating-container">
-              <strong>Average Rating:</strong>
-              <span className="bold"> {courseDetails.averageRating}/5</span>
-              <div className="star-rating">
-                {[1, 2, 3, 4, 5].map((index) => (
-                  <span
-                    key={index}
-                    className={`star ${index <= courseDetails.averageRating ? 'filled' : ''}`}
-                  >★</span>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <div className="contents-box">
-            <h2>Course Contents</h2>
-            <p>{courseDetails.contents}</p>
-          </div>
-
-          <div className="grading-details-box">
-            <h2>Grading Details</h2>
-            <p>{gradingDetails}</p>
-          </div>
-
-          <div className={`rate-section ${submitted ? 'submitted' : ''}`}>
-            {!submitted && <h2>Rate this course</h2>}
-            {!submitted && (
-              <div className="rating-input">
-                {[1, 2, 3, 4, 5].map((star) => (
-                  <span
-                    key={star}
-                    className={`star ${rating >= star ? 'gold' : ''}`}
-                    onClick={() => handleStarClick(star)}
-                  >
-                    &#9733;
-                  </span>
-                ))}
-              </div>
-            )}
-            {!submitted && (
-              <button className="submit-rating" onClick={handleSubmit}>
-                Submit
-              </button>
-            )}
-            {submitted && (
-              <div className="thank-you-box oval-box">
-                <p>Thank you for rating this course</p>
-              </div>
-            )}
-          </div>
+    <div className="p-3 m-3">
+      <div className='d-flex'>
+        <h1 className='flex-grow-1'>
+          {course.title}({course.code})
+        </h1>
+        <div>
+          <a href="/courses" target='_self' className='text-decoration-none fs-2'>&#8592;</a>
         </div>
-      ) : (
-        <div className="no-course-details-box">No Course Details to Display</div>
-      )}
+      </div>
+      <hr/>
+      <p className="fs-3">
+        Credits : {course.credits} <br/>
+        Department : {course.department} <br/>
+        Professor : {course.prof}<br/>
+        Rating : &nbsp; <span>{rating.toFixed(1)}{"⭐".repeat(Math.ceil(rating))}</span> <br/>
+      </p>
+      <Nav tabs>
+        <NavItem>
+          <NavLink
+            className={tab===1? "active": ""}
+            onClick={() => setTab(1)}
+          >
+            Reviews & Comments
+          </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink
+            className={tab===2? "active": ""}
+            onClick={() => setTab(2)}
+          >
+            Add a review
+          </NavLink>
+        </NavItem>
+      </Nav>
+      <TabContent activeTab={`${tab}`}>
+        <TabPane tabId="1"  style={{maxHeight: "50vh", overflow:"auto"}}>
+          <div className='m-2 p-3'>
+            <div className='text-center fst-italic'>
+              {prof.comments.length === 0
+              ? "No reviews yet, be the first one to write a review."
+              : `${prof.comments.length} comment(s)`
+              } 
+            </div>
+            {prof.comments.map((c, i) => {
+              return (<Comment msg={c.comment} key={i} />)
+            })}
+          </div>
+        </TabPane>
+        <TabPane tabId="2">
+          <RateComment title="Share your experience" onSubmit={handleNewReview}/> 
+        </TabPane>
+      </TabContent>
     </div>
-  );
-};
+  )
+}
 
-export default CourseDetails;
+export default CourseDetails

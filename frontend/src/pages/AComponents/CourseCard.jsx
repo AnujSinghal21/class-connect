@@ -19,7 +19,7 @@ function CourseCard(props) {
           {course.code} ({course.credits}) &nbsp; <span style={{fontSize : 12}}>{"⭐".repeat(Math.ceil(course.ratings))}{course.ratings.toFixed(1)}</span>
         </CardTitle>
         <CardText>
-          {course.name}
+          {course.title}
         </CardText>
         <CardText >
           By {course.prof1.name}
