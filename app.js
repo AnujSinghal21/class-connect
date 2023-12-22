@@ -3,6 +3,7 @@ const connect=require('./database/connect.js');
 const APIRouter=require('./api/router.js');
 const dotenv=require('dotenv');
 const cors=require('cors');
+const path = require('path')
 const bodyparser=require('body-parser');
 const app=express();
 
