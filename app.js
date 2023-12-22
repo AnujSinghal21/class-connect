@@ -10,14 +10,24 @@ const app=express();
 dotenv.config();
 
 app.use(cors());
+app.use(express.static('dist'));
 app.use(bodyparser.urlencoded({ extended: false }));
 
 connect();
 
-app.get('/',(req,res)=>{
-    res.send("Hello World");
-    res.end();
-})
+const serveFrontend = (request, response) => {
+    response.sendFile(path.join(__dirname, 'dist', 'index.html'), {
+      headers: {
+        'Content-Type': 'text/html',
+      }
+    })
+}
+  
+app.get('/', serveFrontend)
+app.get('/courses', serveFrontend)
+app.get('/profs', serveFrontend)
+app.get('/about', serveFrontend)
+
 
 app.use('/api', APIRouter);
 //console.log(typeof process.env.PORT);

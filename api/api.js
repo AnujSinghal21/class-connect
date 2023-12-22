@@ -7,7 +7,7 @@ const {Course,Prof}=require("../database/models.js")
 //no query parameters required
 //Fields sent as response: id,title,code,department,credits,schedule,ratingsum,ratingcount
 module.exports.getCourses=(request,response)=>{
-    Course.find(request.query).select('title code department prof oprof credits schedule ratingsum ratingcount')
+    Course.find(request.query).select('title code department prof oprof profemail credits schedule ratingsum ratingcount semester')
     .then(value=>{
         // let prelim_data={
         //     id: value._id,
@@ -126,7 +126,7 @@ module.exports.AddProf=(request,response)=>{
 //comment received as request query
 module.exports.addCourseComment=async (request,response)=>{
 
-    let params=request.body;
+    let params=request.query;
 
     console.log(params.id);
 
