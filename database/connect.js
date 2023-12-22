@@ -4,7 +4,7 @@ const dotenv=require('dotenv');
 dotenv.config();
 
 // The URI to connect to the DB
-URI=process.env.URI;
+const URI=process.env.DEVURI;
 
 // Asynchronous function that awaits a connection
 //logs an error if connection is failed within 30 seconds(default)
