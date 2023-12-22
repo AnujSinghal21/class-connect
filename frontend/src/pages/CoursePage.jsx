@@ -20,8 +20,11 @@ function CoursePage() {
     .then(response => {
       if (parseInt(response.status) === 200){
         const data = response.data
-        //console.log(data)
-        setCourses(data)
+        if (id === null){
+          setCourses(data)
+        }else{
+          setCourses([data])
+        }
         setLoaded(true)
       }else{
         alert("Could not load data")
@@ -70,7 +73,8 @@ function CoursePage() {
       const SName = (countOfWords(tokenizer(item.title), TokenizedPrompt)) * 8
       const SProf1 = (countOfWords(tokenizer(item.prof), TokenizedPrompt)) * 15
       const SProf2 = (countOfWords(tokenizer(item.oprof), TokenizedPrompt)) * 15  
-      const score = (SCode + SName + SProf1 + SProf2) 
+      const SSem = (countOfWords(tokenizer(item.semester), TokenizedPrompt)) * 25
+      const score = (SCode + SName + SProf1 + SProf2 + SSem) 
       return score
     }
     const scoreArray = coursesArr.map((item) => { return {score: getRelevance(item), value: item}})
@@ -93,7 +97,7 @@ function CoursePage() {
       <div className="d-flex flex-wrap justify-content-evenly align-items-stretch">
         {viewcourses.map((p, i) => {
           return (
-            <div key={i} style={{width: "20%"}}>
+            <div key={i} style={{width: "25%"}}>
               <CourseCard course={p}/>
             </div>
           )

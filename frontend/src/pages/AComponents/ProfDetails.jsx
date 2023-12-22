@@ -6,7 +6,6 @@ import RateComment from './RateComment'
 import Comment from './Comment'
 function ProfDetails(props) {
   const prof = props.prof
-  console.log(prof)
   const rating = prof.ratingcount === 0? 2.5 : prof.ratingsum / prof.ratingcount
   const [ tab, setTab] = useState(1)
   const encodeObject = (obj) => {
@@ -19,7 +18,6 @@ function ProfDetails(props) {
     return queryParams.toString()
   }
   const handleNewReview = (data)=>{
-    console.log(data)
     if (data.rating > 0 && data.rating <= 5){
       const ratingParams = {
         id: prof._id,

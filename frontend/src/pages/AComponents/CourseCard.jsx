@@ -19,10 +19,10 @@ function CourseCard(props) {
           {course.code} ({course.credits}) &nbsp; <span style={{fontSize : 12}}>{"⭐".repeat(Math.ceil(course.ratings))}{course.ratings.toFixed(1)}</span>
         </CardTitle>
         <CardText>
-          {course.title}
+          <a href={`/courses?id=${course.id}`} rel="noreferrer" target="_blank">{course.name}</a>
         </CardText>
         <CardText >
-          By {course.prof1.name}
+          By <a href={`/profs?email=${course.prof1.email}`} rel="noreferrer" target="_blank">{course.prof1.name}</a>
           {course.prof2.name === "" ? <></> : <><br />And {course.prof2.name}</>}
         </CardText>
         <Button color="primary" disabled={isMyCourse} onClick={addCourse}>
