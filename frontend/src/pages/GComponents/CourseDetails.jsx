@@ -2,8 +2,8 @@
 import { useState } from 'react'
 import { Nav, NavItem, NavLink, TabContent, TabPane} from 'reactstrap'
 import axios from 'axios'
-import RateComment from './RateComment'
-import Comment from './Comment'
+// import RateComment from './RateComment'
+// import Comment from './Comment'
 function CourseDetails(props) {
   const course = props.course
   console.log(course)
@@ -22,10 +22,10 @@ function CourseDetails(props) {
     console.log(data)
     if (data.rating > 0 && data.rating <= 5){
       const ratingParams = {
-        id: prof._id,
+        id: course._id,
         ratingsum: data.rating
       }
-      const ratingUrl = `/api/profs/rate?${encodeObject(ratingParams)}`
+      const ratingUrl = `/api/courses/rate?${encodeObject(ratingParams)}`
       axios
       .post(ratingUrl)
       .then((response) => {
@@ -34,10 +34,10 @@ function CourseDetails(props) {
     }
     if (data.comment !== ""){
       const commentParams = {
-        id: prof._id,
+        id: course._id,
         comment: data.comment
       }
-      const commentUrl = `/api/profs?${encodeObject(commentParams)}`
+      const commentUrl = `/api/courses?${encodeObject(commentParams)}`
       axios
       .put(commentUrl)
       .then((response) => {
@@ -49,7 +49,7 @@ function CourseDetails(props) {
     <div className="p-3 m-3">
       <div className='d-flex'>
         <h1 className='flex-grow-1'>
-          {course.title}({course.code})
+          {course.title}
         </h1>
         <div>
           <a href="/courses" target='_self' className='text-decoration-none fs-2'>&#8592;</a>
@@ -57,47 +57,18 @@ function CourseDetails(props) {
       </div>
       <hr/>
       <p className="fs-3">
-        Credits : {course.credits} <br/>
-        Department : {course.department} <br/>
+        Credits : {course.credits} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Department : {course.department} <br/>
         Professor : {course.prof}<br/>
         Rating : &nbsp; <span>{rating.toFixed(1)}{"⭐".repeat(Math.ceil(rating))}</span> <br/>
       </p>
-      <Nav tabs>
-        <NavItem>
-          <NavLink
-            className={tab===1? "active": ""}
-            onClick={() => setTab(1)}
-          >
-            Reviews & Comments
-          </NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink
-            className={tab===2? "active": ""}
-            onClick={() => setTab(2)}
-          >
-            Add a review
-          </NavLink>
-        </NavItem>
-      </Nav>
-      <TabContent activeTab={`${tab}`}>
-        <TabPane tabId="1"  style={{maxHeight: "50vh", overflow:"auto"}}>
-          <div className='m-2 p-3'>
-            <div className='text-center fst-italic'>
-              {prof.comments.length === 0
-              ? "No reviews yet, be the first one to write a review."
-              : `${prof.comments.length} comment(s)`
-              } 
-            </div>
-            {prof.comments.map((c, i) => {
-              return (<Comment msg={c.comment} key={i} />)
-            })}
-          </div>
-        </TabPane>
-        <TabPane tabId="2">
-          <RateComment title="Share your experience" onSubmit={handleNewReview}/> 
-        </TabPane>
-      </TabContent>
+      <p className="fs-3">
+        <h2><strong>Course Contents:</strong></h2>
+        Course Contents Loading...
+      </p>
+      <p className="fs-3">
+        <h2><strong>Grading Details:</strong></h2>
+         Loading...
+      </p>
     </div>
   )
 }

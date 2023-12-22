@@ -2,7 +2,7 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 import { Alert, InputGroup, Input, Button } from 'reactstrap'
 import CourseDetails from "./GComponents/CourseDetails"
-import CourseCard from "./AComponents/CourseCard"
+import CourseCard from "./GComponents/CourseCard"
 import Waiting from "./AComponents/Waiting"
 
 function CoursePage() {
@@ -20,7 +20,7 @@ function CoursePage() {
     .then(response => {
       if (parseInt(response.status) === 200){
         const data = response.data
-        console.log(data)
+        //console.log(data)
         setCourses(data)
         setLoaded(true)
       }else{
@@ -56,7 +56,7 @@ function CoursePage() {
     return <CourseDetails course={courses[0]} />
   }
   
-  const orderByPriority = (coursesArray) => {
+  const orderByPriority = (coursesArr) => {
     const query = prompt
     const tokenizer = (text) => {
       return text.toLowerCase().split(/\s+/).filter(t => t !== '')
@@ -73,7 +73,7 @@ function CoursePage() {
       const score = (SCode + SName + SProf1 + SProf2) 
       return score
     }
-    const scoreArray = courses.map((item) => { return {score: getRelevance(item), value: item}})
+    const scoreArray = coursesArr.map((item) => { return {score: getRelevance(item), value: item}})
     scoreArray.sort((a, b) => b.score - a.score)
     return scoreArray.map((item) => item.value)
   }
