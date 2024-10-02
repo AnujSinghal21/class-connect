@@ -15,7 +15,7 @@ function MainPage() {
   const [ allCourses, setAllCourses ] = useState([])
   const [ dataLoaded, setDataLoaded ] = useState(false)
   const month = new Date().getMonth()
-  const sem = (month > 8 || month <= 2) ? "EVEN": "ODD" // EVEN - OCT to FEB, ODD otherwise 
+  const sem = (month > 8 || month <= 2) ? "ODD": "ODD" // EVEN - OCT to FEB, ODD otherwise 
   const year = (new Date().getFullYear()) % 100
   const ay = month <= 2 ? `${year-1}-${year}`: `${year}-${year+1}`
   const currSem = encodeURIComponent(`${ay} ${sem}`)
